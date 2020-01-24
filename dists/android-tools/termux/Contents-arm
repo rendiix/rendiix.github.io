@@ -1,0 +1,8 @@
+data/data/com.termux/files/usr/bin/adb                                           android-tools-adb
+data/data/com.termux/files/usr/bin/fastboot                                      android-tools-fastboot
+data/data/com.termux/files/usr/bin/img2simg                                      ext4fs-tools
+data/data/com.termux/files/usr/bin/make_ext4fs                                   ext4fs-tools
+data/data/com.termux/files/usr/bin/sefcontext_decompile                          ext4fs-tools
+data/data/com.termux/files/usr/bin/simg2img                                      ext4fs-tools
+data/data/com.termux/files/usr/bin/shc                                           shc
+data/data/com.termux/files/usr/share/man/man1/shc.1                              shc
