@@ -6,11 +6,11 @@ Version: 1.0.39
 Homepage: https://github.com/rendiix/termux-adb-fastboot
 Description: Android Debug Bridge. A versatile command line tool that lets you communicate with an emulator instance or connected Android-powered device.
 Filename: dists/android-tools/termux/binary-aarch64/android-tools-adb_1.0.39_aarch64.deb
-Size: 627612
-MD5Sum: d27bb26cac7f6df6304a16bb1b60fb13
-SHA1: 73fe50bc8bbc88579dc3bc8d52c5cddeb1130335
-SHA256: e7c6dbd68a29c2825db838f513f4bced96d27c44abf2abe698a79b6a4ce55e1d
-SHA512: a6d6b0c4c833d43648501062b858df400d6f874dbac0fd6e8f9ae727696a6bc493a71400c4c8ffd1a226f7cc30a3e6b4791e8fa089f4d8413708cf67a2bd3fb1
+Size: 627500
+MD5Sum: 3d4aadd5fdc7cb821868ad95abda6449
+SHA1: 81b3f2f95ad8aa11efcc418f15a0a0bfc75667f7
+SHA256: daa22fdc4c4b43e6a985dcaccba942da37b0de819f8f28ff0bb97cccdcba8f9f
+SHA512: c6c4d2b7ec18805ae1e3aa6d85f1b8762465812a2e3e4b0d8b42b6384015353ef842bb086b36c8fd4c90a4b956713eb3af1463a99585352f6066156a2a2fa9d1
 
 Package: android-tools-fastboot
 Architecture: aarch64
@@ -20,11 +20,11 @@ Version: 8.1.0
 Homepage: https://github.com/rendiix/termux-adb-fastboot
 Description: Android fastboot tool. A command line tool for flashing an Android device, boot an Android device to fastboot mode, etc..
 Filename: dists/android-tools/termux/binary-aarch64/android-tools-fastboot_8.1.0_aarch64.deb
-Size: 374156
-MD5Sum: bb62fb3ca4e69a0a9a430ed4d1ac5d25
-SHA1: fa4cac4fd42ee425df20a91d3bde02ef1707ba77
-SHA256: 325abb6f337739d5d4f87529da5187310abd4f46300d7b5a67220019daef6db5
-SHA512: 15b904b0cf4b04652f2e0b176288b8bf1ec8d04f30fd2b277c3bd4b8372d2b4eb68969c20fcd36b52692f9c3fd553eecef53a116f2081357fc060832e083b5f6
+Size: 374000
+MD5Sum: 990247eea88cc7cd98431584c314f2bb
+SHA1: 392b42556a69733ecd68dc205f0c171ff1282c76
+SHA256: 53bca764b615b8fcdf229d2653e078b6c9a3a454c54a5fc53f0c6bb15cdf845b
+SHA512: 38c0c87517008b2c897a4b18da248dbe513b0a5b30329a26d030f035b9001a93c17f83d882e03efc1c15a3848dc4e3f0bfcf0092db28935ba36e254486be1af9
 
 Package: ext4fs-tools
 Architecture: aarch64
@@ -34,11 +34,11 @@ Version: 8.1.0
 Homepage: https://github.com/rendiix/make_ext4fs
 Description: Android img tools: make_ext4fs img2simg simg2img sefcontext_decompile.
 Filename: dists/android-tools/termux/binary-aarch64/ext4fs-tools_8.1.0_aarch64.deb
-Size: 59376
-MD5Sum: 9d16ec213a03276b9e9d1e121da5a24c
-SHA1: 9f85613663b12dc20121d21d26d75062d3f114aa
-SHA256: 10fbc91e1fb30ce65652660be6c9963532fac5bca4ca921ee1339c15243a4dca
-SHA512: a458bfc5acf37f3f8ceeb18bb10fa12fcda13620c260b6dd73d3c827f12425914c53e6083a98d91a7d5ad31dffe0204660c9de64999542cab78cf531624cc3c3
+Size: 59192
+MD5Sum: cb854146f59996bd17e21cb6351fc35d
+SHA1: f0ca08ca51ce1d8d961e40eefb4b364077ff07bf
+SHA256: 2c45208364068d19c86cae262b9e2efa583d60eab27455f6943b4a84caad81fa
+SHA512: 59341a836894a46d2a87448f17e993de2aff49844bddb03efe1a21eaf1d0df5f846431c9a899bf6594f60f0ef346451523da869cec5e44d133749bc4effc8cfa
 
 Package: lolcat-c
 Architecture: aarch64
@@ -48,11 +48,11 @@ Version: 1.0
 Homepage: https://github.com/jaseg/lolcat
 Description: A Command Line Tool to Output Rainbow Of Colors in Linux Terminal. This version is High-performance implementation of https://github.com/busyloop/lolcat
 Filename: dists/android-tools/termux/binary-aarch64/lolcat-c_1.0_aarch64.deb
-Size: 220956
-MD5Sum: 986651d2aee678fc179002df7fe1f30a
-SHA1: a92459805d4ec6e236e8352a7a15abc5648319d3
-SHA256: 34195aaaabc1743f6cbbfc3538b3bb6d93965abe71a8cb026f2d4d12f23bd4d3
-SHA512: aa8489fd959a6b36f16ae05e2bd9c53acdfccf898f49e5c68bb37e4ee0d4b1d7d6d412365f515a14950e15e350da0bc45d627792663bcf9c74fa7fef9a6febd2
+Size: 220988
+MD5Sum: 8146b472e726cdf6259d8fe0e42b5e88
+SHA1: 8c24fd7d28c3831fb532ec419b502a00d7cb7390
+SHA256: 599423b568efaedc91dbf81d2ac1704071b8d4be0df5a33ebdc6970e82b8bfc9
+SHA512: 3d74a0e22ac8e3036739288c88460e968d38b49e09cf17dfeb1d3128868f9b4314689d0de3097a43addb9d61d874ad36e719340bbc3e40785539af741c8a6def
 
 Package: mkbootimg
 Architecture: aarch64
@@ -62,11 +62,11 @@ Version: 2019.04.13
 Homepage: https://github.com/osm0sis/mkbootimg
 Description: mkbootimg + unpackbootimg, forked and updated
 Filename: dists/android-tools/termux/binary-aarch64/mkbootimg_2019.04.13_aarch64.deb
-Size: 164796
-MD5Sum: 886d2ecd811b1b2bfce8d0d307e0bb2c
-SHA1: 3ebba0b2d2cf298ae0582e0f2116eaa7d9d4c070
-SHA256: fbc4bb2f058674852fd9cfdb76fa6e5c39885951efbe9389317d7fdb87afc5ad
-SHA512: 6c84ddad6b2bb04d90ef94660b669bcb153caf02e9f7ffa58bccc336eb602b308dcd1670e77f74e0528c9604f90f1b8763bb6d69f90bcd9edb411109151ff109
+Size: 164752
+MD5Sum: 754754a588d1808d25b4ce32a5193d37
+SHA1: 6699b7d4d09e6bd0a194a7c716a8d02d4e72992a
+SHA256: 334c566e2b0fae28ab39c229a1ed9fe87dd041813af7cc5b0a46e1939c0e5756
+SHA512: 7a258170c7b5bb63e09f65042a9942747def4eec85529c465a4637a667da768daa4939e392405bea1476841fe1214e1f9bdad5f1e4123da8daa0ce702fa5a23d
 
 Package: shc
 Architecture: aarch64
@@ -77,11 +77,11 @@ Version: 4.0.3
 Homepage: https://github.com/neurobin/shc
 Description: A generic shell script compiler. Shc takes a script, which is specified on the command line and produces C source code. The generated source code is then compiled and linked to produce a stripped binary executable.
 Filename: dists/android-tools/termux/binary-aarch64/shc_4.0.3_aarch64.deb
-Size: 215816
-MD5Sum: ad2ae22b352ae6aa572599a65d74fd84
-SHA1: 09f2a256a22124f81e291cdc507616fafb5c301d
-SHA256: 08fbccdda6f25083f253a593d031a3c8f3a173992d99a592abf6693166769663
-SHA512: 6ee4457c070c524009c361b3f30ee0974b8fbfd009f9877cb3dddfe4c8d403d7f61102d383c13b22acb92f94553abcaea3df0e1687fee5605ab0589cf90e0981
+Size: 215564
+MD5Sum: 24534c5846ccadd2ce5e5839cc9d1a55
+SHA1: 38a7a5b206118d08ebccbe918f3874b2b644dd7c
+SHA256: d412799831c637c9aee6366d52eb4d97f306aab69db70e8e03dbc9ade3b5a9b2
+SHA512: e5ea17e09713c2309e9e5a57b362d0b12d32e480d86daed28ece0ffad51bd190297d59030207fb8ce6cd6c410e9fb68e623d8dbcf953d0bd1c2811811b5cc0f4
 
 Package: vdexExtractor
 Architecture: aarch64
@@ -91,9 +91,9 @@ Version: 0.5.2
 Homepage: https://github.com/anestisb/vdexExtractor
 Description: Tool to decompile and extract Android Dex bytecode from Vdex files
 Filename: dists/android-tools/termux/binary-aarch64/vdexExtractor_0.5.2_aarch64.deb
-Size: 1004
-MD5Sum: 6384eba82fff92a2850620092ab47527
-SHA1: 5834579064a090be6b483f95e06d4fc50bc316cf
-SHA256: a84bb7131ff0d941433ac8d58add0df0d6c8161fbb81b158520cd72e1b6ac1ed
-SHA512: 14c3f16cbcc7ae67246f1abbe7dd73c8e473ca75d4265eba2067deea17a4c2fb86b471fc69f3032db620d807da7a01cd90eea0c990e682018c610c4ba3068b63
+Size: 828
+MD5Sum: 50c1b009f4ece23ed99f1091941eefb8
+SHA1: ed7355689dda1865794215e0f32857ed534b6e6f
+SHA256: 40e5c39f1ca18c975da5c63ae5e42b4aa8728a7ebf84a8fe87d0b5d26d52d98d
+SHA512: c4b2a99e21ec1be23935fe4c94dc0b1f52ea9c50adfe70e6cd3f7ab81f23b7ef30536f83a2b57f9b4e4209c937dd9d9c1c5901c5162720c55393416e8261df6f
 
