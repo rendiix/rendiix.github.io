@@ -8946,7 +8946,6 @@ data/data/com.termux/files/usr/lib/node_modules/heroku/node_modules/@heroku-cli/
 data/data/com.termux/files/usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-certs-v5/commands/certs/info.js heroku
 data/data/com.termux/files/usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-certs-v5/commands/certs/key.js heroku
 data/data/com.termux/files/usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-certs-v5/commands/certs/remove.js heroku
-data/data/com.termux/files/usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-certs-v5/commands/certs/rollback.js heroku
 data/data/com.termux/files/usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-certs-v5/commands/certs/update.js heroku
 data/data/com.termux/files/usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-certs-v5/lib/certificate_details.js heroku
 data/data/com.termux/files/usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-certs-v5/lib/display_table.js heroku

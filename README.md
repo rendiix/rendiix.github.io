@@ -50,7 +50,7 @@ user@termux:~$
 | [android-tools-fastboot](https://github.com/rendiix/termux-adb-fastboot) | 8.1.0 | Android fastboot tool. A command line tool for flashing an Android device, boot an Android device to fastboot mode, etc.. |
 | [bootsignature](https://forum.xda-developers.com/android/software-hacking/signing-boot-images-android-verified-t3600606) | 0.8 | Signing boot images for Android Verified Boot (AVB) [v8] by Chainfire |
 | [ext4fs-tools](https://github.com/rendiix/make_ext4fs) | 8.1.0 | Android img tools: make_ext4fs img2simg simg2img sefcontext_decompile. |
-| [heroku](https://devcenter.heroku.com/articles/heroku-cli) | 7.36.3 | The Heroku Command Line Interface (CLI) makes it easy to create and manage your Heroku apps directly from the terminal. It’s an essential part of using Heroku. |
+| [heroku](https://devcenter.heroku.com/articles/heroku-cli) | 7.39.0 | The Heroku Command Line Interface (CLI) makes it easy to create and manage your Heroku apps directly from the terminal. It’s an essential part of using Heroku. |
 | [img2sdat](https://github.com/xpirt/img2sdat) | 1.7 | Convert sparse EXT4 image to sparse Android data image |
 | [lolcat-c](https://github.com/jaseg/lolcat) | 1.0 | A Command Line Tool to Output Rainbow Of Colors in Linux Terminal. This version is High-performance implementation of https://github.com/busyloop/lolcat |
 | [mkbootimg](https://github.com/osm0sis/mkbootimg) | 2019.04.13 | mkbootimg + unpackbootimg, forked and updated |
