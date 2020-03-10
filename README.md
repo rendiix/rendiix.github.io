@@ -58,4 +58,4 @@ user@termux:~$
 | [shc](https://github.com/neurobin/shc) | 4.0.3 | A generic shell script compiler. Shc takes a script, which is specified on the command line and produces C source code. The generated source code is then compiled and linked to produce a stripped binary executable. |
 | [translate-shell](https://github.com/soimort/translate-shell) | 0.9.6.10 | Command-line translator using Google Translate, Bing Translator, Yandex.Translate, etc. |
 | [vdexExtractor](https://github.com/anestisb/vdexExtractor) | 0.5.2 | Tool to decompile and extract Android Dex bytecode from Vdex files |
-| [ytb-player](https://github.com/rendiix/rendiix.github.io) | 4.1 | Simple CLI YouTube downloader |
+| [ytb-player](https://github.com/rendiix/rendiix.github.io) | 4.2 | Simple CLI YouTube downloader |
