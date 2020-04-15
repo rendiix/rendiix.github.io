@@ -1,89 +1,89 @@
 Package: bootsignature
 Architecture: all
-Installed-Size: 50
+Installed-Size: 47
 Maintainer: Rendiix <vanzdobz@gmail.com>
 Version: 0.8
 Homepage: https://forum.xda-developers.com/android/software-hacking/signing-boot-images-android-verified-t3600606
 Description: Signing boot images for Android Verified Boot (AVB) [v8] by Chainfire
 Filename: dists/android-tools/termux/binary-all/bootsignature_0.8_all.deb
-Size: 30912
-MD5Sum: af55635997ca00a546fd3ec3ae44a4e8
-SHA1: e4d14cef84faee556cd288cfe72b6ee81b819102
-SHA256: bd1e84dc523ff3b5c2c8c6bf0f397d70fd3c7f87b9e44d8952a902d535b11df8
-SHA512: e4dc614e679d40f34122ce171f574f6f923bca13382eb1d26d8d7cd0da342ee63c249f9e08e731e12424b6e4bbfcecac29cf57202a03bb3c512d9f942c317ffa
+Size: 31076
+MD5Sum: 9a4aaf80d7daa560c5e744d371b9f71f
+SHA1: c32214e2a3dd1749504f3dbea3f7cdf07a35389c
+SHA256: 63bd57069cd1f3ab700400d29d004f00139ec8343cd51f17d487bd986f96011e
+SHA512: 2325e4d5a45d422cfd435ae5228563957fa3660addc5e47583f7e59affc1823fd325ed67eb88558aac381cc5ffeb1dc6e366752740aebe7066e709014d555f43
 
 Package: heroku
 Architecture: all
-Installed-Size: 60239
+Installed-Size: 58461
 Depends: nodejs
 Maintainer: Rendiix <vanzdobz@gmail.com>
-Version: 7.39.0
+Version: 7.39.3
 Homepage: https://devcenter.heroku.com/articles/heroku-cli
 Description: The Heroku Command Line Interface (CLI) makes it easy to create and manage your Heroku apps directly from the terminal. It’s an essential part of using Heroku.
-Filename: dists/android-tools/termux/binary-all/heroku_7.39.0_all.deb
-Size: 7159072
-MD5Sum: 1900ddc61225291f0b35c0b2026dcdcc
-SHA1: 99fc60a95f7330e683d45a08fba16f4270b45094
-SHA256: 050b22713ce9a0c9a548fd90029f6f186d8c899bc6b8eb3e12c63df4f6d8a100
-SHA512: 4a6a59049a81b75fed5b523207c54178ae7f7afdf2028c412562166990207241167bd8d06e5edac7e8521cce692a69dc6ad9c05cb2c07313d6d373a1883df343
+Filename: dists/android-tools/termux/binary-all/heroku_7.39.3_all.deb
+Size: 7155568
+MD5Sum: 78126503b70372d6bb89b7bcee03b6d1
+SHA1: aae0e2f398043732bed44c3ba8087df094a3c059
+SHA256: ed20e58986f77d2b228b13b7282e71fd22decdcd6fb7c08bd3c8fa31bc34fa49
+SHA512: 357827a474dbf96b07704650abd7cddec883833293d075a4ad245c6398d49156fc4a92b9f9c7cecc25e28080bec7265328ded69c32fd746cdcea964eee8e5381
 
 Package: img2sdat
 Architecture: all
-Installed-Size: 148
+Installed-Size: 145
 Depends: python
 Maintainer: Rendiix <vanzdobz@gmail.com>
 Version: 1.7
 Homepage: https://github.com/xpirt/img2sdat
 Description: Convert sparse EXT4 image to sparse Android data image
 Filename: dists/android-tools/termux/binary-all/img2sdat_1.7_all.deb
-Size: 34568
-MD5Sum: e2af57bee1d86f85bb1b4e9f2df8bf99
-SHA1: 0d15693c750c67685e25b5cbd42d8a39c37ab8c7
-SHA256: 6a47dfbfa94d681b6435a646f25dab2d57c9b48d34616289f4e61ff9fee7769a
-SHA512: c42c515f3a5576337717426475d523b0196aa40fe435369c31445d87eb1609bcae58c5fadb2a6632b3357a48e0adb0f6196fb2f0ceaebbd09d3e5eb5d2df4ebb
+Size: 34736
+MD5Sum: 8c3d49771c12e2c36a75e1172b80ada3
+SHA1: 9380b7018bf23baaa66c15dd24460019d57602a6
+SHA256: c896ae4189f964ae70a0d8faecc0d8e20ab54f785622fc20ad240b66de6e885b
+SHA512: 2ca13f5663035f8f21614c6ba7f598233ead9db664b493cec95be188183d377a03d32f1c5993cc5b1061131e2f827752427bc545f3de4c49c20b6d0415364f81
 
 Package: sdat2img
 Architecture: all
-Installed-Size: 27
+Installed-Size: 24
 Depends: python
 Maintainer: Rendiix <vanzdobz@gmail.com>
 Version: 1.2
 Homepage: https://github.com/xpirt/sdat2img
 Description: Convert sparse Android data image to filesystem ext4 image
 Filename: dists/android-tools/termux/binary-all/sdat2img_1.2_all.deb
-Size: 3340
-MD5Sum: b71d039e61d80bc31bf3a8d31fc3615e
-SHA1: 8edf40dad492a00a0160e1ddb59a6cdd823e7026
-SHA256: 2bfb123fefb1cbb49d23205b213ad4f2a8b003b94eb2e9c6ccd00b42ef7d759b
-SHA512: 1df5d0e50a12e1e830ffb2bee58fbb12f6e65abef49619a16bc1ec4af5f9253096b3e8cf9ef0885f6b3755233d72552fafd0fd2a4008afab249b6535b075108a
+Size: 3516
+MD5Sum: 84044d5a93ad35b53a422ce286cadeca
+SHA1: 7e3caade9d4c23897c4f974013d974537e056740
+SHA256: da149d315c3647266f4bdf2df5e2bbce01f098427ea9ac968a85e3909a78e262
+SHA512: 60e3f08248e2ffea823b07d053c25925fbc8f52c3c309d517e3f577043893e522875ab4d296ebc1d09f6416567806a987e9ed62eaa0a71782a42c9008bc7f41e
 
 Package: translate-shell
 Architecture: all
-Installed-Size: 226
+Installed-Size: 223
 Depends: curl, fribidi, gawk, mpv, less, rlwrap, hunspell
 Maintainer: Rendiix <vanzdobz@gmail.com>
 Version: 0.9.6.10
 Homepage: https://github.com/soimort/translate-shell
 Description: Command-line translator using Google Translate, Bing Translator, Yandex.Translate, etc.
 Filename: dists/android-tools/termux/binary-all/translate-shell_0.9.6.10_all.deb
-Size: 35112
-MD5Sum: 56b1068f301fcc6570ea75324479cec5
-SHA1: 5fe59a38c7ed132dc18023b4b97fa48ab9e91bfa
-SHA256: 0eefed7e7bc7c0a99055774028b00820d5cd0a5e5cb681b48af50fe129f67b62
-SHA512: 9322d30125b686a75fdfbd27bb86522442597d79803bd414d746bf99cf265c8e24584f0bab981bf1224c99705458a79a81faa96e497884167c6ee8ea86f58500
+Size: 35248
+MD5Sum: bbe83bbc84b85cc75adc168d96562456
+SHA1: 6e501a2c40fe4c78465427445cbb99fb3439b532
+SHA256: b5b883db41681ffb0ac4ca51adb4f37128f4b6f16a50b2ad50f296fa2d8b50ca
+SHA512: e42a658cb20fefcecd2a4aaf90519919718e4e5d381501b8c47df9d2d46756b2dab7ca2a7ad1929a707f28fa61175fa96a765ff520cbc429fc10522797038af9
 
 Package: ytb-player
 Architecture: all
-Installed-Size: 40
+Installed-Size: 34
 Depends: bc, coreutils, curl, findutils, jq, mpv, ncurses, ncurses-ui-libs, ncurses-utils, python, sed, util-linux
 Maintainer: Rendiix <vanzdobz@gmail.com>
-Version: 4.2
+Version: 4.1
 Homepage: https://github.com/rendiix/rendiix.github.io
 Description: Simple CLI YouTube downloader
-Filename: dists/android-tools/termux/binary-all/ytb-player_4.2_all.deb
-Size: 6092
-MD5Sum: 1e6cd219a07270da15213ad1c5dcdd75
-SHA1: 80bd42b6c2edd2e92b588a676700c399ec0a0db1
-SHA256: ad3852e25633c052b7be534072d6d8a1b8389b7ff5c3a9425cca46cf328b17d5
-SHA512: c0e55449bfd349319a6e948082b41fd83197785a1ba0c786445fd6ba577e6b56cf31a1e3d9cfc91de6adc15c4e3a5bac585f5b4681872d8b94c33b31845cb817
+Filename: dists/android-tools/termux/binary-all/ytb-player_4.1_all.deb
+Size: 6116
+MD5Sum: 9dde29493039531e4c58c22cb298b459
+SHA1: cb2c25520089d84a1bce4d97b5672699d556b6b1
+SHA256: 7ec9fbbf2a56654d713bd973716369c383b2db65b39b288426e6437c3965847a
+SHA512: f5d721d45e51739787538a40a184c7d2504f0a66e6045206c61334c082bce80661d7ed823a748bdddfdd3242f1e564b6cfa4a9531acf5d06d30ce955fa2d0d71
 
