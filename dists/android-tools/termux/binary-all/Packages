@@ -6,11 +6,11 @@ Version: 0.8
 Homepage: https://forum.xda-developers.com/android/software-hacking/signing-boot-images-android-verified-t3600606
 Description: Signing boot images for Android Verified Boot (AVB) [v8] by Chainfire
 Filename: dists/android-tools/termux/binary-all/bootsignature_0.8_all.deb
-Size: 30866
-MD5Sum: 934740efbc97bf7c7f2c7af839544d64
-SHA1: 17866ca7645bc4fbb1106c1f2fa0926fd7657a8b
-SHA256: 232b41353a240020ea8170f0e0bb954f88d179b2837fdb8957e9daafa59bcf2b
-SHA512: 3cd45d6623c710d9361eb5d18193dd700caa0220b7c2005ee18c9ec170329dcedfae002eee1407bea86b3e1f0f5518ee4854de24680f7d44595f22966552d6d8
+Size: 30870
+MD5Sum: c1a02367ddece0b28670259f9cb1bf83
+SHA1: 34801ab2bdce946a537c5e7b1fe959afa0235186
+SHA256: 672eafbd2d97fdf064231b01ce245c306e1d04a36fb62bc4319818523c3dd153
+SHA512: 8663ac0f1e39b7f3567a9993ad578677dc6de10d90b08f10dfaeb605823c4f2f49a27a73f72833b0151238f2a61c7049ec87de8d22c26fd43cc337a124e3db10
 
 Package: heroku
 Architecture: all
@@ -21,11 +21,11 @@ Version: 7.39.5
 Homepage: https://devcenter.heroku.com/articles/heroku-cli
 Description: The Heroku Command Line Interface (CLI) makes it easy to create and manage your Heroku apps directly from the terminal. It’s an essential part of using Heroku.
 Filename: dists/android-tools/termux/binary-all/heroku_7.39.5_all.deb
-Size: 6936996
-MD5Sum: 0b9bb620f436d1f0c45ac30e7ddaa01d
-SHA1: 616ec34dc70d350b217ddd5cc72a13ad8b1f42eb
-SHA256: 897bf87d0110d3431e824c83035bd3a5091e3438f09caaaa7e5fa4dc008dee8c
-SHA512: 99c275a8882547a34efea4f49422c30591d678dac5d3e28a4cbaaf229cb58fc72a9c289a74fb1e6c118c09d7bd27279fbf1663f4a68702fb671341ecc51b9f0e
+Size: 6941004
+MD5Sum: fb23ea46ecefb68a8b5799333d9c5cb7
+SHA1: 12f96a9b67c24e80f69586c315942eb9904054ac
+SHA256: 2d4153a3b11cba400aa09cea9b2c7c47fe71f275bd69eeeaa91e1c82cd31bb23
+SHA512: 025053cf3eab748353d4e0cb702abb730bd41305d920f89357c43e964b19dfddd5555d396ae9423750016f0cd4372761d370082a37b146da195cafded8e83a57
 
 Package: img2sdat
 Architecture: all
@@ -36,11 +36,11 @@ Version: 1.7
 Homepage: https://github.com/xpirt/img2sdat
 Description: Convert sparse EXT4 image to sparse Android data image
 Filename: dists/android-tools/termux/binary-all/img2sdat_1.7_all.deb
-Size: 31920
-MD5Sum: 6f3e5d4354e8b1265c405abc4db9cae4
-SHA1: 47d6e3b37661f548f5143fe9a200079dc9f863a5
-SHA256: 172fbe74f569d1bfdb0394a5100baf7d47f26a04097b0599e52aec9457a80d4e
-SHA512: a27bf9baa97d4f84a7689587f85f6f7324d11e3fa9859162def7bbba0c2762acdaaa171da039d08890baf7fffe2a75bfba19d7190cf973c0bb3ec111357c6f62
+Size: 31908
+MD5Sum: 33f1e07784a2958ac208e0bc6f017925
+SHA1: 11d3f3be694174b15610c1bb722c54b5110a0776
+SHA256: 4d868bb47d18d9ab170f9ed8d51d12998e7781987fbe3ac3c99d735520be01b1
+SHA512: 5b5777bd1e2a78e5ee234b6cbb32188b20574b46ae2fcae18b454653c884b8f229adaa34b4e2f14ad9dc4a0d13125f9512492d10f2e48575024a06c1d1796c59
 
 Package: sdat2img
 Architecture: all
@@ -51,11 +51,11 @@ Version: 1.2
 Homepage: https://github.com/xpirt/sdat2img
 Description: Convert sparse Android data image to filesystem ext4 image
 Filename: dists/android-tools/termux/binary-all/sdat2img_1.2_all.deb
-Size: 3302
-MD5Sum: c2404287ccaef6d5e50ad5708523c0b0
-SHA1: ac6dabad8e257718c6a2fd84d8a21020503986c3
-SHA256: a083ce197fa3117e93682ad36c5b178cf7f4af2b740be19faef4c529e8e36048
-SHA512: 41ee1ac99d21c42df679f6e3a18ce46e44a297da9c80ef01bbca9e78ddceb440ee0e17e73b913266842966f03f57e37b7e087677bdbf4eda99fbf47569169adf
+Size: 3300
+MD5Sum: 951bdd77e6ceafea4947c39005c642e4
+SHA1: 03ce6e7235843479a9d23b8d8a00e2518793024c
+SHA256: 9fb9ef2bee5338fdadc903b30e652880b76f02b196320e29226068b94d13bef8
+SHA512: 46e85cb98c9a2de00d80095f98878c83dbf6b854f1c406d7950bd8ec40b0def67901b3a47aea28fda1b724d98d4c2a59354963efe0f25e5e1cf57bccf21377e1
 
 Package: ytb-player
 Architecture: all
@@ -66,9 +66,9 @@ Version: 4.1
 Homepage: https://github.com/rendiix/rendiix.github.io
 Description: Simple CLI YouTube downloader
 Filename: dists/android-tools/termux/binary-all/ytb-player_4.1_all.deb
-Size: 5830
-MD5Sum: d7d8f175f8b5ada7e49ea7baef1e0297
-SHA1: 08d65f51b7099cd9a234f8f1d04a7d9f35c6c74d
-SHA256: 7b989a29fd2609252ab38d2b857cbef3d29047c73a6720233db7c5bb95554c23
-SHA512: 32ae75e679d7c9934a0cef6a348253cc9f0cc14270946a2457d5d9377948790bd124d1c811e9959e04cc15b838838a0d78a3030099e792d55f89927ec71109b6
+Size: 6086
+MD5Sum: 2ecc98d684e332229ab3834e2e122d60
+SHA1: 752d7f31cc46221b07e3d0ec9e146c5673bea040
+SHA256: 1e3aff88bdad4f1e0be710fc424b997bada0ffea24a45620fff8aa05a2178c55
+SHA512: e4531017bf21e112989c26fc2e6c0c67406bd33a2cea986590782a363ef0383bcb89eceaa07b74ccba5904d765111598cbb1a55564fff54b4c9f6dfc4444fd76
 
