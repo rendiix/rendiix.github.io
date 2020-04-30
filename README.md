@@ -50,12 +50,11 @@ user@termux:~$
 | [android-tools-fastboot](https://github.com/rendiix/termux-adb-fastboot) | 8.1.0 | Android fastboot tool. A command line tool for flashing an Android device, boot an Android device to fastboot mode, etc.. |
 | [bootsignature](https://forum.xda-developers.com/android/software-hacking/signing-boot-images-android-verified-t3600606) | 0.8 | Signing boot images for Android Verified Boot (AVB) [v8] by Chainfire |
 | [ext4fs-tools](https://github.com/rendiix/make_ext4fs) | 8.1.0 | Android img tools: make_ext4fs img2simg simg2img sefcontext_decompile. |
-| [heroku](https://devcenter.heroku.com/articles/heroku-cli) | 7.39.0 | The Heroku Command Line Interface (CLI) makes it easy to create and manage your Heroku apps directly from the terminal. It’s an essential part of using Heroku. |
+| [heroku](https://devcenter.heroku.com/articles/heroku-cli) | 7.39.5 | The Heroku Command Line Interface (CLI) makes it easy to create and manage your Heroku apps directly from the terminal. It’s an essential part of using Heroku. |
 | [img2sdat](https://github.com/xpirt/img2sdat) | 1.7 | Convert sparse EXT4 image to sparse Android data image |
-| [lolcat-c](https://github.com/jaseg/lolcat) | 1.0 | A Command Line Tool to Output Rainbow Of Colors in Linux Terminal. This version is High-performance implementation of https://github.com/busyloop/lolcat |
+| [lolcat](https://github.com/jaseg/lolcat) | 1.1 | A Command Line Tool to Output Rainbow Of Colors in Linux Terminal. This version is High-performance implementation of https://github.com/busyloop/lolcat |
 | [mkbootimg](https://github.com/osm0sis/mkbootimg) | 2019.04.13 | mkbootimg + unpackbootimg, forked and updated |
 | [sdat2img](https://github.com/xpirt/sdat2img) | 1.2 | Convert sparse Android data image to filesystem ext4 image |
 | [shc](https://github.com/neurobin/shc) | 4.0.3 | A generic shell script compiler. Shc takes a script, which is specified on the command line and produces C source code. The generated source code is then compiled and linked to produce a stripped binary executable. |
-| [translate-shell](https://github.com/soimort/translate-shell) | 0.9.6.10 | Command-line translator using Google Translate, Bing Translator, Yandex.Translate, etc. |
-| [vdexExtractor](https://github.com/anestisb/vdexExtractor) | 0.5.2 | Tool to decompile and extract Android Dex bytecode from Vdex files |
-| [ytb-player](https://github.com/rendiix/rendiix.github.io) | 4.2 | Simple CLI YouTube downloader |
+| [vdexExtractor](https://github.com/anestisb/vdexExtractor) | 0.6.0 | Tool to decompile and extract Android Dex bytecode from Vdex files |
+| [ytb-player](https://github.com/rendiix/rendiix.github.io) | 4.1 | Simple CLI YouTube downloader |

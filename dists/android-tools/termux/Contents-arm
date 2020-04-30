@@ -4,9 +4,10 @@ data/data/com.termux/files/usr/bin/img2simg                                     
 data/data/com.termux/files/usr/bin/make_ext4fs                                   ext4fs-tools
 data/data/com.termux/files/usr/bin/sefcontext_decompile                          ext4fs-tools
 data/data/com.termux/files/usr/bin/simg2img                                      ext4fs-tools
-data/data/com.termux/files/usr/bin/censor                                        lolcat-c
-data/data/com.termux/files/usr/bin/lolcat                                        lolcat-c
+data/data/com.termux/files/usr/bin/lolcat                                        lolcat
+data/data/com.termux/files/usr/bin/censor                                        lolcat
 data/data/com.termux/files/usr/bin/mkbootimg                                     mkbootimg
 data/data/com.termux/files/usr/bin/unpackbootimg                                 mkbootimg
 data/data/com.termux/files/usr/bin/shc                                           shc
 data/data/com.termux/files/usr/share/man/man1/shc.1                              shc
+data/data/com.termux/files/usr/bin/vdexExtractor                                 vdexExtractor
