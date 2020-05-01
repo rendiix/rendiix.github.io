@@ -6,11 +6,11 @@ Version: 1.0.39
 Homepage: https://github.com/rendiix/termux-adb-fastboot
 Description: Android Debug Bridge. A versatile command line tool that lets you communicate with an emulator instance or connected Android-powered device.
 Filename: dists/android-tools/termux/binary-arm/android-tools-adb_1.0.39_arm.deb
-Size: 583956
-MD5Sum: c7643ca9c4d9a47e176ac193fd607782
-SHA1: 2c6a77031d03ee5c2ff30575a00cd16de6596878
-SHA256: 6f09cee20191a5b6681773c1b74c810d9b65b86e0244143bfc96fb08383dd44e
-SHA512: c583c807525ad6a48f67bdea51659613e1fbaa49cb152b3e016af74644302e81ccb230366f45deb40fd644eddf986a7ed8a2658e4c2b46734d5b6dfc32c0fe54
+Size: 584010
+MD5Sum: d4de46f0f42a83b3c86fd92a2cdf2407
+SHA1: 16cbefd0330e1a4fa158a25c5e327335b5224ebe
+SHA256: c5925ed635a1d34a8beb37410d332aa3af75b7a79d224a309f66ce166cb6e938
+SHA512: b01d58f82c78ed45d04588c6606d4e1884100f25c50336c9f9e789f759193f765ee3146f482f1e673bd9775a6e09d1e017812e901bd3137cc0b14e51e7d951d5
 
 Package: android-tools-fastboot
 Architecture: arm
@@ -20,25 +20,25 @@ Version: 8.1.0
 Homepage: https://github.com/rendiix/termux-adb-fastboot
 Description: Android fastboot tool. A command line tool for flashing an Android device, boot an Android device to fastboot mode, etc..
 Filename: dists/android-tools/termux/binary-arm/android-tools-fastboot_8.1.0_arm.deb
-Size: 346402
-MD5Sum: db22a3935287aeacb7663bc858a521fd
-SHA1: 5441dfd0ba2100ecf61c8eabb832d6ff20ac35e4
-SHA256: 95411f8eb4f817929cf75cac2f63f627eb156f03f5a653f9c165ae68794b2962
-SHA512: 723e4b7058148a0bc4dca267c81361d9df115ada815302393733bd1658157298c21ad74b7a7ff907ffa9146323b709037f8a8ceb8996b7d6670d5b391ff25eed
+Size: 346400
+MD5Sum: c5ea1f9f81885060aecc5dab66f1c22d
+SHA1: 1a5cc76e14b8dd95610cc3ff8588d30732403dab
+SHA256: 726853ba9c327ce696ca5a7ef1e1a3da721df033d9f163eb5b2d4dd5e15696eb
+SHA512: 30939d98c7248d46f4532edd1fd5aacc7a9f74d8154e8dda32246170a8ea19aee3f156aa13003c55c7e3a45f653ae62b043d48c48e5d8394145f787f4bbdcfb6
 
 Package: ext4fs-tools
 Architecture: arm
-Installed-Size: 230
+Installed-Size: 264
 Maintainer: Rendiix <vanzdobz@gmail.com>
 Version: 8.1.0
 Homepage: https://github.com/rendiix/make_ext4fs
 Description: Android img tools: make_ext4fs img2simg simg2img sefcontext_decompile.
 Filename: dists/android-tools/termux/binary-arm/ext4fs-tools_8.1.0_arm.deb
-Size: 59728
-MD5Sum: 4e4058a6c5feee3719b26aeb207d4008
-SHA1: 76fd5e428a600e91687657975a66c3c68a1ef9fa
-SHA256: 293cd4d838d92708d270f45753f261700ddbc0051e99c1797cbc7ffc91e9f8c5
-SHA512: 704c688e4c87cfc18a8bfede5ec82563d0fe4c8952bdf2c7c8a0e8dd36dee14c024316f0e7c106e74d95d08fa9fa4ae77170edc3bbbf657b050237409692ba5b
+Size: 76710
+MD5Sum: f6233c0cf48ca579bbfff78f8f66ca04
+SHA1: e158b8d760357aa645642b72923a472e38fd0a5f
+SHA256: 6d3c459bb4a4b76cfcf02f72190b4c94ba10a87eafd294bed2f1975163b28f78
+SHA512: c04aa3b21e8d72b5b591d37974c8d9ac0f6257cccbeb8e4f7d18631d07faa853f4685a7068de1ba7fa858b41c1b66696012bc3fb4b4f80e295a843d525275902
 
 Package: lolcat
 Architecture: arm

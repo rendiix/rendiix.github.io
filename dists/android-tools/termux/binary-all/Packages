@@ -6,11 +6,11 @@ Version: 0.8
 Homepage: https://forum.xda-developers.com/android/software-hacking/signing-boot-images-android-verified-t3600606
 Description: Signing boot images for Android Verified Boot (AVB) [v8] by Chainfire
 Filename: dists/android-tools/termux/binary-all/bootsignature_0.8_all.deb
-Size: 30836
-MD5Sum: 614192426dab73816168c611d8271016
-SHA1: 1a9295dfbe41234554c1b4db0c9025cc621513f8
-SHA256: 2f70a3f2ad5341a66e5eba1ec3987a4f456887fc59608c4dd2d6be52209d1994
-SHA512: 7575f1e01784ae669eb91241589c0834238bedf4ea012012b80e2bb3c7a50915a61623b571d456b1d57fca07658daff98a912c960cf3e6234d6a0a758b5e158c
+Size: 30856
+MD5Sum: 7b0a8c0bec83bb4604326f27775a66fe
+SHA1: a0df7d9f9760c5666bdabb54eedac5f5394b4e93
+SHA256: eae7f0c62e0e774c383d3a5e8b3b51f49599d670179743e86be53d4a6e50e85a
+SHA512: 35cec398f2806f129fb51e4e0a657f429b998f14904a99bd69fdbe881c0f2db6ba5a6d7427030d2aaa0a08feb3dfae121a75eb75ae0b989db4ff2d3eb7f09130
 
 Package: heroku
 Architecture: all
@@ -41,6 +41,21 @@ MD5Sum: 8bc0701280b23ea63e01b541282f18a0
 SHA1: 1b09e5c2512ecf9adc166a635ac4368eac9e6934
 SHA256: e2f5857800f32973b724220be6cfffedd36c63b91d56023f2c52f53bc85bcd30
 SHA512: f23511b28d3475273eb69bdd02dbadf7c89190289b571fa4331f52415530a9bbe4ef562bbe204dd720754afde95fc2147581d36bd2e850288462071f9f8198fa
+
+Package: repo
+Architecture: all
+Installed-Size: 62
+Depends: python
+Maintainer: Rendiix <vanzdobz@gmail.com>
+Version: 2.6
+Homepage: https://gerrit.googlesource.com/git-repo/
+Description: Repo is a tool built on top of Git. Repo helps manage many Git repositories, does the uploads to revision control systems, and automates parts of the development workflow.
+Filename: dists/android-tools/termux/binary-all/repo_2.6_all.deb
+Size: 14726
+MD5Sum: 63df430f57cf9206dd69b442dd0f5c90
+SHA1: dfb79f8951319d71ed5fbba49f0350651ceb7780
+SHA256: 3f3a013d2d42ec3e7df3c4c26f159591e7a8023d13bbb2d9c18e7002c59ec890
+SHA512: 9a3c92f52a3cfddb095624a2bcac11aae78750ce86c06be4a133e645dbc26425be20f135cfe754273520b3245fa6b69c7fe6d986e46a2c5e0086a3712e66a63e
 
 Package: sdat2img
 Architecture: all

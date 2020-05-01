@@ -6,11 +6,11 @@ Version: 1.0.39
 Homepage: https://github.com/rendiix/termux-adb-fastboot
 Description: Android Debug Bridge. A versatile command line tool that lets you communicate with an emulator instance or connected Android-powered device.
 Filename: dists/android-tools/termux/binary-aarch64/android-tools-adb_1.0.39_aarch64.deb
-Size: 627276
-MD5Sum: 6d54478fe98a193255e1dac031ed9f9c
-SHA1: 90ac7ad9eac48a6f52573baa61aae20e5f99ae51
-SHA256: cb623456f00895b33e3853ef49034d930534b5eb5ab90fed710cf7fa616b3c6e
-SHA512: 87a5f3cf9ff1911f2f383833784fe86d796187ce06976a5bff7afaa53b0e764fd67bf0edf968e658fdf6a115c01f4d9c733dc868d7097bb10b7eddc20b05ca37
+Size: 627358
+MD5Sum: 95d9cd8623438ab202d69927a91f336b
+SHA1: 00d8f044dad055f313056956fc162ff44dd7a376
+SHA256: 4a75f50a2abfebcf8edf546492a067e66bcacb42847cd28e4e3186d9f86b59d2
+SHA512: 228309b6b9b3479b98499d25b8e8a15ad4e06f11a31a8cca4d69290f8ea6e2358252c41495a6dc3702f54a3749115c14c23694678877974f20ca74c9d3ebd26a
 
 Package: android-tools-fastboot
 Architecture: aarch64
@@ -20,11 +20,11 @@ Version: 8.1.0
 Homepage: https://github.com/rendiix/termux-adb-fastboot
 Description: Android fastboot tool. A command line tool for flashing an Android device, boot an Android device to fastboot mode, etc..
 Filename: dists/android-tools/termux/binary-aarch64/android-tools-fastboot_8.1.0_aarch64.deb
-Size: 373888
-MD5Sum: 54a02d1f2d7ce062e0766f23712c4853
-SHA1: f0e7a0a86c372962d8d100c76d5c3b8da661c42d
-SHA256: 2edf63341d1bfed653f23e6b553d7a28e6a588a2dd6ece8539ba146da221e7ef
-SHA512: 3ea2e4e9d26e120a3c9609f8b745c65f5e0d0ff3971efefa1bc65b67a5c6b23cc43be755a5fa321423e35414b83793f9f6c20b6c1c6d51a68574f347a4746d05
+Size: 373934
+MD5Sum: 6230cbc67091d2b75d42d8efc43f7034
+SHA1: 0d980caa992fb52213f886d69a37c19ec7a0826c
+SHA256: 9667a9bf45918567b2aebb0ff4661af7b3513d34b03c8a710facafa858c07f23
+SHA512: f0f0a9368f5abeb255689a1a2b20426c401dde482983db8a8a7638f725c1aed4c5157b6bc3fec3bc453ed7d6aa95b763128e764e30dbe8a8d24175d013ce7236
 
 Package: ext4fs-tools
 Architecture: aarch64
