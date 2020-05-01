@@ -81,9 +81,9 @@ Version: 4.4
 Homepage: https://github.com/rendiix/rendiix.github.io
 Description: Simple CLI YouTube downloader
 Filename: dists/android-tools/termux/binary-all/ytb-player_4.4_all.deb
-Size: 6118
-MD5Sum: 27b5d03b23481e9599870e38b12b1763
-SHA1: 117056a1e4bac2a3495fbe42740cd485661b3a42
-SHA256: 9693b469bf7d83337c41bf6e6b7f20e07d86ec7e87ef1a3ffac2c8c48d67fcfa
-SHA512: 570e490f5c858898f00b7f44606c6462115e413d400f490d3b4a004e189a9c5d4c0bb8be24a5f32cc0aeb7c4a5a349a57c651e65245cdef1d13f6334be7f736b
+Size: 6116
+MD5Sum: 6d22d27f82a3da0dc75f35c1b320be4f
+SHA1: 1031fcb3a32c4b3424bec7b6349241fba26bc26f
+SHA256: e1ef3a15400127597a89e0e335b7b081e42ce1d3511d880d3fd57c06ba56bf56
+SHA512: 2a2988251bc5539d60fc21d0bc4f0024e7745e9616eba6db3e9de2cc4c64ac708688dec9bb0d31903af9625effd7421cea5b9706ba984f3da88408451447907e
 
