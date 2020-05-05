@@ -45,17 +45,17 @@ SHA512: fc334cfa789f38b0962a62578dd41f79e40e7700639065c6ff6dcc20a6145dd6bc921a9b
 Package: repo
 Architecture: all
 Installed-Size: 62
-Depends: python22
+Depends: python2
 Maintainer: Rendiix <vanzdobz@gmail.com>
 Version: 2.6
 Homepage: https://gerrit.googlesource.com/git-repo/
 Description: Repo is a tool built on top of Git. Repo helps manage many Git repositories, does the uploads to revision control systems, and automates parts of the development workflow.
 Filename: dists/android-tools/termux/binary-all/repo_2.6_all.deb
-Size: 14718
-MD5Sum: a1c830ef08d61fee5e80f13ffd226053
-SHA1: c1f3cbb7bfd1015cd0c19135f3a32173f8bb4bad
-SHA256: 3462db6dc5ac5fb7a9926b2459969bb3822e3e14b32f719d0f0c26b18ef859fa
-SHA512: 00c5ac0a8b1ff99d1244a9333c6ed81b80b0724472bd4e66eea0f99e14c2c314f7c71ce4c522c84255c44015a0fa990fad91df5d4f4392310810bf671df4b27e
+Size: 14722
+MD5Sum: 85a168a02eebfccc3de49f62b2faffba
+SHA1: 5558632d452b0bc7a71f39d8b1c04f124890e02e
+SHA256: 1237fbd400c12fed33cded88f05dc2d1cb0bebcecb4c55b76ce5afc133b01b29
+SHA512: 172d0b494eb8ef8eadceef94a83d5c9c1702d4a856423ad9c9ccadcdc654687e53043c3797cccb35b9b6238052438e76ff4a095245df3b367f3be0dda0cd4fb8
 
 Package: sdat2img
 Architecture: all
