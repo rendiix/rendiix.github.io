@@ -46,18 +46,18 @@ user@termux:~$
 #### Table of contents
 
 
-| Package | Version | Descriptions |
-| --- | :---: | --- |
-| [android-tools-adb](https://github.com/rendiix/termux-adb-fastboot) | 1.0.39 | Android Debug Bridge. A versatile command line tool that lets you communicate with an emulator instance or connected Android-powered device. |
-| [android-tools-fastboot](https://github.com/rendiix/termux-adb-fastboot) | 8.1.0 | Android fastboot tool. A command line tool for flashing an Android device, boot an Android device to fastboot mode, etc.. |
-| [bootsignature](https://forum.xda-developers.com/android/software-hacking/signing-boot-images-android-verified-t3600606) | 0.8 | Signing boot images for Android Verified Boot (AVB) [v8] by Chainfire |
-| [ext4fs-tools](https://github.com/rendiix/make_ext4fs) | 8.1.0 | Android img tools: make_ext4fs img2simg simg2img sefcontext_decompile. |
-| [heroku](https://devcenter.heroku.com/articles/heroku-cli) | 7.40.0 | The Heroku Command Line Interface (CLI) makes it easy to create and manage your Heroku apps directly from the terminal. It’s an essential part of using Heroku. |
-| [img2sdat](https://github.com/xpirt/img2sdat) | 1.7 | Convert sparse EXT4 image to sparse Android data image |
-| [lolcat](https://github.com/jaseg/lolcat) | 1.1 | A Command Line Tool to Output Rainbow Of Colors in Linux Terminal. This version is High-performance implementation of https://github.com/busyloop/lolcat |
-| [mkbootimg](https://github.com/osm0sis/mkbootimg) | 2019.04.13 | mkbootimg + unpackbootimg, forked and updated |
-| [sdat2img](https://github.com/xpirt/sdat2img) | 1.2 | Convert sparse Android data image to filesystem ext4 image |
-| [shc](https://github.com/neurobin/shc) | 4.0.3 | A generic shell script compiler. Shc takes a script, which is specified on the command line and produces C source code. The generated source code is then compiled and linked to produce a stripped binary executable. |
-| [repo](https://gerrit.googlesource.com/git-repo/) | 2.6 | Repo is a tool built on top of Git. Repo helps manage many Git repositories, does the uploads to revision control systems, and automates parts of the development workflow. |
-| [vdexExtractor](https://github.com/anestisb/vdexExtractor) | 0.6.0 | Tool to decompile and extract Android Dex bytecode from Vdex files |
-| [ytb-player](https://github.com/rendiix/rendiix.github.io) | 4.5 | Simple CLI YouTube downloader |
+| Package | Version | Descriptions | Homepage |
+| --- | :---: | --- | --- |
+| [android-tools-adb](https://github.com/rendiix/termux-adb-fastboot) | 1.0.39 | Android Debug Bridge. A versatile command line tool that lets you communicate with an emulator instance or connected Android-powered device. | [https://github.com/rendiix/termux-adb-fastboot](https://github.com/rendiix/termux-adb-fastboot) |
+| [android-tools-fastboot](https://github.com/rendiix/termux-adb-fastboot) | 8.1.0 | Android fastboot tool. A command line tool for flashing an Android device, boot an Android device to fastboot mode, etc.. | [https://github.com/rendiix/termux-adb-fastboot](https://github.com/rendiix/termux-adb-fastboot) |
+| [bootsignature](https://forum.xda-developers.com/android/software-hacking/signing-boot-images-android-verified-t3600606) | 0.8 | Signing boot images for Android Verified Boot (AVB) [v8] by Chainfire | [https://forum.xda-developers.com/android/software-hacking/signing-boot-images-android-verified-t3600606](https://forum.xda-developers.com/android/software-hacking/signing-boot-images-android-verified-t3600606) |
+| [ext4fs-tools](https://github.com/rendiix/make_ext4fs) | 8.1.0 | Android img tools: make_ext4fs img2simg simg2img sefcontext_decompile. | [https://github.com/rendiix/make_ext4fs](https://github.com/rendiix/make_ext4fs) |
+| [heroku](https://devcenter.heroku.com/articles/heroku-cli) | 7.40.0 | The Heroku Command Line Interface (CLI) makes it easy to create and manage your Heroku apps directly from the terminal. It’s an essential part of using Heroku. | [https://devcenter.heroku.com/articles/heroku-cli](https://devcenter.heroku.com/articles/heroku-cli) |
+| [img2sdat](https://github.com/xpirt/img2sdat) | 1.7 | Convert sparse EXT4 image to sparse Android data image | [https://github.com/xpirt/img2sdat](https://github.com/xpirt/img2sdat) |
+| [lolcat](https://github.com/jaseg/lolcat) | 1.1 | A Command Line Tool to Output Rainbow Of Colors in Linux Terminal. This version is High-performance implementation of https://github.com/busyloop/lolcat | [https://github.com/jaseg/lolcat](https://github.com/jaseg/lolcat) |
+| [mkbootimg](https://github.com/osm0sis/mkbootimg) | 2019.04.13 | mkbootimg + unpackbootimg, forked and updated | [https://github.com/osm0sis/mkbootimg](https://github.com/osm0sis/mkbootimg) |
+| [sdat2img](https://github.com/xpirt/sdat2img) | 1.2 | Convert sparse Android data image to filesystem ext4 image | [https://github.com/xpirt/sdat2img](https://github.com/xpirt/sdat2img) |
+| [shc](https://github.com/neurobin/shc) | 4.0.3 | A generic shell script compiler. Shc takes a script, which is specified on the command line and produces C source code. The generated source code is then compiled and linked to produce a stripped binary executable. | [https://github.com/neurobin/shc](https://github.com/neurobin/shc) |
+| [repo](https://gerrit.googlesource.com/git-repo/) | 2.6 | Repo is a tool built on top of Git. Repo helps manage many Git repositories, does the uploads to revision control systems, and automates parts of the development workflow. | [https://gerrit.googlesource.com/git-repo/](https://gerrit.googlesource.com/git-repo/) |
+| [vdexExtractor](https://github.com/anestisb/vdexExtractor) | 0.6.0 | Tool to decompile and extract Android Dex bytecode from Vdex files | [https://github.com/anestisb/vdexExtractor](https://github.com/anestisb/vdexExtractor) |
+| [ytb-player](https://github.com/rendiix/rendiix.github.io) | 4.5 | Simple CLI YouTube downloader | [https://github.com/rendiix/rendiix.github.io](https://github.com/rendiix/rendiix.github.io) |
