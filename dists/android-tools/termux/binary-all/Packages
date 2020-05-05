@@ -6,26 +6,26 @@ Version: 0.8
 Homepage: https://forum.xda-developers.com/android/software-hacking/signing-boot-images-android-verified-t3600606
 Description: Signing boot images for Android Verified Boot (AVB) [v8] by Chainfire
 Filename: dists/android-tools/termux/binary-all/bootsignature_0.8_all.deb
-Size: 30854
-MD5Sum: 44314ad1af2a572cc94c473eb900a0df
-SHA1: e56364275610e5302cfc1beb1530918856be293a
-SHA256: c819089fe0d9e6f71c78b687196517b8565cc826279d4522a0c680afe0341d53
-SHA512: f6ab1e5150e1bda141dfec8bc1729571083fff75160dd787d8093eb02fb92b59e7debb33ea996a0f71425de5393380ff45b3f3a930f2660b340d8916957f6c9d
+Size: 30842
+MD5Sum: 541c4f4ee219fc163b1f2989199947cb
+SHA1: 71048e95db1a3b157efa254e186c022b6f10570d
+SHA256: b21621dcc8e9263d6d38989ed58b5e35ecd5c7a5771b3433b8b037b8f0068a60
+SHA512: fdf37bfb5a561a63c3a96d73070f54e5ec90a68a9d4787e3ee2c7447e104ec634efcc8fc1e88f42e8aac13138411bc4a5d3108b50f0bc4c1ee4138ce50492de2
 
 Package: heroku
 Architecture: all
-Installed-Size: 58472
+Installed-Size: 58387
 Depends: nodejs
 Maintainer: Rendiix <vanzdobz@gmail.com>
-Version: 7.39.5
+Version: 7.40.0
 Homepage: https://devcenter.heroku.com/articles/heroku-cli
 Description: The Heroku Command Line Interface (CLI) makes it easy to create and manage your Heroku apps directly from the terminal. It’s an essential part of using Heroku.
-Filename: dists/android-tools/termux/binary-all/heroku_7.39.5_all.deb
-Size: 6936838
-MD5Sum: df037f6e400072adf9b37a0f4dfcde90
-SHA1: 6edd537cf63fc62d28bc75d8dcaf30481d62a287
-SHA256: 3fcf4f6c400eb06364d2f09325e4e300ed53816d79dc436fc20778ef20b73dad
-SHA512: 0aee32c5c3fea454fed140ae31fead1a778faad4c4ef1c286ad64e604661f113ffa7791808a3e8b7fe04da0c40f75939e7572be2f44bc2e8a253c2df5610e21c
+Filename: dists/android-tools/termux/binary-all/heroku_7.40.0_all.deb
+Size: 6929170
+MD5Sum: 155b9417173ceb4372ec2954d1ba270f
+SHA1: 801568420065b6efc7281d93fad88b6db6a879d7
+SHA256: ee1229b2c561b9f61aa3443ddc6d46193e4b390d9b4150ab865d600cee5296e1
+SHA512: 1304cbe70a6cacf0e13afaf7d5f222d5a4903ba3ba229b27a940f200a6f13b413eadf0d6eb5324592c6f9e154433d866e808f352a79698850664a77dbaa778cb
 
 Package: img2sdat
 Architecture: all
@@ -36,26 +36,26 @@ Version: 1.7
 Homepage: https://github.com/xpirt/img2sdat
 Description: Convert sparse EXT4 image to sparse Android data image
 Filename: dists/android-tools/termux/binary-all/img2sdat_1.7_all.deb
-Size: 31902
-MD5Sum: 1f84323f48ab8b66c264b3964a39d530
-SHA1: 429adae3094d4666773bff32cd0d0404671b76a1
-SHA256: df8462f3422b7867e8360e5820951a8263df89d4cb8480d169ce2c3f929ae462
-SHA512: d188f59f487722e75ff9bda6024ccb38b2b1ed2b562fc323e5a9a33d95442556dca51410a19d4a25db42f7d222956d88b5cd27c9238567cca231891c3aec90f1
+Size: 31896
+MD5Sum: 847be643c2a87be749b17aa9d303a3e5
+SHA1: 4949752036d666e52018f837aea845c98a737ffd
+SHA256: 79c18bd3f7b750a01ca275931bb22ec2e51bb562c0a9ef3087b37616d585a1c5
+SHA512: fc334cfa789f38b0962a62578dd41f79e40e7700639065c6ff6dcc20a6145dd6bc921a9b340f21775874644aedde0856f2a67302cdafd6f89afc0adc96fc2d2f
 
 Package: repo
 Architecture: all
 Installed-Size: 62
-Depends: python
+Depends: python22
 Maintainer: Rendiix <vanzdobz@gmail.com>
 Version: 2.6
 Homepage: https://gerrit.googlesource.com/git-repo/
 Description: Repo is a tool built on top of Git. Repo helps manage many Git repositories, does the uploads to revision control systems, and automates parts of the development workflow.
 Filename: dists/android-tools/termux/binary-all/repo_2.6_all.deb
 Size: 14718
-MD5Sum: c6cb2bb7db352a0bd56046f3dee14272
-SHA1: f01ee52eb972ea52b7af3a094c62befb53110290
-SHA256: 5838b60e1633a017376c83446e8ea9075665074599eeaa0cf1a299012dc16c60
-SHA512: 03a866886372b6e481bcf426d8a40128b5175999827004c7596bb3a3f5d2f6d479b9c3fde2449c9f511ef2434baf346d48aef3893157075bd10e2b6a347ba6b9
+MD5Sum: a1c830ef08d61fee5e80f13ffd226053
+SHA1: c1f3cbb7bfd1015cd0c19135f3a32173f8bb4bad
+SHA256: 3462db6dc5ac5fb7a9926b2459969bb3822e3e14b32f719d0f0c26b18ef859fa
+SHA512: 00c5ac0a8b1ff99d1244a9333c6ed81b80b0724472bd4e66eea0f99e14c2c314f7c71ce4c522c84255c44015a0fa990fad91df5d4f4392310810bf671df4b27e
 
 Package: sdat2img
 Architecture: all
@@ -66,24 +66,24 @@ Version: 1.2
 Homepage: https://github.com/xpirt/sdat2img
 Description: Convert sparse Android data image to filesystem ext4 image
 Filename: dists/android-tools/termux/binary-all/sdat2img_1.2_all.deb
-Size: 3298
-MD5Sum: 807474512c112e97d6e4cc6d91a2284e
-SHA1: 99743eb9c7ca83271960f34e9f413c523c01a327
-SHA256: cfd3d449ac7c1f69c04bb11e9a2cb9f053a0bf14c1575f5ba236b84c8e6f37d6
-SHA512: 55c71b4935d92f2599faf0e09d7bf81a6e973287c3c7d43d682e111f25cf2f196c8df7667cb71794abbe319d6ab76eb5b606f469881130f5cc045674f6294188
+Size: 3286
+MD5Sum: 9606eac5d8bd39bc5252ce3d4677e677
+SHA1: 11a3999e719a99c54b4417257e1f7d2b98faad52
+SHA256: 000e401a50869c93643e29206eafd45540169d09079e5196e09f1d88766bb6a4
+SHA512: 9c20ba90a5ddc67beaa5369aea759453efda95675d9ab440fa38c0ff7f698a1b264b681a4e79420489b8bb60649cdb1ad707de02a4bb4857ca40034bf3fb52e6
 
 Package: ytb-player
 Architecture: all
 Installed-Size: 51
 Depends: bc, coreutils, curl, findutils, jq, mpv, ncurses, ncurses-ui-libs, ncurses-utils, python, sed, util-linux
 Maintainer: Rendiix <vanzdobz@gmail.com>
-Version: 4.4
+Version: 4.5
 Homepage: https://github.com/rendiix/rendiix.github.io
 Description: Simple CLI YouTube downloader
-Filename: dists/android-tools/termux/binary-all/ytb-player_4.4_all.deb
-Size: 6116
-MD5Sum: 6d22d27f82a3da0dc75f35c1b320be4f
-SHA1: 1031fcb3a32c4b3424bec7b6349241fba26bc26f
-SHA256: e1ef3a15400127597a89e0e335b7b081e42ce1d3511d880d3fd57c06ba56bf56
-SHA512: 2a2988251bc5539d60fc21d0bc4f0024e7745e9616eba6db3e9de2cc4c64ac708688dec9bb0d31903af9625effd7421cea5b9706ba984f3da88408451447907e
+Filename: dists/android-tools/termux/binary-all/ytb-player_4.5_all.deb
+Size: 6156
+MD5Sum: 5541040aa33ff0b9d5e913e09d9bb42e
+SHA1: c7852ed62689491d8cf03f337af9389150ca9bb7
+SHA256: 379b5b9232980feb78b9b68843121693b600a0a3f59297975a721fcfff5dde1e
+SHA512: 2345373cccff5fe49d5c68ada40a1c0536271c8e1b99e2f8661302adc10b7d45f14a90fb5e1ab0a9419e39d97a042e5431108cb3807b349808d53d4c4fc1fcef
 
