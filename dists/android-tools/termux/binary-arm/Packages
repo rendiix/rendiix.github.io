@@ -6,11 +6,11 @@ Version: 1.0.39
 Homepage: https://github.com/rendiix/termux-adb-fastboot
 Description: Android Debug Bridge. A versatile command line tool that lets you communicate with an emulator instance or connected Android-powered device.
 Filename: dists/android-tools/termux/binary-arm/adb_1.0.39_arm.deb
-Size: 583952
-MD5Sum: 7ac3e807f27799fede23c6b074bf0dbb
-SHA1: 2d0080e0e40431f745da8f3060a68baefe82c0c2
-SHA256: ad7003143842b9c3c322418af7aede1d8b17af3c03d8e0daf049ac461f64be6a
-SHA512: 7f0f556c61de359ea7c0c9cc33374051935a24e08a37fff705e247047f884b381795f7be1ed9c35e5b4a83ce19ba3617d70ad4427a1ae13d1ba5eff1863f9378
+Size: 583886
+MD5Sum: b1372ef7b6eea14b5bbe851c765df5ce
+SHA1: 23ac74143e00669b92c196510220e51f34a33b50
+SHA256: 6f69637b47736d9819343695e28e2d495a382bd01416a630aee536b1eb2893ee
+SHA512: 83f87170146af3e25bc8d37a6887e27e471971f6e65db34387ed5e27407a871c983c513133e6c978e90b180c78a760e1eb2fd8827d19431db8053302a81b0771
 
 Package: ext4fs-tools
 Architecture: arm
@@ -20,11 +20,11 @@ Version: 8.1.0
 Homepage: https://github.com/rendiix/make_ext4fs
 Description: Android img tools: make_ext4fs img2simg simg2img sefcontext_decompile.
 Filename: dists/android-tools/termux/binary-arm/ext4fs-tools_8.1.0_arm.deb
-Size: 59742
-MD5Sum: 8ff505c74e0cfea948fd01981dc5d8e0
-SHA1: 7f6b6372197205014b6033d0fd5db382bc497ae0
-SHA256: 72f21533392dfd7d2b7897b64c6bb746a8a276457e4ee4b420f824bf5d132bf9
-SHA512: 12522bdbd508293b4ab07ac98643bea22c590ad05fb6420bd4b31ed44c13ff95a25a29d366226b9f56a67e43d72568d568e108cafd8922090072e2676a1b3b22
+Size: 59734
+MD5Sum: e3b76ac66d5e024c6a32cae519b9cf40
+SHA1: 4c554f1f8f0d2c14af77ac9abfbd2f1faaada520
+SHA256: c4d47b11413d40b7cdc075e4fe11fbe59cd78fd2a86b161f3abb8a47bc45d41e
+SHA512: 4c24d010987dc38aaef5ad01d51e7cce0d39f93b3a11052cb06d6ac40f05f19f3fb896998045577f70f84714a64c6d08e17709dbd981177a0f7b76fe20113f41
 
 Package: fastboot
 Architecture: arm
@@ -34,11 +34,11 @@ Version: 8.1.0
 Homepage: https://github.com/rendiix/termux-adb-fastboot
 Description: Android fastboot tool. A command line tool for flashing an Android device, boot an Android device to fastboot mode, etc..
 Filename: dists/android-tools/termux/binary-arm/fastboot_8.1.0_arm.deb
-Size: 346476
-MD5Sum: 7569cf3a19313325822449125b2310b0
-SHA1: b84751d096534f1a2eaa474d82f4598782d73396
-SHA256: f6ccfd8cbdfcc1cb231fd434b470654fe6b3337864128db87b9918082905b578
-SHA512: 651fe0a797b9591de024f43247af479960112b3991528bab6fa74d6220ea377b03397f443f984e0aad6c26dad334052fcecb49004d498e6e90ba1eec7693e84d
+Size: 346424
+MD5Sum: 305b5b816fd28b12e9e32faf58aa133d
+SHA1: 892099c5cd170bf8781fad0c488e91a42ea9a834
+SHA256: f8026556c3a69e6216db5026a48ca2f271b6e69056298243d17689e2e8c97d38
+SHA512: 71ba97a8633efa95266fe0da734d3da60152717f69c2607499d512b00f331b693d0784dfecce6db5cd38ea99c0b458bc3c23d12797cce9e73dc62a2d2395f0cb
 
 Package: lolcat
 Architecture: arm
@@ -48,11 +48,11 @@ Version: 1.1
 Homepage: https://github.com/jaseg/lolcat
 Description: A Command Line Tool to Output Rainbow Of Colors in Linux Terminal. This version is High-performance implementation of https://github.com/busyloop/lolcat
 Filename: dists/android-tools/termux/binary-arm/lolcat_1.1_arm.deb
-Size: 21526
-MD5Sum: 6491cbfc653c1685b9ed3b01e26e3e4d
-SHA1: 5d6a84746836a130fb8c91a89a71524f35f02081
-SHA256: fa8000737340941e0692a243e5e25d174e6809320cf46ebf1653a7a32729a6de
-SHA512: 8e33c4b9a8a36c79078623f78b7816f89942ff568108a7aed2bea64e6ea0fb92d17a36cd465f06d653096a10464abc55461e9470401e957fd5cdc4b61a7f520c
+Size: 21512
+MD5Sum: 1288aa12ed89f05ad6476db2b4ea810a
+SHA1: 62b4673b50d45892a6a44d3139b7a37c3108bbf9
+SHA256: 5fddb65a9b1ed0ea42ce42732f042bf70e6c90943c29bbad04276ea2744666de
+SHA512: 07fa35d958474531148f9ecf59ddda98405729ee43c80a496e60205fb1090618407aa3d1382a0120126768912991733866b73cbeb82112e29e26c32ad452aa42
 
 Package: mkbootimg
 Architecture: arm
@@ -62,11 +62,11 @@ Version: 2019.04.13
 Homepage: https://github.com/osm0sis/mkbootimg
 Description: mkbootimg + unpackbootimg, forked and updated
 Filename: dists/android-tools/termux/binary-arm/mkbootimg_2019.04.13_arm.deb
-Size: 13662
-MD5Sum: ce1059f109263eb961540e0e90979055
-SHA1: 350b2e3071f2bd7c906203f44d8aea436fb75d02
-SHA256: b9058ac7837104846642573206c869bf6202c317837125c91958597349dbe880
-SHA512: f8d7b567f22bb4bc3c7d906a9cd73b49f3514d23b5d59250268bc7de032159586e8708da1603a9495fed75973b14c7ebfa0bb849e65fef1e4b84e5b385a40f9f
+Size: 13666
+MD5Sum: 2d565c35f10c89e79cb1a69b11a40a0b
+SHA1: c0543a9c167d13ddd98178dd3199fe4e04ae6424
+SHA256: 065cb1b65a0190cab93b618d0fb97199675e6931c1e2c6214c85f90c6d04bfe0
+SHA512: 740de30307cca83570d520e4f83292a4c3972083779d3df98da63a425de47bd16af760fa738290e4f4e2500c7111f192b7d71a8e5649c36d11ed39be12ca52b2
 
 Package: shc
 Architecture: arm
@@ -77,11 +77,11 @@ Version: 4.0.3
 Homepage: https://github.com/neurobin/shc
 Description: A generic shell script compiler. Shc takes a script, which is specified on the command line and produces C source code. The generated source code is then compiled and linked to produce a stripped binary executable.
 Filename: dists/android-tools/termux/binary-arm/shc_4.0.3_arm.deb
-Size: 32804
-MD5Sum: b2cd915b752d697d06ae53095cfa86d3
-SHA1: 40b7728af0362fbd7467e8d2c47ee2960373b9ed
-SHA256: 06d7c8c2d64bf634ade0a2a84e55fef196fc299763f9c7829fe20cca289808b7
-SHA512: ed4ada3e56ed29154d996e28808058a2bcdd7cc2e3f50d760252559ba46efe9634fc987c7e8e1b9cc4831236f95bf4dd734328221750ee45d8f789079ba883d1
+Size: 32800
+MD5Sum: 69ebec9460463da15157b906c5b5bfe2
+SHA1: 7230ad7868332ec50ac1ce28067769b566dddc38
+SHA256: 07a15dc80cc39a8758f9ee2c3bb24abdd9b8699a5a042b994d4b153b917b0f95
+SHA512: 1f3428ea12c681685fd56076f25e52bfa24c910e7903d6a1f88c238aee6f1aa71c66c870fb626981d96a1cbc9f05d076133ea1899fd3e2342a8c7c9831d0eee6
 
 Package: vdexExtractor
 Architecture: arm
@@ -91,9 +91,9 @@ Version: 0.6.0
 Homepage: https://github.com/anestisb/vdexExtractor
 Description: Tool to decompile and extract Android Dex bytecode from Vdex files
 Filename: dists/android-tools/termux/binary-arm/vdexExtractor_0.6.0_arm.deb
-Size: 64322
-MD5Sum: 6657ea4348bc76dfba34623b8794ebd1
-SHA1: 62053c694df65e9bcab528dd3971a16e105b1ad9
-SHA256: 4539b44a70512fa4d60509402f268409342bce4293152c884fc633c244a8a4e9
-SHA512: 0bf6e0eaeeabae5a62b9fdc0670e152a1e734ed229d08b09e4f8a71969b019c9729d14fef8f80edbe83aa26ed33fbc806d7d02b6a56ab6e93c53b8f4d6d8bee5
+Size: 64278
+MD5Sum: fcccad63cdeab15c75ca2bd139d5f1f7
+SHA1: 4507fe6e6684b5be8c62dd3d8d3c9a03c9d49850
+SHA256: 09cd4eff495e402ec48f2729899fcafa92664ba5a81ddf38f1162799e8dd7fc5
+SHA512: a231bcc04a1b5d82e4eca4c1412421952d57be6293919d13f427d20d872566f08154690ce3d8e98b8af201ff17473800111179fa2d8f58eacaa8e46ae0f02ffd
 
