@@ -1,4 +1,11 @@
 data/data/com.termux/files/usr/bin/adb                                           adb
+data/data/com.termux/files/usr/lib/libcpuinfo.a                                  cpuinfo
+data/data/com.termux/files/usr/lib/libclog.a                                     cpuinfo
+data/data/com.termux/files/usr/include/cpuinfo.h                                 cpuinfo
+data/data/com.termux/files/usr/include/clog.h                                    cpuinfo
+data/data/com.termux/files/usr/bin/isa-info                                      cpuinfo
+data/data/com.termux/files/usr/bin/cpu-info                                      cpuinfo
+data/data/com.termux/files/usr/bin/cache-info                                    cpuinfo
 data/data/com.termux/files/usr/bin/img2simg                                      ext4fs-tools
 data/data/com.termux/files/usr/bin/make_ext4fs                                   ext4fs-tools
 data/data/com.termux/files/usr/bin/sefcontext_decompile                          ext4fs-tools
@@ -6,6 +13,8 @@ data/data/com.termux/files/usr/bin/simg2img                                     
 data/data/com.termux/files/usr/bin/fastboot                                      fastboot
 data/data/com.termux/files/usr/bin/lolcat                                        lolcat
 data/data/com.termux/files/usr/bin/censor                                        lolcat
+data/data/com.termux/files/usr/bin/mkbootimg                                     mkbootimg
+data/data/com.termux/files/usr/bin/unpackbootimg                                 mkbootimg
 data/data/com.termux/files/usr/bin/mkbootimg                                     mkbootimg
 data/data/com.termux/files/usr/bin/unpackbootimg                                 mkbootimg
 data/data/com.termux/files/usr/bin/shc                                           shc
