@@ -1,0 +1,139 @@
+diff -ur src/configure src_mod/configure
+--- src/configure	2020-06-06 20:51:11.999324257 +0700
++++ src_mod/configure	2020-06-06 20:50:12.882651701 +0700
+@@ -565,7 +565,7 @@
+ #
+ # Initializations.
+ #
+-ac_default_prefix=/usr/local
++ac_default_prefix=/data/data/com.termux/files/usr
+ ac_clean_files=
+ ac_config_libobj_dir=.
+ LIBOBJS=
+diff -ur src/wpscrack.c src_mod/wpscrack.c
+--- src/wpscrack.c	2020-06-06 20:51:12.035990927 +0700
++++ src_mod/wpscrack.c	2020-06-06 20:50:33.465987085 +0700
+@@ -47,7 +47,7 @@
+ 	init_default_settings();
+ 
+ 	fprintf(stderr, "\nReaver v%s WiFi Protected Setup Attack Tool\n", get_version());
+-	fprintf(stderr, "Copyright (c) 2011, Tactical Network Solutions, Craig Heffner <cheffner@tacnetsol.com>\n\n");
++	fprintf(stderr, "Copyright (c) 2011, Tactical Network Solutions, Craig Heffner <cheffner@tacnetsol.com>\ngkdev\n\n");
+ 
+ 	if(argc < 2)
+ 	{
+diff -ur src/wpsmon.c src_mod/wpsmon.c
+--- src/wpsmon.c	2020-06-06 20:51:12.035990927 +0700
++++ src_mod/wpsmon.c	2020-06-06 20:49:57.092650128 +0700
+@@ -309,6 +309,10 @@
+ 	struct pcap_pkthdr header;
+ 	static int header_printed;
+         const u_char *packet = NULL;
++	struct sigevent sev;
++	struct itimerspec its;
++	sigset_t mask;
++	timer_t timerid;
+ 
+         memset(&act, 0, sizeof(struct sigaction));
+         memset(&timer, 0, sizeof(struct itimerval));
+@@ -327,9 +331,29 @@
+ 		}
+ 		else
+ 		{
++#ifdef __ANDROID__
++		// Define sigaction: handler
++        	act.sa_flags = SA_SIGINFO;
++        	act.sa_sigaction = channel_timer_handler;
++        	sigemptyset(&act.sa_mask);
++        	sigaction(SIGUSR1, &act, NULL);
++
++        	// Define sigevent
++        	sev.sigev_notify = SIGEV_SIGNAL;
++        	sev.sigev_signo = SIGUSR1;
++
++        	// Create the timer
++        	timer_create(CLOCK_REALTIME, &sev, &timerid);
++        	its.it_value.tv_sec = 1;
++        	its.it_value.tv_nsec = 0;
++        	its.it_interval.tv_sec = its.it_value.tv_sec;
++        	its.it_interval.tv_nsec = its.it_value.tv_nsec;
++        	timer_settime(timerid, 0, &its, NULL);
++#else
+         		act.sa_handler = sigalrm_handler;
+         		sigaction (SIGALRM, &act, 0);
+ 			ualarm(CHANNEL_INTERVAL, CHANNEL_INTERVAL);
++#endif
+ 			int startchan = 1;
+ 			if(get_wifi_band() == AN_BAND)
+ 				startchan = 34;
+@@ -359,7 +383,7 @@
+ 	}
+ 
+ 	while(!got_sigint && (packet = next_packet(&header))) {
+-		parse_wps_settings(packet, &header, bssid, passive, mode, source);
++		parse_wps_settings(packet, &header, bssid, passive, mode, source, &timerid);
+ 		memset((void *) packet, 0, header.len);
+ 	}
+ 
+@@ -373,7 +397,7 @@
+    fixed parameters of size 12 */
+ #define PROBE_RESP_SIZE(rth_len) BEACON_SIZE(rth_len)
+ 
+-void parse_wps_settings(const u_char *packet, struct pcap_pkthdr *header, char *target, int passive, int mode, int source)
++void parse_wps_settings(const u_char *packet, struct pcap_pkthdr *header, char *target, int passive, int mode, int source, timer_t *timerid)
+ {
+ 	struct libwps_data *wps = NULL;
+ 	enum encryption_type encryption = NONE;
+@@ -430,7 +454,11 @@
+ 
+ 			if(target != NULL && channel_changed == 0)
+ 			{
++#ifdef __ANDROID__
++				timer_delete(*timerid);
++#else
+ 				ualarm(0, 0);
++#endif
+ 				change_channel(channel);
+ 				channel_changed = 1;
+ 			}
+@@ -553,9 +581,14 @@
+ 	next_channel();
+ }
+ 
++static void channel_timer_handler(int sig, siginfo_t *si, void *uc)
++{
++	next_channel();
++}
++
+ static void print_header(void) {
+ 	fprintf(stderr, "\nWash v%s WiFi Protected Setup Scan Tool\n", get_version());
+-        fprintf(stderr, "Copyright (c) 2011, Tactical Network Solutions, Craig Heffner\n\n");
++        fprintf(stderr, "Copyright (c) 2011, Tactical Network Solutions, Craig Heffner\ngkdev\n\n");
+ }
+ 
+ static void wash_usage(char *prog)
+diff -ur src/wpsmon.h src_mod/wpsmon.h
+--- src/wpsmon.h	2020-06-06 20:51:12.035990927 +0700
++++ src_mod/wpsmon.h	2020-06-06 20:49:57.092650128 +0700
+@@ -39,6 +39,11 @@
+ #include <sys/time.h>
+ #include <arpa/inet.h>
+ #include <libwps.h>
++#include <stdlib.h>
++#include <unistd.h>
++#include <stdio.h>
++#include <signal.h>
++#include <time.h>
+ #include "defs.h"
+ #include "globule.h"
+ #include "misc.h"
+@@ -94,7 +99,8 @@
+ } wpsmon;
+ 
+ void monitor(char *bssid, int passive, int source, int channel, int mode);
+-void parse_wps_settings(const u_char *packet, struct pcap_pkthdr *header, char *target, int passive, int mode, int source);
++void parse_wps_settings(const u_char *packet, struct pcap_pkthdr *header, char *target, int passive, int mode, int source, timer_t *timerid);
++static void channel_timer_handler(int sig, siginfo_t *si, void *uc);
+ void send_probe_request(unsigned char *bssid, char *essid);
+ int is_dup(unsigned char *bssid);
+ void mark_bssid(unsigned char *bssid);
