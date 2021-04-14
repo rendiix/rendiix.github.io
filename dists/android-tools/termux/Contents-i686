@@ -1,0 +1,14 @@
+data/data/com.termux/files/usr/bin/adb                                           android-tools-adb
+data/data/com.termux/files/usr/bin/fastboot                                      android-tools-fastboot
+data/data/com.termux/files/usr/bin/mke2fs.android                                android-tools-fastboot
+data/data/com.termux/files/usr/bin/img2simg                                      ext4fs-tools
+data/data/com.termux/files/usr/bin/make_ext4fs                                   ext4fs-tools
+data/data/com.termux/files/usr/bin/sefcontext_decompile                          ext4fs-tools
+data/data/com.termux/files/usr/bin/simg2img                                      ext4fs-tools
+data/data/com.termux/files/usr/bin/lolcat                                        lolcat
+data/data/com.termux/files/usr/bin/censor                                        lolcat
+data/data/com.termux/files/usr/bin/mkbootimg                                     mkbootimg
+data/data/com.termux/files/usr/bin/unpackbootimg                                 mkbootimg
+usr/local/bin/shc                                                                shc
+usr/local/share/man/man1/shc.1                                                   shc
+data/data/com.termux/files/usr/bin/vdexExtractor                                 vdexExtractor

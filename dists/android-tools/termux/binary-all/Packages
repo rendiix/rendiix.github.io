@@ -1,17 +1,17 @@
 Package: heroku
 Architecture: all
-Installed-Size: 77617
+Installed-Size: 77625
 Depends: nodejs
 Maintainer: Rendiix <vanzdobz@gmail.com>
 Version: 7.52.0
 Homepage: https://devcenter.heroku.com/articles/heroku-cli
 Description: The Heroku Command Line Interface (CLI) makes it easy to create and manage your Heroku apps directly from the terminal. It’s an essential part of using Heroku.
 Filename: dists/android-tools/termux/binary-all/heroku_7.52.0_all.deb
-Size: 7831490
-MD5Sum: 6bd3e17c7972995f3b65edff13b057d2
-SHA1: 53863cc95223f2daa4e0632971fa7923be3dd0bd
-SHA256: 350081ed5df2f77ec698f787186f7454cc09f6fb0b0dec920c77d1d37b1a0451
-SHA512: 217034f6e629f3c446a49189836e3df46834439ff711dee5029c71300a38c96c8acc5c51d3e1e046c3831efb405b7aa5d75654bd3b16975994afdad8cfdcab3f
+Size: 7800536
+MD5Sum: 6e03a7658dbfa414aea8f151f0f96ef4
+SHA1: d08a0fed03f1e8334ffbf34cdd7093740e4e200f
+SHA256: 82d7cd4ddf7fd33cb6ea7fbaa85d5873ddfe4e811902766d202e550f860d575e
+SHA512: 4937c29c391398fd12ccee7de127868c54986d8caccbdd25a9cacbadc3cc4a98ad84ac7ef0a45b38fd5124a6dfe4aef0a0e34732d7a22b1ddda51e7d34f4cf99
 
 Package: img2sdat
 Architecture: all
@@ -22,11 +22,11 @@ Version: 1.7
 Homepage: https://github.com/xpirt/img2sdat
 Description: Convert sparse EXT4 image to sparse Android data image
 Filename: dists/android-tools/termux/binary-all/img2sdat_1.7_all.deb
-Size: 32086
-MD5Sum: 88613012388fdfe1138ea3c39f8c8f24
-SHA1: 7b6d02e06acfca0cfe65988baa5bcebda3ad8140
-SHA256: 54752b6afa9d9e760a4576e11db965e01ba74c49500ea9f701be500fd5d0be95
-SHA512: 447bf6b98829fc1f75a287817037c891d0bf6c235e82b8a32ca1a95893c810afecd44e4ed8e06721f4303b673b0c64095f9c45b8eaed86e6c536b5fc7e2a10b5
+Size: 32090
+MD5Sum: 27708d0b928ad45ec771b664aeb4c488
+SHA1: 59fa05e0656729526e8e3de923421b4f5dd3fd80
+SHA256: a522cda7d5d32de83fc9007b131a03a65c15a07c12d99aea9753b27c72fc9f85
+SHA512: 9ff671778d4000526d21f27ddab17defd334ffbce22d1133957d34bc268f0d7ae997f5c19116b467292fb4b075831fb2a2521c475cdcbb52d7798f4ea4727b53
 
 Package: repo
 Architecture: all
@@ -37,11 +37,11 @@ Version: 2.6
 Homepage: https://gerrit.googlesource.com/git-repo/
 Description: Repo is a tool built on top of Git. Repo helps manage many Git repositories, does the uploads to revision control systems, and automates parts of the development workflow.
 Filename: dists/android-tools/termux/binary-all/repo_2.6_all.deb
-Size: 14716
-MD5Sum: 67b5fe34e77075b775922a1e1f508a29
-SHA1: 4b49c239784a8d71b27519006aa8e180b2f18ef4
-SHA256: 2e42541fdfe5b63ba569f5dc07cddcdb8d23db9dc0c000fa789f54993fb02902
-SHA512: 31b38c59f8d002b49a6f9adad479d09c86b548a8f5e665c5ec6e8533203004d746d9002f035c926c22bf0342678ebed309afcdbfcbd8d35c090653ecf4a1dabe
+Size: 14720
+MD5Sum: 3717c9094d702f382712a913c08a454e
+SHA1: a0d4812ada3e50113fcdbe35951e40cb046c6abd
+SHA256: 96ca1cd7e451866bbe71a3ac56091368fe937be5b0047c3b8a5570c10505e0c0
+SHA512: 262e9fd079e8ced17c77831fbfa7a847611ab598647727b1aa2efcc37a1f7045261dabbf458aa9a7762778efa743ddd8eaf1092b6563622635488d7c041b7de6
 
 Package: sdat2img
 Architecture: all
@@ -52,11 +52,11 @@ Version: 1.2
 Homepage: https://github.com/xpirt/sdat2img
 Description: Convert sparse Android data image to filesystem ext4 image
 Filename: dists/android-tools/termux/binary-all/sdat2img_1.2_all.deb
-Size: 3512
-MD5Sum: b05ffc0276b727e173fc9f44fa7a5518
-SHA1: 1a0775d1f41f6a81b74ef45335f92681af3cf41a
-SHA256: 0b7213f9fd5ceb231ed17fd29bd35374c7d28e790cce95c7dcbb1b94e9c4f535
-SHA512: 8fb206563775d777877f466f86e12fa944760dfc356aec7a403599e5e0a4b56114e8c730bcdf8f61174bb7fa9c034f5d42eb82309befb59a4739be3eba3d7cab
+Size: 3502
+MD5Sum: e80b9eca65b432416b1fdd1d88299dbd
+SHA1: cf8681a0914c1cf9fffe777129277ebfd719f7e1
+SHA256: c6b8b3be74fd736259d0925f07fcc3a602d2ddc6e7e578e35957394b504244c2
+SHA512: 416f0578559c12a8cd80d00ba4258a8cdf1680bf71480f2926ca0a8693bef146b5ab93a2a4f3d3a7b8a3f4178d12655509c4de1bc8e3ff149ea30f512639701a
 
 Package: ytb-player
 Architecture: all
@@ -67,9 +67,9 @@ Version: 4.4
 Homepage: https://github.com/rendiix/rendiix.github.io
 Description: Simple CLI YouTube downloader
 Filename: dists/android-tools/termux/binary-all/ytb-player_4.4_all.deb
-Size: 6174
-MD5Sum: 9723234fb9f71db42e1ed3b5aa0798cd
-SHA1: df8368dbf7b322e86550947230a5ed023f35979d
-SHA256: f601341c44a61d804297465c87d33a5049cb387f0677aaf860a4516d77d5231b
-SHA512: cb4aefdaa2ea896bb14a37e7d54b869c92db9715aa9ffe60a204b03b917bfdca544030af447e68a1216e96831f29fb95631cde09948a2e80ec79ee3588e38de9
+Size: 6172
+MD5Sum: 4c48db4d74b38b2d6108a873a5b2962d
+SHA1: d8a3824a397635cc6648958612ce5dc23c73b4c3
+SHA256: 26555fdd8869222a42c37e5051307d8c657ab56a38391c73baf54a73b480a052
+SHA512: 192c972f500fff9b566f7d46f90afb2bf8161c54d75f29d2eb6a78f76d14a244cb5571cc4236f946d64ce61d41ea56fee6eae90700e7b7fa914fc34d88a7246b
 
