@@ -1,3 +1,8 @@
+data/data/com.termux/files/usr/bin/ipadd                                         android-partition-tools
+data/data/com.termux/files/usr/bin/ipflash                                       android-partition-tools
+data/data/com.termux/files/usr/bin/ipmake                                        android-partition-tools
+data/data/com.termux/files/usr/bin/ipunpack                                      android-partition-tools
+data/data/com.termux/files/usr/share/licenses/android-partition-tools/AOSP_LICENSE android-partition-tools
 data/data/com.termux/files/usr/bin/adb                                           android-tools-adb
 data/data/com.termux/files/usr/bin/fastboot                                      android-tools-fastboot
 data/data/com.termux/files/usr/bin/mke2fs.android                                android-tools-fastboot

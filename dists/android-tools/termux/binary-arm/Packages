@@ -1,3 +1,17 @@
+Package: android-partition-tools
+Architecture: arm
+Installed-Size: 1137
+Maintainer: Rendiix <vanzdobz@gmail.com>
+Version: 31.0.0
+Homepage: https://android.googlesource.com/platform/system/extras/+/master/partition_tools/README.md
+Description: Android dynamic partition tools. visit: https://android.googlesource.com/platform/system/extras/+/master/partition_tools/README.md for more informations
+Filename: dists/android-tools/termux/binary-arm/android-partition-tools_31.0.0_arm.deb
+Size: 224654
+MD5Sum: 4c074c8c61cfe8295a77b493fdf95853
+SHA1: c7149b2f344744c23c20327a6bffa73e13a0ec52
+SHA256: 12d3f2fff578f5dd720e17b4a9d1f00ea94ff7cc5d8e87b2122d713047c49217
+SHA512: 5349709290c861a3ab7bedcd3c08d0827fc741b673869b68a1edbca8e50048e80b73481a089649da19b7dfaed9c5e44bac089f4079cc9e943865b4523f62545a
+
 Package: android-tools-adb
 Architecture: arm
 Installed-Size: 2663
@@ -6,11 +20,11 @@ Version: 31.0.0
 Homepage: https://github.com/rendiix/termux-adb-fastboot
 Description: Android Debug Bridge. A versatile command line tool that lets you communicate with an emulator instance or connected Android-powered device.
 Filename: dists/android-tools/termux/binary-arm/android-tools-adb_31.0.0_arm.deb
-Size: 1137052
-MD5Sum: 9b3f694a0252c960905ee02eafaa816d
-SHA1: d56df29e8f656d10d955eac927bbc8300207bcd7
-SHA256: 723e72915f26ead674f02fd47b74d0b8f0b13684ca24f27d5ef74e8ec7462f04
-SHA512: 3904249d9d0880f7710a2604592e7871723e72e6625b4c8ac4a382ad81f702898910f4a784b0cdbc98832c00d0c2ae29aeffc3b8e2054b8c2b0c5ebd32e445b4
+Size: 1135662
+MD5Sum: daa08df8be0b98615a84ba20c779466a
+SHA1: 9006e4b7d811563af5b7e29f8b07ad61375fddfd
+SHA256: 6a2ff25d700316276449fdf3383dc1884ff773053da36900d0da6829869fdeba
+SHA512: 3d570acfd7a2c54d4877cae687e8eab2880de920ac5f235479a4968dd26529457aef1e46ee46bde5d4aaf62ba7e768719cacc19cba146fcbe087bb3c79d99f56
 
 Package: android-tools-fastboot
 Architecture: arm
@@ -20,11 +34,11 @@ Version: 31.0.0
 Homepage: https://github.com/rendiix/termux-adb-fastboot
 Description: Android fastboot tool. A command line tool for flashing an Android device, boot an Android device to fastboot mode, etc..
 Filename: dists/android-tools/termux/binary-arm/android-tools-fastboot_31.0.0_arm.deb
-Size: 339174
-MD5Sum: df80cc2f222589ebb8de9a9a556d0948
-SHA1: fe45359c79ca7105a9a8b47579a632b4adddc0a6
-SHA256: bb5ea080db06941f35d4fdcddd2fe7287d48cf04f990428886459cb1cd8ef6f8
-SHA512: f74c4af6865d614eeb73cbb27b7e096f06938f22c8ea0fd6d59ae5eaa5d3d96e98c20dd7748e13082179d1baa0132b90462655ffcd7d0c5953d4789e8521f1c1
+Size: 339160
+MD5Sum: 88e6860deed63e9fdad28c9882713539
+SHA1: a5a7b6696a62d7fbae43f67effaac460c28b09d7
+SHA256: 567237f31de4b2d1776e343c9ca00cb0c49f741b896527a9ecb16f1f46bb585a
+SHA512: 15813cd07eeb80ac4c482a86cdd8d683c0189d21ec3f50fedef98b464aff17b685373911512d3134360b3bf4a922a9bdab63fe4638d85c772fe751bbc4b41587
 
 Package: ext4fs-tools
 Architecture: arm
@@ -34,25 +48,25 @@ Version: 8.1.0
 Homepage: https://github.com/rendiix/make_ext4fs
 Description: Android img tools: make_ext4fs img2simg simg2img sefcontext_decompile.
 Filename: dists/android-tools/termux/binary-arm/ext4fs-tools_8.1.0_arm.deb
-Size: 67224
-MD5Sum: b119ac2f2e976413aa1265757614558a
-SHA1: dc043825bab1db1ce524a730db5e995e0c76a2d5
-SHA256: c28ca825f4847f5adcdd9ac99db466803465869f36b1d730db4eb50a06ccf168
-SHA512: 6dd76fa59706640c32de1aa9a2e248ab26e5ce13467f7ba3175ca849daf9a56a6c171c41775bb01ef75f2210d0843829629ee99fecdb35496c89e4bcbec80f8a
+Size: 67230
+MD5Sum: e3d5f8c4525de3b52759088c3657d621
+SHA1: 2c2af6293beb8cf79580c62a789b03b73b4a58f3
+SHA256: 5a18a2ed048443d632b869c2c379dd6778e38b0e49591da1391cfea4106554f3
+SHA512: b8b1ae44a33b3be475e6c3b47d632190d0d26ac49aae5e61531edbb286f003a69b88644586dc92e9eaf7178d90ec3caeefab7d890b9a42eb6b10e891bd176867
 
 Package: lolcat
 Architecture: arm
 Installed-Size: 45
 Maintainer: Rendiix <vanzdobz@gmail.com>
-Version: 1.1
+Version: 1.2
 Homepage: https://github.com/jaseg/lolcat
 Description: A Command Line Tool to Output Rainbow Of Colors in Linux Terminal. This version is High-performance implementation of https://github.com/busyloop/lolcat
-Filename: dists/android-tools/termux/binary-arm/lolcat_1.1_arm.deb
-Size: 5712
-MD5Sum: 51893e8864a9086b618600f8ea786224
-SHA1: 298d253e7178829c64ea64c3254534cff005d094
-SHA256: 4ccdb867b91b738d54ea5dd690a8beab624dd80da7efb168ff84aabc0b1b606c
-SHA512: 717d54c84580ff45b91433d6e400c70f454acec723d01c2103bdaae47a159d491b9923d4575a325a9be08e76034a8d09e017431dc934ba2958ab6f7a3552a333
+Filename: dists/android-tools/termux/binary-arm/lolcat_1.2_arm.deb
+Size: 5740
+MD5Sum: b1c1ef1ca060beda24d6be322f27130a
+SHA1: 31c141b7848a09183c0d2d45a85938fdd60cc3ae
+SHA256: 4eef1444bd389e1804d86fc4e6f078d09f3fd86bbb1a210d458813aed9ed5a7a
+SHA512: 1f112fe14cdecc0a3911d33708c26a3bcade3b5a9da5300b9e7f77a8816cb8c5dbebde6e9448353eb8f31928bda3f60b0c79e0fbb5741b05f57c4a9288f39034
 
 Package: mkbootimg
 Architecture: arm
@@ -62,11 +76,11 @@ Version: 2019.04.13
 Homepage: https://github.com/osm0sis/mkbootimg
 Description: mkbootimg + unpackbootimg, forked and updated
 Filename: dists/android-tools/termux/binary-arm/mkbootimg_2019.04.13_arm.deb
-Size: 12508
-MD5Sum: e829ec63e00c9fb14bf1b6fcd8a81f66
-SHA1: 6e5c28574971a7975e35196c80f60f98d3428a71
-SHA256: 6327505d7dff88958d713bf80a130b2abdc73959791837d3ef95c70203e15eb5
-SHA512: 5abee4a0500291c556003703a28dfc687fbbcf0355adff01a7a4951400c37be2f43fafdb049c449b79620f133f253eca3507f6be5dd2949f087b5064c0e143eb
+Size: 12510
+MD5Sum: c0fd8fe42ed6a80cc3140cda22608138
+SHA1: 08154006f690c38d3956a619d026806887b7c38d
+SHA256: 249ca152ddcbe9ea48dd1cd428eba05cfdd9d2b6954880a565b178f9fe40836a
+SHA512: fbbc94b4a3db5e69c4955af617a8672ab3a37133362afa652e21c15fabfda9bf16be401e7aa60b9110cc90d1bb83aa2d4b2895de0c58c6a17465272b2db3703e
 
 Package: shc
 Architecture: arm
@@ -77,11 +91,11 @@ Version: 4.0.3
 Homepage: https://github.com/neurobin/shc
 Description: A generic shell script compiler. Shc takes a script, which is specified on the command line and produces C source code. The generated source code is then compiled and linked to produce a stripped binary executable.
 Filename: dists/android-tools/termux/binary-arm/shc_4.0.3_arm.deb
-Size: 41910
-MD5Sum: 4a76d1f38f7ace1a5a277411db7fbaf8
-SHA1: 7a9678e619d62b3c9aaf9bd143bf40552341c795
-SHA256: abe9b7dd8463012ac23bc4e0741cf97a0c2ddbcdff36f90b32e06130d2217b63
-SHA512: c40e33378a5f9978458b209bfa034fbe51ebf22332e304203c1a44e1a74a91d9b55411f424a2fcbbfd50eb966c716a4dcf26fe67dbbefb663c0cb918fa90b2f6
+Size: 41892
+MD5Sum: fb82b69e83074906218c95a9ef40aec7
+SHA1: 165dd478eccd3a6acab3edd473da813168a42a60
+SHA256: 1762326682d556a35f6b6fa3658892ef2e988af4b8c6cbc90e7dd3a8150e2bb2
+SHA512: 04fe4f3f4bef594c672bfcf80f82d115817e2fb3b7af4e4298048918480fbe0b38e4bd690d7c79b4b0363f79582053771221a7f556ac74b09415b4d50ec9e968
 
 Package: vdexExtractor
 Architecture: arm
@@ -91,9 +105,9 @@ Version: 0.6.0
 Homepage: https://github.com/anestisb/vdexExtractor
 Description: Tool to decompile and extract Android Dex bytecode from Vdex files
 Filename: dists/android-tools/termux/binary-arm/vdexExtractor_0.6.0_arm.deb
-Size: 55482
-MD5Sum: 8409cc2e1f879c60deae9db1998437a2
-SHA1: 17ea37a1ab531e5ba5403a7d67295cc04d4881ef
-SHA256: 26a004f6399d0d0f199e6e100363d7e4afe054100cb3087abcc73f6e288d5e46
-SHA512: bdc3d9c9ee22b992e70ac22864a247048daade71e27a65ff7af86258af1856cfc07ee9786d2197012f6055f5bc3ebed57dfbcb88f931e3253520e648384adb60
+Size: 55648
+MD5Sum: fb5c349da142e1346d2a2fce5838483c
+SHA1: dcbcc40a768b2a5fe1163c1ebba75fe40a32b55b
+SHA256: a101985fd9ea8fba32f64376758f1d21d211d4611f72e9f006faa8f4cf08e06d
+SHA512: e40c1a715f925a77e7ecc8a3bafd706c90ce12458e82d0011c35e63253a2dc7c2ec34bdce05dc9338a0b0105317ef38797b7352f8fba72f1393bfba0b227e55e
 
