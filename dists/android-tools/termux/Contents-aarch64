@@ -8,6 +8,7 @@ data/data/com.termux/files/usr/bin/fastboot                                     
 data/data/com.termux/files/usr/bin/mke2fs.android                                android-tools-fastboot
 data/data/com.termux/files/usr/bin/apktool                                       apktool
 data/data/com.termux/files/usr/bin/apktool.jar                                   apktool
+data/data/com.termux/files/usr/share/doc/apktool/LICENSE                         apktool
 data/data/com.termux/files/usr/bin/img2simg                                      ext4fs-tools
 data/data/com.termux/files/usr/bin/make_ext4fs                                   ext4fs-tools
 data/data/com.termux/files/usr/bin/sefcontext_decompile                          ext4fs-tools
