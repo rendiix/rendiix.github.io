@@ -11,8 +11,7 @@ apt-get  --assume-yes install coreutils gnupg wget
 # Write the needed source file
 if [ ! -f "$PREFIX/etc/apt/sources.list.d/rendiix.list" ]; then
 echo -e "deb https://rendiix.github.io android-tools termux" > $PREFIX/etc/apt/sources.list.d/rendiix.list
-wget https://rendiix.github.io/rendiix.gpg
-apt-key add rendiix.gpg
+wget -qP $PREFIX/etc/apt/trusted.gpg.d https://rendiix.github.io/rendiix.gpg
 apt update
 else
 echo "repo already installed"
