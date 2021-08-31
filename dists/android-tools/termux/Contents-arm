@@ -3,9 +3,6 @@ data/data/com.termux/files/usr/bin/ipflash                                      
 data/data/com.termux/files/usr/bin/ipmake                                        android-partition-tools
 data/data/com.termux/files/usr/bin/ipunpack                                      android-partition-tools
 data/data/com.termux/files/usr/share/licenses/android-partition-tools/AOSP_LICENSE android-partition-tools
-data/data/com.termux/files/usr/bin/adb                                           android-tools-adb
-data/data/com.termux/files/usr/bin/fastboot                                      android-tools-fastboot
-data/data/com.termux/files/usr/bin/mke2fs.android                                android-tools-fastboot
 data/data/com.termux/files/usr/bin/apktool                                       apktool
 data/data/com.termux/files/usr/bin/apktool.jar                                   apktool
 data/data/com.termux/files/usr/share/doc/apktool/LICENSE                         apktool
@@ -17,6 +14,11 @@ data/data/com.termux/files/usr/bin/lolcat                                       
 data/data/com.termux/files/usr/bin/censor                                        lolcat
 data/data/com.termux/files/usr/bin/mkbootimg                                     mkbootimg
 data/data/com.termux/files/usr/bin/unpackbootimg                                 mkbootimg
+data/data/com.termux/files/usr/bin/adb                                           platform-tools
+data/data/com.termux/files/usr/bin/e2fsdroid                                     platform-tools
+data/data/com.termux/files/usr/bin/f2fs_sload                                    platform-tools
+data/data/com.termux/files/usr/bin/fastboot                                      platform-tools
+data/data/com.termux/files/usr/bin/make_f2fs                                     platform-tools
 usr/local/bin/shc                                                                shc
 usr/local/share/man/man1/shc.1                                                   shc
 data/data/com.termux/files/usr/bin/vdexExtractor                                 vdexExtractor

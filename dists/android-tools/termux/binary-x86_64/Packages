@@ -12,34 +12,6 @@ SHA1: a17c42de8f34287ac01dd4ae7d02c93d6eb45ce2
 SHA256: 88ddd3b58a73a59cb1761925bc9e94fe7602ea9ce0f3f5ddd56e2f858347d1cc
 SHA512: d21c9106e7159003e83240b7df12c45cbc4fb1ba6faafa063a5dd8597fbc66954b825fb7026586cf0a73b76cd41c2099aee807a8adac69fbf3508e4839edb1d6
 
-Package: android-tools-adb
-Architecture: x86_64
-Installed-Size: 5284
-Maintainer: Rendiix <vanzdobz@gmail.com>
-Version: 31.0.0
-Homepage: https://github.com/rendiix/termux-adb-fastboot
-Description: Android Debug Bridge. A versatile command line tool that lets you communicate with an emulator instance or connected Android-powered device.
-Filename: dists/android-tools/termux/binary-x86_64/android-tools-adb_31.0.0_x86_64.deb
-Size: 1868464
-MD5Sum: a4be2647a869407fc07c1430e9335a87
-SHA1: 06f1fb956c5b9f986ff78592ffbe70e96b7cb17e
-SHA256: 386b081ccbb4c5e4b4f6d6a13329be3e8fd751ef52c3657a1c3be3e9f0e3f563
-SHA512: 306638781f436455cdeee1b6ec26f068958ba048671d3ae25fc4f757c06c883178c1b71935def13f3abc78569ae26f28d3eaa3de879253beb40c8e77730a383f
-
-Package: android-tools-fastboot
-Architecture: x86_64
-Installed-Size: 1483
-Maintainer: Rendiix <vanzdobz@gmail.com>
-Version: 31.0.0
-Homepage: https://github.com/rendiix/termux-adb-fastboot
-Description: Android fastboot tool. A command line tool for flashing an Android device, boot an Android device to fastboot mode, etc..
-Filename: dists/android-tools/termux/binary-x86_64/android-tools-fastboot_31.0.0_x86_64.deb
-Size: 451762
-MD5Sum: d13d5459ceae35a7209c7ebff36ce2c4
-SHA1: a994d7205ab41949b4167d4a88e52609bc2d49a8
-SHA256: 49c6a2b77027e46ec8931beadac644a5a07094180cb84c52eb8af2c5c8aeedf1
-SHA512: 2735d5ae88dd1dd4a4e12bf7c25f9f70e0207696f106140115a1bd06416799eb40e6f1f7d84f5b9653fba3e51f467b5eec4589df56d196adfd25adb2408daa93
-
 Package: apktool
 Architecture: x86_64
 Installed-Size: 16885
@@ -96,6 +68,21 @@ MD5Sum: b3637b6e0ba7cc9f371b7562832ee350
 SHA1: e91deb5cba139d85debe01cfa41832d0e02677f6
 SHA256: e18dd913c38445ee09a3c0ed3a87de6252bc45b5f687d9aa3eb9dc4d2f3ae6bb
 SHA512: 40700728242264cb677525c0744e7fc786fb468f8ece2b068d7f4b3e4e3af4aad303614c0255594bd289aadb3cf5c659b433d8f60103db61fe1d8106d6812e4e
+
+Package: platform-tools
+Architecture: x86_64
+Installed-Size: 9371
+Maintainer: rendiix <vanzdobz@gmail.com
+Version: r31.0.2
+Depends: e2fsprogs
+Homepage: rendiix.github.io
+Description: adb fastboot e2fsdroid etc...
+Filename: dists/android-tools/termux/binary-x86_64/platform-tools-r31.0.2-x86_64.deb
+Size: 2455564
+MD5Sum: b85e76c929e24f7eafd5427b1210be57
+SHA1: 751b499388e779ed5953b7f665a13e80b236cb57
+SHA256: 6ae73779ac4d0d3d6699cf9e30dbe944e7bab6ce58712d5a08f5f54f702f7d44
+SHA512: a4861141e0a3cdca9df3be8bff22db9bb354aa9f6fb4d9482a76267835e1606e0c751383ae06d002617184f743df9012f07ff0e9501b9c424370195adafc1c74
 
 Package: shc
 Architecture: x86_64
