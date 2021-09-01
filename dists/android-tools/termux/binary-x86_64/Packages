@@ -73,16 +73,16 @@ Package: platform-tools
 Architecture: x86_64
 Installed-Size: 9371
 Maintainer: rendiix <vanzdobz@gmail.com
-Version: r31.0.2
+Version: 31.0.2
 Depends: e2fsprogs
 Homepage: rendiix.github.io
 Description: adb fastboot e2fsdroid etc...
-Filename: dists/android-tools/termux/binary-x86_64/platform-tools-r31.0.2-x86_64.deb
-Size: 2455564
-MD5Sum: b85e76c929e24f7eafd5427b1210be57
-SHA1: 751b499388e779ed5953b7f665a13e80b236cb57
-SHA256: 6ae73779ac4d0d3d6699cf9e30dbe944e7bab6ce58712d5a08f5f54f702f7d44
-SHA512: a4861141e0a3cdca9df3be8bff22db9bb354aa9f6fb4d9482a76267835e1606e0c751383ae06d002617184f743df9012f07ff0e9501b9c424370195adafc1c74
+Filename: dists/android-tools/termux/binary-x86_64/platform-tools-31.0.2-x86_64.deb
+Size: 2454464
+MD5Sum: 935b026ded7e3848c6b529a230411236
+SHA1: 75d0e32cbd61c580d213b47fbcdd38a8e53517d2
+SHA256: 10bc9ac76a1ecdb4c40a53aaf0ef5ec215b4cf7aed4593cffc6380a073336e29
+SHA512: ac5c12be1598b6301095fd5adba884cd50fa6650a3f75275b611bbfa626ec3a4012bdb700d98e3cf4cb32f4a2cd5d192d525295214eae5a1735eed59cdc17580
 
 Package: shc
 Architecture: x86_64
