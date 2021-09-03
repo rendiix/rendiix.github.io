@@ -3,8 +3,8 @@ data/data/com.termux/files/usr/bin/ipflash                                      
 data/data/com.termux/files/usr/bin/ipmake                                        android-partition-tools
 data/data/com.termux/files/usr/bin/ipunpack                                      android-partition-tools
 data/data/com.termux/files/usr/share/licenses/android-partition-tools/AOSP_LICENSE android-partition-tools
+data/data/com.termux/files/usr/bin/apktool-x86.jar                               apktool
 data/data/com.termux/files/usr/bin/apktool                                       apktool
-data/data/com.termux/files/usr/bin/apktool.jar                                   apktool
 data/data/com.termux/files/usr/share/doc/apktool/LICENSE                         apktool
 data/data/com.termux/files/usr/bin/img2simg                                      ext4fs-tools
 data/data/com.termux/files/usr/bin/make_ext4fs                                   ext4fs-tools
@@ -15,10 +15,13 @@ data/data/com.termux/files/usr/bin/censor                                       
 data/data/com.termux/files/usr/bin/mkbootimg                                     mkbootimg
 data/data/com.termux/files/usr/bin/unpackbootimg                                 mkbootimg
 data/data/com.termux/files/usr/bin/adb                                           platform-tools
+data/data/com.termux/files/usr/bin/fastboot                                      platform-tools
 data/data/com.termux/files/usr/bin/e2fsdroid                                     platform-tools
 data/data/com.termux/files/usr/bin/f2fs_sload                                    platform-tools
-data/data/com.termux/files/usr/bin/fastboot                                      platform-tools
 data/data/com.termux/files/usr/bin/make_f2fs                                     platform-tools
+data/data/com.termux/files/usr/share/doc/platform-tools/LICENSE                  platform-tools
 usr/local/bin/shc                                                                shc
 usr/local/share/man/man1/shc.1                                                   shc
 data/data/com.termux/files/usr/bin/vdexExtractor                                 vdexExtractor
+data/data/com.termux/files/usr/bin/zipalign                                      zipalign
+data/data/com.termux/files/usr/share/doc/zipalign/LICENSE                        zipalign

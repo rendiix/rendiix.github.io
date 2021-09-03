@@ -1,18 +1,3 @@
-Package: heroku
-Architecture: all
-Installed-Size: 77625
-Depends: nodejs
-Maintainer: Rendiix <vanzdobz@gmail.com>
-Version: 7.52.0
-Homepage: https://devcenter.heroku.com/articles/heroku-cli
-Description: The Heroku Command Line Interface (CLI) makes it easy to create and manage your Heroku apps directly from the terminal. It’s an essential part of using Heroku.
-Filename: dists/android-tools/termux/binary-all/heroku_7.52.0_all.deb
-Size: 7805094
-MD5Sum: 2aee873acbab93c359c0f97d849d4643
-SHA1: 4df8696d208d98d1f6751b45b4b693190f80986c
-SHA256: 20ec02934a5ed82d8820ecb1955e9b5147915543d9511b23ac0837fdc135ecad
-SHA512: cb8dd146a76c87d44ab9a05af80e316f3e4f3ea2df9398d7dff6991b02fc490fb6c346b428c635a8fdebc9e4da0f512c83108fa4f5057483ea73bf6e6ca06649
-
 Package: img2sdat
 Architecture: all
 Installed-Size: 153
@@ -22,26 +7,11 @@ Version: 1.7
 Homepage: https://github.com/xpirt/img2sdat
 Description: Convert sparse EXT4 image to sparse Android data image
 Filename: dists/android-tools/termux/binary-all/img2sdat_1.7_all.deb
-Size: 32142
-MD5Sum: 93eb26af26858dbc9644d2575f16fe70
-SHA1: b0bdcfb142953bbaf2a3689bbb5f4f7fc4381169
-SHA256: 1405b2abc753cc81f78a71a3426f782a869c01a32920bb25f9820264c8fd32d7
-SHA512: 1681e460b61a9a387a9ac957002c0b143d6a53c85879f3c8e03f6643af2fcec8fd1d48b65223415315605f51915e5dac7f49dac8c477edffeaf9049364478ea0
-
-Package: repo
-Architecture: all
-Installed-Size: 62
-Depends: python
-Maintainer: Rendiix <vanzdobz@gmail.com>
-Version: 2.6
-Homepage: https://gerrit.googlesource.com/git-repo/
-Description: Repo is a tool built on top of Git. Repo helps manage many Git repositories, does the uploads to revision control systems, and automates parts of the development workflow.
-Filename: dists/android-tools/termux/binary-all/repo_2.6_all.deb
-Size: 14726
-MD5Sum: bf885809f5251cd27d9fc5f23c3e8a56
-SHA1: 06ffd6da918413f8877f48011f88f786abb1edd2
-SHA256: 1aa54a26a2d74d41e9750208877c5e6ec0f7a4acebc983bebeac7b141d368595
-SHA512: 0785cea71b8f68acec0837af84a171c6ab7e54d6107fcdecb2b21dfd071029dc46e261e7a7f0184bf796cac7cc599a81abb796a88b246cf890172d28100fe1ce
+Size: 32052
+MD5Sum: 2f5b338d44d1f7bcf147b117c9ceffbd
+SHA1: 8395c6c0e7168ee930d4b84174f54692bb74d4ea
+SHA256: b085b6879a1714c1c0533fbbf17297526e3db6702f0b70b03d39f9dadb9f1b4d
+SHA512: d617db2b4f9561ab166c8a932f4d368a3ae83adad3a6d43ddeba5b81fbe56891865cbe8df47f7f620d53369371912806e89e67cc3f267543c58789a746069858
 
 Package: sdat2img
 Architecture: all
@@ -52,24 +22,24 @@ Version: 1.2
 Homepage: https://github.com/xpirt/sdat2img
 Description: Convert sparse Android data image to filesystem ext4 image
 Filename: dists/android-tools/termux/binary-all/sdat2img_1.2_all.deb
-Size: 3540
-MD5Sum: c32b377c9db91a7856c75799fb1ceb5a
-SHA1: f405d4a7a0e2867e20261eae941b361d84c4d427
-SHA256: 1b02036109995ec6435f7bb9726d5b2e5cb1b04e1c4375869e0a3250a3e2d765
-SHA512: 201878242417fca32fc01710e6ee6a6464d800b9e10b0b01aec3512a4f390e233b860aa47a038dd558f748011bae18d0b5873c2fd06b3d6a714b7659f3c17861
+Size: 3488
+MD5Sum: fe414aad5864606b66568b5d0c1d03af
+SHA1: 2e1f07ba455cf8e4ce3ee36799cc72d96d950274
+SHA256: 77400df06b34cbd2ad6ec32dbda2d17bbeb756862c0d0f60073faf816dda5739
+SHA512: fc4fd2a7e6afe963518f3246950913733076afc58aa46d5f9090049b913c586368b7e62fbc0f255f56abcb487163d1ac24052b44bc188046ad38f2289f4d7826
 
 Package: ytb-player
 Architecture: all
-Installed-Size: 52
+Installed-Size: 51
 Depends: bc, coreutils, curl, findutils, jq, mpv, ncurses, ncurses-ui-libs, ncurses-utils, python, sed, util-linux
 Maintainer: Rendiix <vanzdobz@gmail.com>
 Version: 4.4
 Homepage: https://github.com/rendiix/rendiix.github.io
 Description: Simple CLI YouTube downloader
 Filename: dists/android-tools/termux/binary-all/ytb-player_4.4_all.deb
-Size: 6186
-MD5Sum: 45a5bb99c0bd2a576da02d7261935e6e
-SHA1: 880acd152dde0e245ba57f6e69c9fd9444a9250d
-SHA256: 80dfe88e7e3e5372e917d15f9943efc8137005f983f08bafd1317f6e2dcea879
-SHA512: 5eb87f8e59f87b9a8477af183cb0dd9bf73d7342605b8ad70ca05acaa49607b94a7c77447f5c2735f4b38e0882ba1c1101b69fbbb03704b572de814adf8182f8
+Size: 6148
+MD5Sum: e3d0d6e4f0608b9c367a84adda717955
+SHA1: 887ab09d191e497cd6be4d36ce212141a8840c4c
+SHA256: 535ce4f3c6aebe5aeb30ce7f19f17ea4d93df56675aee3996727d0ef9d32d03b
+SHA512: 844960f85e930d56c46e09e18415eae0e07ad44c936cfaa6daaafb8ed571cf5baf2df54d3413450fb53136611b66de892a51c4f813f3303f8287d4128dc5e151
 

@@ -48,16 +48,15 @@ user@termux:~$
 
 | Package | Version | Descriptions |
 | --- | :---: | --- |
-| [android-tools-adb](https://github.com/rendiix/termux-adb-fastboot) | 31.0.0 | Android Debug Bridge. A versatile command line tool that lets you communicate with an emulator instance or connected Android-powered device. |
-| [android-tools-fastboot](https://github.com/rendiix/termux-adb-fastboot) | 31.0.0 | Android fastboot tool. A command line tool for flashing an Android device, boot an Android device to fastboot mode, etc.. |
+| [android-partition-tools](https://android.googlesource.com/platform/system/extras/+/master/partition_tools/README.md) | 31.0.0 | Android dynamic partition tools. visit: https://android.googlesource.com/platform/system/extras/+/master/partition_tools/README.md for more informations |
+| [apktool](https://ibotpeaches.github.io/Apktool/) | 2.6.1-SNAPSHOT | A tool for reverse engineering 3rd party, closed, binary Android apps. It can decode resources to nearly original form and rebuild them after making some modifications. It also makes working with an app easier because of the project like file structure and automation of some repetitive tasks like building apk, etc. |
 | [ext4fs-tools](https://github.com/rendiix/make_ext4fs) | 8.1.0 | Android img tools: make_ext4fs img2simg simg2img sefcontext_decompile. |
-| [heroku](https://devcenter.heroku.com/articles/heroku-cli) | 7.52.0 | The Heroku Command Line Interface (CLI) makes it easy to create and manage your Heroku apps directly from the terminal. It’s an essential part of using Heroku. |
 | [img2sdat](https://github.com/xpirt/img2sdat) | 1.7 | Convert sparse EXT4 image to sparse Android data image |
 | [lolcat](https://github.com/jaseg/lolcat) | 1.2 | A Command Line Tool to Output Rainbow Of Colors in Linux Terminal. This version is High-performance implementation of https://github.com/busyloop/lolcat |
 | [mkbootimg](https://github.com/osm0sis/mkbootimg) | 2019.04.13 | mkbootimg + unpackbootimg, forked and updated |
+| [platform-tools](https://github.com/rendiix/termux-adb-fastboot) | 31.0.2 | adb fastboot tools |
 | [sdat2img](https://github.com/xpirt/sdat2img) | 1.2 | Convert sparse Android data image to filesystem ext4 image |
 | [shc](https://github.com/neurobin/shc) | 4.0.3 | A generic shell script compiler. Shc takes a script, which is specified on the command line and produces C source code. The generated source code is then compiled and linked to produce a stripped binary executable. |
-| [repo](https://gerrit.googlesource.com/git-repo/) | 2.6 | Repo is a tool built on top of Git. Repo helps manage many Git repositories, does the uploads to revision control systems, and automates parts of the development workflow. |
 | [vdexExtractor](https://github.com/anestisb/vdexExtractor) | 0.6.0 | Tool to decompile and extract Android Dex bytecode from Vdex files |
 | [ytb-player](https://github.com/rendiix/rendiix.github.io) | 4.4 | Simple CLI YouTube downloader |
-| [android-partition-tools](https://android.googlesource.com/platform/system/extras/+/master/partition_tools/README.md) | 31.0.0 | Android dynamic partition tools. visit: https://android.googlesource.com/platform/system/extras/+/master/partition_tools/README.md for more informations |
+| [zipalign](https://github.com/rendiix/termux-zipalign) | 31.0.2 | zip archive alignment tool |
