@@ -1,9 +1,9 @@
 Codename: termux
 Version: 1
-Architectures: x86_64 i686 arm all aarch64
+Architectures: x86_64 arm all aarch64 i686
 Description: android-tools repository
 Suite: android-tools
-Date: Fri, 03 Sep 2021 15:28:08 UTC
+Date: Fri, 03 Sep 2021 15:40:44 UTC
 MD5Sum:
  3dfb59c12afc438950050894ffb6dd19 6440 termux/binary-aarch64/Packages
  31aeb4b5ce0ca9beaef0011304a5182c 2756 termux/binary-aarch64/Packages.xz
