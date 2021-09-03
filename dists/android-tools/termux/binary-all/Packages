@@ -1,3 +1,18 @@
+Package: dex2jar
+Architecture: all
+Installed-Size: 15906
+Depends: openjdk-17
+Maintainer: Rendiix <vanzdobz@gmail.com>
+Version: 2.1-SNAPSHOT
+Homepage: https://github.com/ThexXTURBOXx/dex2jar
+Description: Tools to work with android .dex and java .class files
+Filename: dists/android-tools/termux/binary-all/dex2jar_2.1-SNAPSHOT_all.deb
+Size: 9257418
+MD5Sum: b2e48ea142de07cc6502ce29227e43b0
+SHA1: 91cd35f04a009440655c3ebcabd2c062075d66a4
+SHA256: f4ecb2ad31edaf3c05ba954418f5d8c8ff123ca01086b85a20353996d4c4c64d
+SHA512: 76d4ec1bb67d64b6c54059d199d6681df06cfda92351e5eef7f44fb62dd4af8bf92d49b25e5f176d4e0c9672e5db4271171bf7e0b823d7319baef0b3b949891d
+
 Package: img2sdat
 Architecture: all
 Installed-Size: 153
