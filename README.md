@@ -49,7 +49,8 @@ user@termux:~$
 | Package | Version | Descriptions |
 | --- | :---: | --- |
 | [android-partition-tools](https://android.googlesource.com/platform/system/extras/+/master/partition_tools/README.md) | 31.0.0 | Android dynamic partition tools. visit: https://android.googlesource.com/platform/system/extras/+/master/partition_tools/README.md for more informations |
-| [apktool](https://ibotpeaches.github.io/Apktool/) | 2.6.1-1-SNAPSHOT | A tool for reverse engineering 3rd party, closed, binary Android apps. It can decode resources to nearly original form and rebuild them after making some modifications. It also makes working with an app easier because of the project like file structure and automation of some repetitive tasks like building apk, etc. |
+| [android-sdk-build-tools](https://github.com/rendiix/termux-aapt) | 31.0.2 | aapt aapt2 aidl tools |
+| [apktool](https://ibotpeaches.github.io/Apktool/) | 2.6.1-2-SNAPSHOT | A tool for reverse engineering 3rd party, closed, binary Android apps. It can decode resources to nearly original form and rebuild them after making some modifications. It also makes working with an app easier because of the project like file structure and automation of some repetitive tasks like building apk, etc. |
 | [dex2jar](https://github.com/ThexXTURBOXx/dex2jar) | 2.1-SNAPSHOT | Tools to work with android .dex and java .class files |
 | [ext4fs-tools](https://github.com/rendiix/make_ext4fs) | 8.1.0 | Android img tools: make_ext4fs img2simg simg2img sefcontext_decompile. |
 | [img2sdat](https://github.com/xpirt/img2sdat) | 1.7 | Convert sparse EXT4 image to sparse Android data image |

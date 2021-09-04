@@ -3,6 +3,10 @@ data/data/com.termux/files/usr/bin/ipflash                                      
 data/data/com.termux/files/usr/bin/ipmake                                        android-partition-tools
 data/data/com.termux/files/usr/bin/ipunpack                                      android-partition-tools
 data/data/com.termux/files/usr/share/licenses/android-partition-tools/AOSP_LICENSE android-partition-tools
+data/data/com.termux/files/usr/bin/aapt                                          android-sdk-build-tools
+data/data/com.termux/files/usr/bin/aapt2                                         android-sdk-build-tools
+data/data/com.termux/files/usr/bin/aidl                                          android-sdk-build-tools
+data/data/com.termux/files/usr/share/doc/android-sdk-build-tools/LICENSE         android-sdk-build-tools
 data/data/com.termux/files/usr/bin/apktool.jar                                   apktool
 data/data/com.termux/files/usr/bin/apktool                                       apktool
 data/data/com.termux/files/usr/share/doc/apktool/LICENSE                         apktool
