@@ -61,4 +61,4 @@ user@termux:~$
 | [shc](https://github.com/neurobin/shc) | 4.0.3 | A generic shell script compiler. Shc takes a script, which is specified on the command line and produces C source code. The generated source code is then compiled and linked to produce a stripped binary executable. |
 | [vdexExtractor](https://github.com/anestisb/vdexExtractor) | 0.6.0 | Tool to decompile and extract Android Dex bytecode from Vdex files |
 | [ytb-player](https://github.com/rendiix/rendiix.github.io) | 4.4 | Simple CLI YouTube downloader |
-| [zipalign](https://github.com/rendiix/termux-zipalign) | 31.0.2 | zip archive alignment tool |
+| [zipalign](https://github.com/rendiix/termux-zipalign) | 31.0.2-1 | zip archive alignment tool |
