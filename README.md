@@ -57,7 +57,7 @@ user@termux:~$
 | [lolcat](https://github.com/jaseg/lolcat) | 1.2 | A Command Line Tool to Output Rainbow Of Colors in Linux Terminal. This version is High-performance implementation of https://github.com/busyloop/lolcat |
 | [mkbootimg](https://github.com/osm0sis/mkbootimg) | 2019.04.13 | mkbootimg + unpackbootimg, forked and updated |
 | [platform-tools](https://github.com/rendiix/termux-adb-fastboot) | 31.0.2 | adb fastboot tools |
-| [sdat2img](https://github.com/xpirt/sdat2img) | 1.2 | Convert sparse Android data image to filesystem ext4 image |
+| [sdat2img](https://github.com/xpirt/sdat2img) | 1.2-1 | Convert sparse Android data image to filesystem ext4 image |
 | [shc](https://github.com/neurobin/shc) | 4.0.3 | A generic shell script compiler. Shc takes a script, which is specified on the command line and produces C source code. The generated source code is then compiled and linked to produce a stripped binary executable. |
 | [vdexExtractor](https://github.com/anestisb/vdexExtractor) | 0.6.0 | Tool to decompile and extract Android Dex bytecode from Vdex files |
 | [ytb-player](https://github.com/rendiix/rendiix.github.io) | 4.4 | Simple CLI YouTube downloader |

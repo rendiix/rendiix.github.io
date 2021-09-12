@@ -1,9 +1,9 @@
 Codename: termux
 Version: 1
-Architectures: all arm i686 aarch64 x86_64
+Architectures: all x86_64 i686 arm aarch64
 Description: android-tools repository
 Suite: android-tools
-Date: Sun, 12 Sep 2021 06:30:03 UTC
+Date: Sun, 12 Sep 2021 06:32:17 UTC
 MD5Sum:
  a4050e9d2f820a124c516455b294b516 7205 termux/binary-aarch64/Packages
  f1b627b16435d02d6a4d12b5bff557d0 2988 termux/binary-aarch64/Packages.xz
@@ -13,8 +13,8 @@ MD5Sum:
  7bacd6e862fc060c00679c865768e256 2972 termux/binary-i686/Packages.xz
  b4749757954f0057368a8f677d6533f7 7176 termux/binary-x86_64/Packages
  854e024d429fbd5253d92e293449e321 2984 termux/binary-x86_64/Packages.xz
- f47be4731199da4b3d3d3d7164f5ccbf 2590 termux/binary-all/Packages
- 8b91c469c147cb9aa5ea98e1bdfa01bf 1280 termux/binary-all/Packages.xz
+ 2f671ecddde50298a52479731ac85f57 2594 termux/binary-all/Packages
+ 3b97b0d268ba8e53a32125385b8d1bf1 1288 termux/binary-all/Packages.xz
  d03af3d165f19a0f6f71ad934a939dc9 2969 termux/Contents-aarch64
  d03af3d165f19a0f6f71ad934a939dc9 2969 termux/Contents-arm
  d03af3d165f19a0f6f71ad934a939dc9 2969 termux/Contents-i686
@@ -34,8 +34,8 @@ SHA1:
  9a452b5ce43231ecb27056766d32235b69d439ee 2972 termux/binary-i686/Packages.xz
  c2826b44be2fcc3ad92bcff82ad3261d97859aa6 7176 termux/binary-x86_64/Packages
  dff5b48ea1af5891045fa42d639388f321a488e6 2984 termux/binary-x86_64/Packages.xz
- fcc97394abe8b63c4057ca5bda4e9c648f68d163 2590 termux/binary-all/Packages
- 3c3d82a34b3ce836cebf868519526fbedce23198 1280 termux/binary-all/Packages.xz
+ f3c61e35ca4b98b3dcb26a7b3021d3779205c5c4 2594 termux/binary-all/Packages
+ 7dfa3886039081a0b68096bb9184792b644d741f 1288 termux/binary-all/Packages.xz
  2d16749fc7e0bc8255d161891707cb1b4b5157b9 2969 termux/Contents-aarch64
  2d16749fc7e0bc8255d161891707cb1b4b5157b9 2969 termux/Contents-arm
  2d16749fc7e0bc8255d161891707cb1b4b5157b9 2969 termux/Contents-i686
@@ -55,8 +55,8 @@ SHA256:
  a0c0939d6f6e107c9ce62be329dc59e5be1780c11e3068989eb8f069f8d78b24 2972 termux/binary-i686/Packages.xz
  ff8d6e71c2dc01fbfd7d6e06aec45cb73a489e0706cdd25c70adfd31252c496e 7176 termux/binary-x86_64/Packages
  b87237a2bb3575a64fd73dd4e538858b3bf2f63eddc945ae3567b528951c2908 2984 termux/binary-x86_64/Packages.xz
- a4fb8f02848b2d98c21e0f17e2fa6ee34642e35f925ea512f437eec4dd3c2832 2590 termux/binary-all/Packages
- 6f3d2b7bfbbd2247d28adb70b84a7ca25d0dd3407eaad2ddfd1d5071a3d85c65 1280 termux/binary-all/Packages.xz
+ a5e1ad0fd04c7af16921122108c75d6ccef407552205bafce294b88e91be95d5 2594 termux/binary-all/Packages
+ 257a5332a4d507d1370cfd48d66ce512bba7d16c04c85cb6234f57e53a11b3e5 1288 termux/binary-all/Packages.xz
  64ddee2e7ea89eb5caa5aa6f31b0ff2284972a9a00b0f6379dc7bafc139155c8 2969 termux/Contents-aarch64
  64ddee2e7ea89eb5caa5aa6f31b0ff2284972a9a00b0f6379dc7bafc139155c8 2969 termux/Contents-arm
  64ddee2e7ea89eb5caa5aa6f31b0ff2284972a9a00b0f6379dc7bafc139155c8 2969 termux/Contents-i686
@@ -76,8 +76,8 @@ SHA512:
  9597764e989ebca7ffc1602f9f1b1513a893011afe4a19cc679eb36e77588a49f48b92b0bc8ad9ca0ac7b6782e785dd3493045d2637d245250ad3e8bd8e531dc 2972 termux/binary-i686/Packages.xz
  3dcbb237d978b1beebc1d2ccc1985907fad69feb2b238c3f72ac1165c66e8af0817cdb9ca47cfa755d9ad63ae9009c39d2309d9c741cc78a00cb7c62b0880b91 7176 termux/binary-x86_64/Packages
  d080a913bc82ad275ff11e34d5c2f15da30d029a567d4e0374d26b85cfc820c9e4bb049a9d69e2f6798340f066c17c29189a220ca813a2353d44f9ec952b4fbc 2984 termux/binary-x86_64/Packages.xz
- 63be613055e828c0b3fbd40ed1f8d7125567e7265bb8860275a333d8f1da79796d2374bf49949668de8ddb2dc5994915728e9418cd95f7a7efffface83c50648 2590 termux/binary-all/Packages
- cb0d49fdbc334f713dfb28f0767d11fda565c2218d724b88d11f7cc4fddb5cd313bd86c6146ceefe58b598a59e897f2d88eac835fb700ded8ebdafab2efb7d40 1280 termux/binary-all/Packages.xz
+ 415635f12a58df2d9786ec882b74ed169a8f869fc3f02a124f7ac3c34cb42732d7b1e58368619d64e7688dd067e933e6e8bb90eccd4a8658817f17cf99ec0e1a 2594 termux/binary-all/Packages
+ 920474ea46dae6da8ed919428df727e3bcac6f7aeb4df9f4aec23476331bcb8c2792806fa104cfdc82df0914a214de325a76e903a4f8ebe959566a427b279846 1288 termux/binary-all/Packages.xz
  6ca92210b806bdbd6b0e67a52fcada7c3942a47247ae9fecbea2c12944b7559e0fa625e2c53b81f5a30caa5a98f49ba9579f772ca98b3432c52920ee61998f7d 2969 termux/Contents-aarch64
  6ca92210b806bdbd6b0e67a52fcada7c3942a47247ae9fecbea2c12944b7559e0fa625e2c53b81f5a30caa5a98f49ba9579f772ca98b3432c52920ee61998f7d 2969 termux/Contents-arm
  6ca92210b806bdbd6b0e67a52fcada7c3942a47247ae9fecbea2c12944b7559e0fa625e2c53b81f5a30caa5a98f49ba9579f772ca98b3432c52920ee61998f7d 2969 termux/Contents-i686

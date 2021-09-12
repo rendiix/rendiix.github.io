@@ -33,15 +33,15 @@ Architecture: all
 Installed-Size: 48
 Depends: python
 Maintainer: Rendiix <vanzdobz@gmail.com>
-Version: 1.2
+Version: 1.2-1
 Homepage: https://github.com/xpirt/sdat2img
 Description: Convert sparse Android data image to filesystem ext4 image
-Filename: dists/android-tools/termux/binary-all/sdat2img_1.2_all.deb
+Filename: dists/android-tools/termux/binary-all/sdat2img_1.2-1_all.deb
 Size: 3544
-MD5Sum: 1a51062772921cacec36db5d320dda92
-SHA1: 389c3557a55fde26aa783342f443cf44787befb0
-SHA256: bc276c15ca0f17c48f91b0d552cc091579fc27a9afa225afc20813efb0fbeea6
-SHA512: 13800530f2ed26f1cf5ee4a4887f4046e2922f376e87fa27c3660b3659ef658b25c7bc643d647172836457cfbc0bfedced94b96bdf3a2dc7a8c660cedc4ebf57
+MD5Sum: 4565b88f883b5cd3f01d7484d7dfe891
+SHA1: 644fe13ef1e3b5ff17acd74e3e28e7833ff12be8
+SHA256: c72af5666082a4906e6d4b26b0d722c3bd7bb7b5544ae1e1e97eafe48f93ee06
+SHA512: 3d77917ffbb5c5a7a92855634361210a3fe3bbd3a7abd19d95c1fad23dd7563e2038cf16f9ab55e2428ed555f1af3891071647b9f09620cc7fe38b41dddd55a4
 
 Package: ytb-player
 Architecture: all
