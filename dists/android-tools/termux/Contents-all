@@ -21,7 +21,7 @@ data/data/com.termux/files/usr/share/img2sdat/sparse_img.py                     
 data/data/com.termux/files/usr/bin/img2sdat                                      img2sdat
 data/data/com.termux/files/usr/share/sdat2img/README.md                          sdat2img
 data/data/com.termux/files/usr/share/sdat2img/sdat2img.py                        sdat2img
-data/data/com.termux/files/usr/bin/img2sdat                                      sdat2img
+data/data/com.termux/files/usr/bin/sdat2img                                      sdat2img
 data/data/com.termux/files/usr/bin/ytb-player                                    ytb-player
 data/data/com.termux/files/usr/bin/ytb                                           ytb-player
 data/data/com.termux/files/usr/share/ytb-player/ytb-player                       ytb-player
