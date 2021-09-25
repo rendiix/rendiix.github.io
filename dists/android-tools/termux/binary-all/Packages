@@ -1,32 +1,32 @@
 Package: dex2jar
 Architecture: all
-Installed-Size: 15906
+Installed-Size: 15943
 Depends: openjdk-17
 Maintainer: Rendiix <vanzdobz@gmail.com>
 Version: 2.1-SNAPSHOT
 Homepage: https://github.com/ThexXTURBOXx/dex2jar
 Description: Tools to work with android .dex and java .class files
 Filename: dists/android-tools/termux/binary-all/dex2jar_2.1-SNAPSHOT_all.deb
-Size: 9256760
-MD5Sum: 192b25335298918f2ae1fd7b205fbef9
-SHA1: 464468263e83f57e007701e2dd534fddfe13c60f
-SHA256: 3b1a8ea3d8f64e1d9fc2617b5baf5ac5596492d2098fcf61dc243f4385e90831
-SHA512: 9fca437bf1fba53e330f5b4b81a90a499bc98a0749effb1eda8c336362f9a1d9a509f739e4809cef79008f7504132a4932d24ca5bca6a749ece9db3d57e03b65
+Size: 9256996
+MD5Sum: b3d713ae1988cf39c507ccda2008e24b
+SHA1: 358416cb0742b7e0600125abcb8fd8606100fecb
+SHA256: 59274cd1eff3c1fb23ce49ee3d56afc59e05688bdeac5d0be8c952b2372a6b5c
+SHA512: 10c94c0cda96ea3fa92a1d6f1daf80a5429e567997927a12e5dc4234fd0f75ff4c2838b6e80c1b8b9eb4066a46c55f19920108411db8b25645fd8cde9705972b
 
 Package: img2sdat
 Architecture: all
-Installed-Size: 153
+Installed-Size: 168
 Depends: python
 Maintainer: Rendiix <vanzdobz@gmail.com>
 Version: 1.7
 Homepage: https://github.com/xpirt/img2sdat
 Description: Convert sparse EXT4 image to sparse Android data image
 Filename: dists/android-tools/termux/binary-all/img2sdat_1.7_all.deb
-Size: 32120
-MD5Sum: 05c21ad19127eb056b9389def45b3de7
-SHA1: a648552d115366625805966a1be7b0e040308e0d
-SHA256: 72b95aabe94bd1f1cd176db070b8d12ac70e773554bf89c915ab4ea05f5dfe70
-SHA512: a8e6c3c0b0b08b22844ed0b5c3bb77523ea8c13523a87ca7f74a126a0db63d496aa68b50b11aa0fb7bf47aff0389a45778275ee873b2cd4321fb9d6242b42198
+Size: 32092
+MD5Sum: 64999e5ea9a28f6a144dbbeab6437a96
+SHA1: 4d9e0fcafe4064f24da3a784cc49f9018be85d73
+SHA256: ee8b7d79ba664435b59c6ac270edc88088559a6e489ee8c453cb50a1e042aad4
+SHA512: 909d3a04c981288aee05eb9b29cfb8929c2d10981ed353e8c2847189cefdb3ad8921d018c9ccbf6bf8a576108016e95ab6bfc01ff6262a576f14ec1ea251de44
 
 Package: sdat2img
 Architecture: all
@@ -37,24 +37,24 @@ Version: 1.2-1
 Homepage: https://github.com/xpirt/sdat2img
 Description: Convert sparse Android data image to filesystem ext4 image
 Filename: dists/android-tools/termux/binary-all/sdat2img_1.2-1_all.deb
-Size: 3544
-MD5Sum: 4565b88f883b5cd3f01d7484d7dfe891
-SHA1: 644fe13ef1e3b5ff17acd74e3e28e7833ff12be8
-SHA256: c72af5666082a4906e6d4b26b0d722c3bd7bb7b5544ae1e1e97eafe48f93ee06
-SHA512: 3d77917ffbb5c5a7a92855634361210a3fe3bbd3a7abd19d95c1fad23dd7563e2038cf16f9ab55e2428ed555f1af3891071647b9f09620cc7fe38b41dddd55a4
+Size: 3532
+MD5Sum: 1793249676de56ad41a12477385c57ea
+SHA1: fccaf82b83614140b331d8b6b5c04d67495489b8
+SHA256: 86bdec04c47ddaa9d585221082b9ef265bd0e33b4d9539d74a3ca9284dc03e0e
+SHA512: 34126d54ad4985289eb93151b83b16b2179e5a108016dfb38e9ed3bbb5d19cf7206b5c28ccfb93d4beb3601f2a42780b5b56dd9cb25a4ecdf75c37fb8647a524
 
 Package: ytb-player
 Architecture: all
-Installed-Size: 51
+Installed-Size: 56
 Depends: bc, coreutils, curl, findutils, jq, mpv, ncurses, ncurses-ui-libs, ncurses-utils, python, sed, util-linux
 Maintainer: Rendiix <vanzdobz@gmail.com>
 Version: 4.4
 Homepage: https://github.com/rendiix/rendiix.github.io
 Description: Simple CLI YouTube downloader
 Filename: dists/android-tools/termux/binary-all/ytb-player_4.4_all.deb
-Size: 6220
-MD5Sum: 4ebb6037ecad48ddd8f19f090ffb0141
-SHA1: 5ca4de8c2556c7845c10aa27667768764a3d4956
-SHA256: 9928dcd4fbac302f5d243a66156da28f52c02803e9baa78854b001413937a98a
-SHA512: b060e20fc5d3a3175c06c96989764f9155c82e10bacd12b8a8eeceb6c19cafef165b705b2e7f7482572cbc02bd38772b1e96a07e51bdf92910410706220938b7
+Size: 6204
+MD5Sum: 95db336339ad5661bcb948316bbdddda
+SHA1: 3c28ee0638ec727ecc4d9bb323287027732d381e
+SHA256: 9486520a651b8f1d5bc8bd86291e373d9f42651095f40ef58865e657a97bdbcd
+SHA512: 2085db8a041420872684135ad7e5977fcf9fba520b4b6d569570d95baac587f92ca19a0c3b598c7ea3dc27f739912313935d49067ccfa6eda5ce467251fb3af2
 
