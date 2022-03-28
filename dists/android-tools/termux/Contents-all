@@ -12,6 +12,7 @@ data/data/com.termux/files/usr/lib/dex-reader-api-2.1-SNAPSHOT.jar              
 data/data/com.termux/files/usr/lib/dex-tools-2.1-SNAPSHOT.jar                    dex2jar
 data/data/com.termux/files/usr/lib/dex-translator-2.1-SNAPSHOT.jar               dex2jar
 data/data/com.termux/files/usr/lib/dex-writer-2.1-SNAPSHOT.jar                   dex2jar
+data/data/com.termux/files/usr/share/img2sdat/LICENSE                            img2sdat
 data/data/com.termux/files/usr/share/img2sdat/README.md                          img2sdat
 data/data/com.termux/files/usr/share/img2sdat/blockimgdiff.py                    img2sdat
 data/data/com.termux/files/usr/share/img2sdat/common.py                          img2sdat
@@ -19,6 +20,7 @@ data/data/com.termux/files/usr/share/img2sdat/img2sdat.py                       
 data/data/com.termux/files/usr/share/img2sdat/rangelib.py                        img2sdat
 data/data/com.termux/files/usr/share/img2sdat/sparse_img.py                      img2sdat
 data/data/com.termux/files/usr/bin/img2sdat                                      img2sdat
+data/data/com.termux/files/usr/share/sdat2img/LICENSE                            sdat2img
 data/data/com.termux/files/usr/share/sdat2img/README.md                          sdat2img
 data/data/com.termux/files/usr/share/sdat2img/sdat2img.py                        sdat2img
 data/data/com.termux/files/usr/bin/sdat2img                                      sdat2img

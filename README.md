@@ -50,13 +50,12 @@ user@termux:~$
 | --- | :---: | --- |
 | [android-partition-tools](https://android.googlesource.com/platform/system/extras/+/master/partition_tools/README.md) | 31.0.0 | Android dynamic partition tools. visit: https://android.googlesource.com/platform/system/extras/+/master/partition_tools/README.md for more informations |
 | [android-sdk-build-tools](https://github.com/rendiix/termux-aapt) | 31.0.3 | aapt aapt2 aidl tools |
-| [apktool](https://ibotpeaches.github.io/Apktool/) | 2.6.1-4-SNAPSHOT | A tool for reverse engineering 3rd party, closed, binary Android apps. It can decode resources to nearly original form and rebuild them after making some modifications. It also makes working with an app easier because of the project like file structure and automation of some repetitive tasks like building apk, etc. |
+| [apktool](https://ibotpeaches.github.io/Apktool/) | 2.6.2-SNAPSHOT | A tool for reverse engineering 3rd party, closed, binary Android apps. It can decode resources to nearly original form and rebuild them after making some modifications. It also makes working with an app easier because of the project like file structure and automation of some repetitive tasks like building apk, etc. |
 | [dex2jar](https://github.com/ThexXTURBOXx/dex2jar) | 2.1-SNAPSHOT | Tools to work with android .dex and java .class files |
 | [ext4fs-tools](https://github.com/rendiix/make_ext4fs) | 8.1.0 | Android img tools: make_ext4fs img2simg simg2img sefcontext_decompile. |
 | [img2sdat](https://github.com/xpirt/img2sdat) | 1.7 | Convert sparse EXT4 image to sparse Android data image |
 | [lolcat](https://github.com/jaseg/lolcat) | 1.2 | A Command Line Tool to Output Rainbow Of Colors in Linux Terminal. This version is High-performance implementation of https://github.com/busyloop/lolcat |
 | [mkbootimg](https://github.com/osm0sis/mkbootimg) | 2019.04.13 | mkbootimg + unpackbootimg, forked and updated |
-| [pacman](https://archlinux.org/pacman) | 6.0.1 | A simple library-based package manager. |
 | [platform-tools](https://github.com/rendiix/termux-adb-fastboot) | 31.0.3 | adb fastboot tools |
 | [sdat2img](https://github.com/xpirt/sdat2img) | 1.2-1 | Convert sparse Android data image to filesystem ext4 image |
 | [shc](https://github.com/neurobin/shc) | 4.0.3 | A generic shell script compiler. Shc takes a script, which is specified on the command line and produces C source code. The generated source code is then compiled and linked to produce a stripped binary executable. |
