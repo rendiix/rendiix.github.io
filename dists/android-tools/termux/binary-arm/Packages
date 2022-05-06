@@ -32,18 +32,18 @@ SHA512: 69371c818b5defe398c087e7dd21bdb41ea74b4a4519fa7b60c69ed4639416ca9818dfd0
 
 Package: apktool
 Architecture: arm
-Installed-Size: 10519
+Installed-Size: 12683
 Depends: openjdk-17, apksigner, zipalign
 Maintainer: Rendiix <vanzdobz@gmail.com>
-Version: 2.6.2-3-SNAPSHOT
+Version: 2.6.2-4-SNAPSHOT
 Homepage: https://ibotpeaches.github.io/Apktool/
 Description: A tool for reverse engineering 3rd party, closed, binary Android apps. It can decode resources to nearly original form and rebuild them after making some modifications. It also makes working with an app easier because of the project like file structure and automation of some repetitive tasks like building apk, etc.
-Filename: dists/android-tools/termux/binary-arm/apktool_2.6.2-3-SNAPSHOT_arm.deb
-Size: 10437052
-MD5Sum: 9ff665e6ee905d0ff4363b2d5a52960b
-SHA1: 4514722340008f88a228e32d9b3dabacc8f939fc
-SHA256: 222ca4742ebaa226e65a5cfadf2d5012b5a831b41b6a18ff83180e843bc70153
-SHA512: f168ddbca646ea9c8b46d66443dd73ac77b2cbdd534868cedc7b61d3fc4d963cf09c22166306525c5ea13ae6b1bb3912a68635a1f7a36f0d6218db3f8905ca18
+Filename: dists/android-tools/termux/binary-arm/apktool_2.6.2-4-SNAPSHOT_arm.deb
+Size: 12608000
+MD5Sum: 55cd5fc8d800e0a4662a666e1657f15d
+SHA1: 8eb41bca9c49c6f0bf114ee39941756a92f3aaba
+SHA256: bfb57be730009c7a3ee2ff4049f17df22a8a1c38d83483da2e78b262827e4893
+SHA512: 119c90a0286053df1b8b6e0202d7081c4fe361e21e130f24955c399f268b3ce20386c2be9ccfbd02b6ae24433b5da6526c9696ad7a6fe86eec751367d109e8ee
 
 Package: ext4fs-tools
 Architecture: arm
