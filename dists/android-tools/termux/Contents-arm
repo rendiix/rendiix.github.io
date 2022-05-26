@@ -19,10 +19,11 @@ data/data/com.termux/files/usr/bin/censor                                       
 data/data/com.termux/files/usr/bin/mkbootimg                                     mkbootimg
 data/data/com.termux/files/usr/bin/unpackbootimg                                 mkbootimg
 data/data/com.termux/files/usr/bin/adb                                           platform-tools
+data/data/com.termux/files/usr/bin/etc1tool                                      platform-tools
 data/data/com.termux/files/usr/bin/fastboot                                      platform-tools
+data/data/com.termux/files/usr/bin/dmtracedump                                   platform-tools
 data/data/com.termux/files/usr/bin/e2fsdroid                                     platform-tools
-data/data/com.termux/files/usr/bin/f2fs_sload                                    platform-tools
-data/data/com.termux/files/usr/bin/make_f2fs                                     platform-tools
+data/data/com.termux/files/usr/bin/sload_f2fs                                    platform-tools
 data/data/com.termux/files/usr/share/doc/platform-tools/LICENSE                  platform-tools
 usr/local/bin/shc                                                                shc
 usr/local/share/man/man1/shc.1                                                   shc

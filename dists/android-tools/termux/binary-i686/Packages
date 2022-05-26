@@ -6,104 +6,104 @@ Version: 31.0.0
 Homepage: https://android.googlesource.com/platform/system/extras/+/master/partition_tools/README.md
 Description: Android dynamic partition tools. visit: https://android.googlesource.com/platform/system/extras/+/master/partition_tools/README.md for more informations
 Filename: dists/android-tools/termux/binary-i686/android-partition-tools_31.0.0_i686.deb
-Size: 333192
-MD5Sum: 26fd1969d165303b8e01ab1252d41c7f
-SHA1: 3f3a08f512e4f989edee63e39dd0c3d144c5780b
-SHA256: 9443a6c1480e6850d80c35173553fab81aae91e82ff6914d4fec37f204340e63
-SHA512: fd0e0b9377e1712a5a2564d69c883ff24403205a07e21454355c25de892f236dd4aebfd35b0616128dd985c51223661c2c96ba25aa9137289084b3eb7d0ca753
+Size: 332232
+MD5Sum: f353467f1903df2b5110e0a44ca64d73
+SHA1: 2ddb64af9c8a46cf61a2acaba4741cfe069b50ce
+SHA256: 82aacf6d3201711d6851a6fb8969183cea6916463fa24fba72750e55666c47c9
+SHA512: d58acce9ef732b9a34a9007ca30113d36ff0564cf18db9aa0b25a81c681169cb18423717ccab00e156d9d0f39ebdfcd195b9059da0205b656344b034857669ae
 
 Package: android-sdk-build-tools
 Architecture: i686
-Installed-Size: 8683
+Installed-Size: 19979
 Depends: apksigner, d8
-Breaks: aapt
-Conflicts: aapt
-Replaces: aapt
+Breaks: aapt, aapt2
+Conflicts: aapt, aapt2
+Replaces: aapt, aapt2
 Maintainer: Rendiix <vanzdobz@gmail.com>
-Version: 31.0.3
+Version: 33.0.1
 Homepage: https://github.com/rendiix/termux-aapt
 Description: aapt aapt2 aidl tools
-Filename: dists/android-tools/termux/binary-i686/android-sdk-build-tools_31.0.3_i686.deb
-Size: 2112976
-MD5Sum: 9a919814ff38cd40b179bce05b3cfc50
-SHA1: 91161d49d93ddc9b52f225574539ab6a1fee4786
-SHA256: 89121328c092aa40dec2c75a590071feb8f8ab4b3d178c746a00579a5f74a7a9
-SHA512: 1dd34e5bff6f05ffc3873dc9e5a18bbabe08a4ebeed47c92e70e8f4578ac6953761ec5a93bc93505cd19eed82b33283996e03b29b98a6ffdb16072b13fb28ece
+Filename: dists/android-tools/termux/binary-i686/android-sdk-build-tools_33.0.1_i686.deb
+Size: 3620872
+MD5Sum: 889b5e82f17ae5be574de0ff724fd487
+SHA1: 453728ea2dc7dcb574c3b3a9f05ae5f1d762a9db
+SHA256: 3ae8164ba8fbdfff014d369e854f74a0960413ca7f34efc7b78af18b9ec2b48a
+SHA512: 7f77838eb1aee86131933b4b6ee882f79b9c988e470cf9bc6519d1965209a3e9edf1acac6d7e51854153380c5fb95ae8c7644478b5ecc1cd614a78256895767b
 
 Package: apktool
 Architecture: i686
-Installed-Size: 14235
+Installed-Size: 14223
 Depends: openjdk-17, apksigner, zipalign
 Maintainer: Rendiix <vanzdobz@gmail.com>
 Version: 2.6.2-6-SNAPSHOT
 Homepage: https://ibotpeaches.github.io/Apktool/
 Description: A tool for reverse engineering 3rd party, closed, binary Android apps. It can decode resources to nearly original form and rebuild them after making some modifications. It also makes working with an app easier because of the project like file structure and automation of some repetitive tasks like building apk, etc.
 Filename: dists/android-tools/termux/binary-i686/apktool_2.6.2-6-SNAPSHOT_i686.deb
-Size: 14162944
-MD5Sum: 528f2aa4f909be8be2d3fd187150015c
-SHA1: 89abe75e626ec9f46f05c39dfbbf63b10932593e
-SHA256: c83c92c0e93aadfb32a388a5943b886339dbcf192fcaa91bba49f00ac2ad1e16
-SHA512: 4439b5bff3f85e123e92c6440581485ee955e8d3739abc49b68f539ab4a87a6f94a04d19182fade194659ee519e6dc33c602d042c52959637419211b73aae153
+Size: 14151708
+MD5Sum: 0751ebd674b80579f77460689f34521d
+SHA1: 64464aeeb99dfd5262e7b4fa4dba050b5189fd59
+SHA256: b87c42820fd14157f061dfdc0ad319f9d8376979e0bc000b040715954bd106b9
+SHA512: 654a6313a246c93b118244272198f4d774f1c2f7a8a7ff3e8eba86d4845a123e88f5bdd0a6f41be18e7963dcf7cf8fff77247ba18620eec02d5c0b5fbf68746f
 
 Package: ext4fs-tools
 Architecture: i686
-Installed-Size: 369
+Installed-Size: 413
 Maintainer: Rendiix <vanzdobz@gmail.com>
 Version: 8.1.0
 Homepage: https://github.com/rendiix/make_ext4fs
 Description: Android img tools: make_ext4fs img2simg simg2img sefcontext_decompile.
 Filename: dists/android-tools/termux/binary-i686/ext4fs-tools_8.1.0_i686.deb
-Size: 78992
-MD5Sum: 68259eb7e2159d7bb246ef718af5f010
-SHA1: 306c260e870574659e55a4b71d92b733a8ced45d
-SHA256: 075fe77a55db6c7719f7184e3d8649d6b7618b17b0d14060034cf65a49115093
-SHA512: 6784a6e77503543e2202fb47f557ee06f6fa2a7c7864c1ec27589aca97f8873df4a2656783b857b54692c157ae10cb9567ebb7157628fbbea72b8401aa0b53c6
+Size: 88120
+MD5Sum: fc9b78a885a9fa25e5fbc6bc588f247b
+SHA1: 56a5e7fa83590b0d45323f69bef9b7a8fc133a74
+SHA256: a32e92cebe828efb4edbdd9db2756aa76f27acbb796c619511f9256c00eb0b32
+SHA512: 466d0e5be7fe27d21d97b6accadf5afaa80afad7a0f1c9955bce9c7de4327b9f927968d96cd86baaacc03d53a3899ee36a44822dc0807cb15936dc120d621b04
 
 Package: lolcat
 Architecture: i686
-Installed-Size: 45
+Installed-Size: 49
 Maintainer: Rendiix <vanzdobz@gmail.com>
 Version: 1.2
 Homepage: https://github.com/jaseg/lolcat
 Description: A Command Line Tool to Output Rainbow Of Colors in Linux Terminal. This version is High-performance implementation of https://github.com/busyloop/lolcat
 Filename: dists/android-tools/termux/binary-i686/lolcat_1.2_i686.deb
-Size: 6040
-MD5Sum: 4f69454f9c9f11a0e46332061f31e4e4
-SHA1: c0ed132209668bee3ae88db89f7526152a18c094
-SHA256: 48928c29d7c24bf0bcc8777370eceed4a743c731ab1bd74cdb3060254b683fe7
-SHA512: 9da2b649bf482196b9ac381cd0f7b592093a5abbe13281f7b2353a5f94e8a2167e40eaa8971cd2ff07ed4fb6b19e84efa63f1a6b68cb73a509e2e92bb06c4b1d
+Size: 6172
+MD5Sum: 326b37f72810fc26129fb6792799b2f2
+SHA1: 6481f70dc63f8b6938a53bc2f4bd32e336ae88d6
+SHA256: 60825549eb492fd78649a0f0f821111382678ba2ba8005b1de6fec3820edc46f
+SHA512: 0e2580d7a29ffc345b9dfc8198077cbcd5b0e510e959a9ea73c9c84274c4c005f8804a96f2e8e6c7ac871ffdc1cb046eaaf28690c8a0bb9cc2951e153f9be342
 
 Package: mkbootimg
 Architecture: i686
-Installed-Size: 53
+Installed-Size: 61
 Maintainer: Rendiix <vanzdobz@gmail.com>
 Version: 2019.04.13
 Homepage: https://github.com/osm0sis/mkbootimg
 Description: mkbootimg + unpackbootimg, forked and updated
 Filename: dists/android-tools/termux/binary-i686/mkbootimg_2019.04.13_i686.deb
-Size: 9668
-MD5Sum: 2e9c78b43599b6429a45319191dd8135
-SHA1: 8032e80380030cff50950e017d76c51f766a2769
-SHA256: ff2e8e60bedd1344dcaa97e750b6b505965ef109b21d248f991d9031597a90ca
-SHA512: 156ab81322c63c62a92f52bcd7b8d99adf4451cea0e101c368435026bfad728b2e835545ad32af2d7a2fe1d0e33f770fd81f33ecee9711fffb9a1a492de353b6
+Size: 10828
+MD5Sum: 282bdebf71cfd67dda3fb0f54a3aced8
+SHA1: 984f5ef0d4265949f2d615d2939209650917fa8a
+SHA256: f712f0ae8011611fb41c0139d1c05af92f6c2bbe55016afb303652b22fe2a80e
+SHA512: a2634d8bf5400aaf89e991a119c376b7342d9269ef2eb2aca69f6ac379dbad1118578a3b38195759580456850ec40653fb8302984e9cb1a60f3986b2569d323b
 
 Package: platform-tools
 Architecture: i686
-Installed-Size: 9635
+Installed-Size: 18263
 Depends: e2fsprogs
 Breaks: android-tools
 Conflicts: android-tools
 Replaces: android-tools
 Maintainer: Rendiix <vanzdobz@gmail.com>
-Version: 31.0.3
+Version: 33.0.1
 Homepage: https://github.com/rendiix/termux-adb-fastboot
-Description: adb fastboot tools
-Filename: dists/android-tools/termux/binary-i686/platform-tools_31.0.3_i686.deb
-Size: 2410464
-MD5Sum: ac1ba6f875961b441f75ee5975a8f347
-SHA1: 048f5b5da13c72b908f84a166593b865b4e21c14
-SHA256: 20adfc7623d56cb2cf40f6771f22b657f7fb311b15f79458e39cb4b42e2493a4
-SHA512: 38701b8361adb289899b230b0e3f034d9048f42d8975d43979fa3f724383170ba73460bc72a7c8c845e66663006e13038863e4773c2d077bc45aae93d1632426
+Description: adb etc1tool fastboot dmtracedump e2fsdroid sload_f2fs
+Filename: dists/android-tools/termux/binary-i686/platform-tools_33.0.1_i686.deb
+Size: 3491844
+MD5Sum: 5dc8d1de8c30b9bee95bd6b0bc690f79
+SHA1: fa659805fa492948efb81e1af1089a4fd8037c42
+SHA256: 2be42f7331f311fb2ed4501e63dbf84fe16bece3b72522e25709933b13576784
+SHA512: 1710fbfd21ec2535da8d1b5bc9f3d86d34a82487ab578e33e9fbf7aa4369df416406b6c87b4503d9df04762f7a83972dab03e9b3ba56f6b639d323a27aebfc6b
 
 Package: shc
 Architecture: i686
@@ -114,40 +114,40 @@ Version: 4.0.3
 Homepage: https://github.com/neurobin/shc
 Description: A generic shell script compiler. Shc takes a script, which is specified on the command line and produces C source code. The generated source code is then compiled and linked to produce a stripped binary executable.
 Filename: dists/android-tools/termux/binary-i686/shc_4.0.3_i686.deb
-Size: 29120
-MD5Sum: ccfadf8c844c4687b4d168c06531dc6c
-SHA1: 6f36b0731db02999cdede14b3823458eec1bf4af
-SHA256: a6d2c3084671817de5991155c5851819ba301bb3defa752222e0083834b1679b
-SHA512: 20d3c2a5c4c714526eba90a2ca41c3ab0f4cd84c95aec7f2011ef2b0ad359d70ea8b28ddd2890e019cdb0a57dc54e5ecd2ac1a4e1a5aceef300ff3d1de787fdc
+Size: 29288
+MD5Sum: 850d2d16222fb5bbd1e1fd715660be90
+SHA1: b0d2ede1c92a2b7703bd002c5b34ee92b6d94a22
+SHA256: b738e83797bf400135fdcc3f266ecc3d8a6a771c04b4596d0d73e95c02396457
+SHA512: d5dc5081e7876bcc0ff4a5f8f2b9153b618b968724a7c8e0e479426bdadbbc2fa71927d4a27b219c4b2ea176d32e3432cf053c745ea5f5871f4e65266a863d07
 
 Package: vdexExtractor
 Architecture: i686
-Installed-Size: 221
+Installed-Size: 241
 Maintainer: Rendiix <vanzdobz@gmail.com>
 Version: 0.6.0
 Homepage: https://github.com/anestisb/vdexExtractor
 Description: Tool to decompile and extract Android Dex bytecode from Vdex files
 Filename: dists/android-tools/termux/binary-i686/vdexExtractor_0.6.0_i686.deb
-Size: 40900
-MD5Sum: 8d6d6524d14c6a1002efd1bba540ccc4
-SHA1: 6f9f6d4c93c65ed8c520665662db4b5708c2cdbd
-SHA256: a88e87cd3b5c5cfe88d612822bf5a02a84566e76a25dd6ac079c20359810dae6
-SHA512: 846bbf6299c082d88727648708384a942eac593077d42411ecd8defa1f33578f2d97c1dd49643e2eda2f78fd8467d407f6e8594ef96f8146f9a44b5be8fd4518
+Size: 45276
+MD5Sum: 8cf1f534debd3315c3194dc11f0c1d1f
+SHA1: fea512c2d58f2bbc84bea94aacf217bbd53c28ad
+SHA256: 800fb604a895a3c17abf2023189e672d358006994750c554e5a42accdff0da1d
+SHA512: f9a39530248d9aab3cb50d288631480c19bc98950e0c9293a1e03aecc2effc4d9b6f072ca3281b46b0473874433744ba0023fd4d3c9f6ca28bafb822a09a0818
 
 Package: zipalign
 Architecture: i686
-Installed-Size: 1035
+Installed-Size: 2199
 Breaks: aapt
 Conflicts: aapt
 Replaces: aapt
 Maintainer: Rendiix <vanzdobz@gmail.com>
-Version: 31.0.3-2
+Version: 33.0.1-2
 Homepage: https://github.com/rendiix/termux-zipalign
 Description: zip archive alignment tool
-Filename: dists/android-tools/termux/binary-i686/zipalign_31.0.3-2_i686.deb
-Size: 348324
-MD5Sum: 5a84a0b6ce987aa0c9d5af40f9420d1c
-SHA1: 6748f6d472f919d10e9881593ca2df058c11bc42
-SHA256: 3eedcf0039eb557f6101cd23c56d8e1f6d6d5a870b0641990daefd9fa59a6424
-SHA512: 9b81a80a7e9da97881f5f86c024d6b972bf08f3549bd5a1c6833f66bf1553eee55f7efb2b7110cec60ad9cfcefc1b7fc1b0406dfc8cac57ac545ae5ccf492519
+Filename: dists/android-tools/termux/binary-i686/zipalign_33.0.1-2_i686.deb
+Size: 432096
+MD5Sum: 6e1e6620160b9176a11d531a7e7a3640
+SHA1: cae47b47e4d6176195b029ac2f278c6f32b48d52
+SHA256: cbe437a739d91209779581609596ffaca504cc91de6da05f6756b3aef7575aa4
+SHA512: b945086be22260feeb6ed660bfe79ede5e0d5489620a78a145e7438ec703153545d94fa2ed050c803f9bf92fbc8dea684a6f35e2f654f607aaf75e49b2144b8d
 

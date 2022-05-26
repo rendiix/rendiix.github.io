@@ -7,11 +7,11 @@ Version: 2.1-SNAPSHOT
 Homepage: https://github.com/ThexXTURBOXx/dex2jar
 Description: Tools to work with android .dex and java .class files
 Filename: dists/android-tools/termux/binary-all/dex2jar_2.1-SNAPSHOT_all.deb
-Size: 9256216
-MD5Sum: f20d672cd428f46515956b703ccfc682
-SHA1: 1b30a5c27c16f3f24a9974126486995d0f638f61
-SHA256: 17bc5bc02948180c38a0332fc50cd924e02ad7a16ecec160bf8d194bca2c723c
-SHA512: 221f8048be747f11254d2595ac7d5cdf3019c8937737e08502636f1d399f470e5e7ebc5cc8c08707ec4fffbcd8673f441f665083f587e1d6952a6f6deb90056a
+Size: 9256676
+MD5Sum: 93cc16fdbf755b2dd6eb1f9b2c743ace
+SHA1: cf8690d3a1c49d2562e08625c5bd9efa75cc9182
+SHA256: 43f5f00e177155836e7d2b75dadd887d5aee9f50bdc074418bbb5c9996f4195c
+SHA512: ccc57aac3326de17fa721b1a0034c84e9a1b014bd37fdce1efb1d8ac21b449befa625cc96f7359021b2c2d3dc2897e1e2b1881486024b66bf49e1f81f077f0b3
 
 Package: img2sdat
 Architecture: all
@@ -22,11 +22,11 @@ Version: 1.7
 Homepage: https://github.com/xpirt/img2sdat
 Description: Convert sparse EXT4 image to sparse Android data image
 Filename: dists/android-tools/termux/binary-all/img2sdat_1.7_all.deb
-Size: 32588
-MD5Sum: d429121059fadb8be963d1709ac2eff1
-SHA1: 61c9f3e73392f6f80e59cce938a28611ee13c876
-SHA256: 764f410b7011d275b3281d97c33f41bf3c1e8bd11d784de465667f24b738c13c
-SHA512: 62892f9cd0a145eb871ac61b65c845b03494d9a52395509e9d6f232bcf424619329b089ac03c0fca4b8366ac2b0f066577de9d4899ccc16d98497a4297655faf
+Size: 32576
+MD5Sum: 39341d08f3a80f69123fe855004ed629
+SHA1: 4cb68f6d94de248f72607c19e119130e557ab8b2
+SHA256: 888d4f2e9f9b43f8b372f190ece67790e33f35604b919193b7ecdfb035a4c9f6
+SHA512: 504ac2182d6fb939fd4bfbe2183cc406b85b6a1c07b716410f32438d8fd096463dd680f4a036651ea8a4950f3959bbc9f62004f6d8a749f9aee8c08b57dd6064
 
 Package: sdat2img
 Architecture: all
@@ -38,10 +38,10 @@ Homepage: https://github.com/xpirt/sdat2img
 Description: Convert sparse Android data image to filesystem ext4 image
 Filename: dists/android-tools/termux/binary-all/sdat2img_1.2-1_all.deb
 Size: 4092
-MD5Sum: 87c601318c50c4976e8af55e9e88bd0c
-SHA1: 2628c20376de8e6b6fc12aa7d7da58d8308262e2
-SHA256: c035c9ce097dd293631057c13b4fc5c427a6e3bb301e7dea086b7713ddc14776
-SHA512: 21fabd601dac17378bcab3eceeda3f4578f2ab0398d1c59007e731fa6fe95b2fe93f598a4ffa691b2dc33f220392dcfa4fcc6eda1b205c87821bac49dc1ab75a
+MD5Sum: 56288071370fe8dac86ebdb61fc52119
+SHA1: 181cc42fe9218de69889b886f29e1c415aa0a314
+SHA256: 9757254340757a65e2a6e2a58679d3e38e6a61c2249fa55c451f9c48aa33bae3
+SHA512: ef15278df0c9752aab0d875deb8c8c0537bad2263de844216357238c8dfaaf85fee4544faee47fb31abdb1607ac61643174ab57c9ad136cf28265eebc9c498da
 
 Package: ytb-player
 Architecture: all
@@ -52,9 +52,9 @@ Version: 4.4
 Homepage: https://github.com/rendiix/rendiix.github.io
 Description: Simple CLI YouTube downloader
 Filename: dists/android-tools/termux/binary-all/ytb-player_4.4_all.deb
-Size: 6212
-MD5Sum: c77f8c48367e4686a2b3a1bfa58c9dfe
-SHA1: cfa11964662fc17877d60164669703be348f384b
-SHA256: 8aae3378057df1a372dfcdbd667ab6f09917c0bc57629981b89d432c0e3b6e62
-SHA512: 83b9e1ddf7e34be3719765705c3990b49718b73790bea5c4465e466bc8cfa915ed731bb3e584fe4e1d7aa5fcd42634ec96578fe028d3b3daf8903f4c75dd86ab
+Size: 6204
+MD5Sum: 47f0d614572fa6ab311e41edffb3323d
+SHA1: e43e9bfbcdc862019c6ced43f17507f0d21d9875
+SHA256: b181db9f56da2e6fb8147cfa83a7004746e1cd636aa88d28087db92266ec9de7
+SHA512: 52f850c0c329e290c39b52188a0b52c4666bd00f0370c233b2e0c5e60162fdb7a597aa408bba98866d0644cfecbff9e1d1bfcbb28a89da849b4ca20e8ca2e132
 
