@@ -27,6 +27,8 @@ data/data/com.termux/files/usr/bin/sload_f2fs                                   
 data/data/com.termux/files/usr/share/doc/platform-tools/LICENSE                  platform-tools
 usr/local/bin/shc                                                                shc
 usr/local/share/man/man1/shc.1                                                   shc
+data/data/com.termux/files/usr/bin/toybox                                        toybox
+data/data/com.termux/files/usr/share/doc/toybox/LICENSE                          toybox
 data/data/com.termux/files/usr/bin/vdexExtractor                                 vdexExtractor
 data/data/com.termux/files/usr/bin/zipalign                                      zipalign
 data/data/com.termux/files/usr/share/doc/zipalign/LICENSE                        zipalign

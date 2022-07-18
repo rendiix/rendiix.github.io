@@ -123,6 +123,20 @@ SHA1: b0d2ede1c92a2b7703bd002c5b34ee92b6d94a22
 SHA256: b738e83797bf400135fdcc3f266ecc3d8a6a771c04b4596d0d73e95c02396457
 SHA512: d5dc5081e7876bcc0ff4a5f8f2b9153b618b968724a7c8e0e479426bdadbbc2fa71927d4a27b219c4b2ea176d32e3432cf053c745ea5f5871f4e65266a863d07
 
+Package: toybox
+Architecture: i686
+Installed-Size: 3119
+Maintainer: Rendiix <vanzdobz@gmail.com>
+Version: 0.8.7
+Homepage: http://www.landley.net/toybox
+Description: Toybox is a free and open-source software implementation of over 200 Unix command line utilities such as ls, cp, and mv
+Filename: dists/android-tools/termux/binary-i686/toybox_0.8.7_i686.deb
+Size: 838704
+MD5Sum: 893a687590e12e703795f66708033a69
+SHA1: 98bb0b8f238727512f7d09e4e6522822316ecb7d
+SHA256: fa0e3490d86b7016cf55a7d99063e63c0f323328de4e09ef84df5e807c45f5b7
+SHA512: 01585ecbb30650d6dd1ddb43055efa9ca68ee868d3328de84a0f0e04c1783fc54582994a8865e1b229c88b2109a0577541d74358369232f93ae1c9f6f91441a0
+
 Package: vdexExtractor
 Architecture: i686
 Installed-Size: 241

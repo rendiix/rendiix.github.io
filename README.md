@@ -59,6 +59,7 @@ user@termux:~$
 | [platform-tools](https://github.com/rendiix/termux-adb-fastboot) | 33.0.1 | adb etc1tool fastboot dmtracedump e2fsdroid sload_f2fs |
 | [sdat2img](https://github.com/xpirt/sdat2img) | 1.2-1 | Convert sparse Android data image to filesystem ext4 image |
 | [shc](https://github.com/neurobin/shc) | 4.0.3 | A generic shell script compiler. Shc takes a script, which is specified on the command line and produces C source code. The generated source code is then compiled and linked to produce a stripped binary executable. |
+| [toybox](http://www.landley.net/toybox) | 0.8.7 | Toybox is a free and open-source software implementation of over 200 Unix command line utilities such as ls, cp, and mv |
 | [vdexExtractor](https://github.com/anestisb/vdexExtractor) | 0.6.0 | Tool to decompile and extract Android Dex bytecode from Vdex files |
 | [ytb-player](https://github.com/rendiix/rendiix.github.io) | 4.4 | Simple CLI YouTube downloader |
 | [zipalign](https://github.com/rendiix/termux-zipalign) | 33.0.1 | zip archive alignment tool |
