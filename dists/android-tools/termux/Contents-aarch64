@@ -7,6 +7,12 @@ data/data/com.termux/files/usr/bin/aapt                                         
 data/data/com.termux/files/usr/bin/aapt2                                         android-sdk-build-tools
 data/data/com.termux/files/usr/bin/aidl                                          android-sdk-build-tools
 data/data/com.termux/files/usr/share/doc/android-sdk-build-tools/LICENSE         android-sdk-build-tools
+data/data/com.termux/files/usr/bin/sysprop-cpp                                   android-sysprop
+data/data/com.termux/files/usr/bin/sysprop_java                                  android-sysprop
+data/data/com.termux/files/usr/bin/sysprop_api_dump                              android-sysprop
+data/data/com.termux/files/usr/bin/sysprop_api_checker                           android-sysprop
+data/data/com.termux/files/usr/bin/sysprop_type_checker                          android-sysprop
+data/data/com.termux/files/usr/share/doc/android-sysprop/LICENSE                 android-sysprop
 data/data/com.termux/files/usr/bin/apktool.jar                                   apktool
 data/data/com.termux/files/usr/bin/apktool                                       apktool
 data/data/com.termux/files/usr/share/doc/apktool/LICENSE                         apktool

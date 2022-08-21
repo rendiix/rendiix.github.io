@@ -30,6 +30,20 @@ SHA1: 2150401f5948402adb1205db22089a02afc211e1
 SHA256: c24cb5422bb9b0a5d7c862f226802584c7df828a9d571d7f0ea85c332c66655c
 SHA512: 8324e82f81b2f0672f5a022b8c29d549f768d573d43e62735c5ddd4225e8cf088762e108b902c45bb8c4766a63c27514856677e059e20d16ad5cc00f80850319
 
+Package: android-sysprop
+Architecture: aarch64
+Installed-Size: 9955
+Maintainer: Rendiix <vanzdobz@gmail.com>
+Version: 33.0.1
+Homepage: https://android.googlesource.com/platform/system/tools/sysprop
+Description: android sysprop
+Filename: dists/android-tools/termux/binary-aarch64/android-sysprop_33.0.1_aarch64.deb
+Size: 935920
+MD5Sum: 92981c899b960e7dbd605af2074866b1
+SHA1: cb3cb669cca2cb609e37236d6918da20e74f8994
+SHA256: ad467ea72b08b6dc86917da856465110d03569c212088895f671b54f3a14bcaa
+SHA512: a669d18cf15df958fdd8a1ea3f328549f6a219f9fa19c1dbce50f386bf1a61b615da4ae182110119e17b72e0afbd37e5dc013bb86dd2824ad0e437960e0a65c0
+
 Package: apktool
 Architecture: aarch64
 Installed-Size: 12051
