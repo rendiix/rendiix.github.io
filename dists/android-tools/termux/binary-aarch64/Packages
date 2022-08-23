@@ -14,53 +14,53 @@ SHA512: 945214ffa341ea245cb66293f8b5c41bcbd003c2a66ce99ab9104cf6e48e4de4a5659222
 
 Package: android-sdk-build-tools
 Architecture: aarch64
-Installed-Size: 17567
+Installed-Size: 7619
 Depends: apksigner, d8
 Breaks: aapt, aapt2
 Conflicts: aapt, aapt2
 Replaces: aapt, aapt2
 Maintainer: Rendiix <vanzdobz@gmail.com>
-Version: 33.0.1
+Version: 33.0.1-3
 Homepage: https://github.com/rendiix/termux-aapt
 Description: aapt aapt2 aidl tools
-Filename: dists/android-tools/termux/binary-aarch64/android-sdk-build-tools_33.0.1_aarch64.deb
-Size: 2860792
-MD5Sum: f8df65758c23410ca5966bc251cc8df6
-SHA1: 2150401f5948402adb1205db22089a02afc211e1
-SHA256: c24cb5422bb9b0a5d7c862f226802584c7df828a9d571d7f0ea85c332c66655c
-SHA512: 8324e82f81b2f0672f5a022b8c29d549f768d573d43e62735c5ddd4225e8cf088762e108b902c45bb8c4766a63c27514856677e059e20d16ad5cc00f80850319
+Filename: dists/android-tools/termux/binary-aarch64/android-sdk-build-tools_33.0.1-3_aarch64.deb
+Size: 1592036
+MD5Sum: 66d5f1b96420a75be43eda7b037559fe
+SHA1: 14e0ba42bb4df51f9ad9b91760bc843400ddb747
+SHA256: 38bc09e16af467ea262604efa5c824741401010523b9b9546b9fc2b3f17366ef
+SHA512: c623cd46e70a09954c3a811a6ce60c5982d87c2ccdccbaa65f792c90b774da9e2b1a7381d7f78000571d79cc8bf222293678b86125d3446884e3466dfbd04a9e
 
 Package: android-sysprop
 Architecture: aarch64
-Installed-Size: 9955
+Installed-Size: 7835
 Maintainer: Rendiix <vanzdobz@gmail.com>
-Version: 33.0.1
+Version: 33.0.1-3
 Homepage: https://android.googlesource.com/platform/system/tools/sysprop
 Description: android sysprop
-Filename: dists/android-tools/termux/binary-aarch64/android-sysprop_33.0.1_aarch64.deb
-Size: 935920
-MD5Sum: 92981c899b960e7dbd605af2074866b1
-SHA1: cb3cb669cca2cb609e37236d6918da20e74f8994
-SHA256: ad467ea72b08b6dc86917da856465110d03569c212088895f671b54f3a14bcaa
-SHA512: a669d18cf15df958fdd8a1ea3f328549f6a219f9fa19c1dbce50f386bf1a61b615da4ae182110119e17b72e0afbd37e5dc013bb86dd2824ad0e437960e0a65c0
+Filename: dists/android-tools/termux/binary-aarch64/android-sysprop_33.0.1-3_aarch64.deb
+Size: 746988
+MD5Sum: 2f213578a36f3f74146ee3f2f76b5c6e
+SHA1: 26e3e661679d802dbd45b788df0fd0e3cd57a679
+SHA256: c6a47c82f2461e6210c74aa373b4f2a2df62533c48decf32f5600a5b61965271
+SHA512: 1409ff3277c9897bb18a36932448f658bc3947e5926e1011e05a0e300849b1bab494bd778cd0c5a6319c062588199cb1c60ffc21a9c347c3799a396110d2b3a9
 
 Package: apktool
 Architecture: aarch64
-Installed-Size: 12051
+Installed-Size: 9731
 Depends: openjdk-17, apksigner, zipalign
 Breaks: apktool
 Conflicts: apktool
 Replaces: apktool
 Maintainer: Rendiix <vanzdobz@gmail.com>
-Version: 2.6.2-SNAPSHOT-057b35f
+Version: 2.6.2-3-SNAPSHOT-057b35f
 Homepage: https://ibotpeaches.github.io/Apktool/
 Description: A tool for reverse engineering 3rd party, closed, binary Android apps. It can decode resources to nearly original form and rebuild them after making some modifications. It also makes working with an app easier because of the project like file structure and automation of some repetitive tasks like building apk, etc.
-Filename: dists/android-tools/termux/binary-aarch64/apktool_2.6.2-SNAPSHOT-057b35f_aarch64.deb
-Size: 11965416
-MD5Sum: e0613b725b1d34f7519cdd89cb34fa4c
-SHA1: 7204f87ab3f60652bfabefd62b870dd4f838aa3c
-SHA256: f36e7c177503856663f9f609b78cbd9bb2fea4b3a2d473400fa21d89cd6fbcbe
-SHA512: 313f0b539b0b60f55e83bd6b34f8c2eabbb5935bfb4f6ab4654acf51cd765b54bc2eda49e4d2474b0d78e7522e4a65d96a84121c7a36ac2a7f48ce041dff6ecb
+Filename: dists/android-tools/termux/binary-aarch64/apktool_2.6.2-3-SNAPSHOT-057b35f_aarch64.deb
+Size: 9615916
+MD5Sum: 1519fa3d49307bc8465475fd039cd53e
+SHA1: fb90a195c7769b0fbae24606d1e0697135c48507
+SHA256: 6a4aa4e7ab4878437f7e383e15c9f20eecea392b02ef44f0c85cc29215eafa90
+SHA512: a43c426b7a60144071564846479b50621a772be68b09fce8bbfdb64c5e5dbd18cf14ae400bca368386cec13f76f24f5043b8927a7d0db2cc77bcba7e0d20ca93
 
 Package: ext4fs-tools
 Architecture: aarch64
@@ -106,21 +106,21 @@ SHA512: b0a6ae4d8beaa229123750c9de46af6f42ee14e73663e066a0bd27188809402f70cc1db4
 
 Package: platform-tools
 Architecture: aarch64
-Installed-Size: 16299
+Installed-Size: 10055
 Depends: e2fsprogs
 Breaks: android-tools
 Conflicts: android-tools
 Replaces: android-tools
 Maintainer: Rendiix <vanzdobz@gmail.com>
-Version: 33.0.1
+Version: 33.0.1-3
 Homepage: https://github.com/rendiix/termux-adb-fastboot
 Description: adb etc1tool fastboot dmtracedump e2fsdroid sload_f2fs
-Filename: dists/android-tools/termux/binary-aarch64/platform-tools_33.0.1_aarch64.deb
-Size: 3007732
-MD5Sum: a7cde1de3e3904de25c43d5e40c79cdc
-SHA1: 0c0a6c6e1fb7a6b991f2ddcacfd79fcbaf8166da
-SHA256: 866c9078c5b1365ae8adf739214220b65786fad69b97b482fbd888c668b109cd
-SHA512: af42402cb3b5ca38532ce4f89f3a47612eba5f3984af6e296bbb5f7f8fa9152f6e08be0be8e48a5c5d1ee064936f89d109f81229b15a067044a6234e163e2f93
+Filename: dists/android-tools/termux/binary-aarch64/platform-tools_33.0.1-3_aarch64.deb
+Size: 2376224
+MD5Sum: 08cbfe6976f3a4e07adc8de8ad429757
+SHA1: b4961393c1d027945f437941a3335a6611e25065
+SHA256: ea1a50a15b213694d7096b9ffb1253ff59703e48f84038d5c3402e56b6ed7223
+SHA512: 66d081889f92b38991a6ca50b86fc387dd77c9608a85875ff3a51d2c42c0b565a043d259e617b985a7f1e3aee40a98f16d541434244167ef17b3950e2d63c5db
 
 Package: shc
 Architecture: aarch64
@@ -167,18 +167,18 @@ SHA512: 931faec692b4f9ab86306222d754257325121c6e095888eae117b416c409ebc480e1e7fb
 
 Package: zipalign
 Architecture: aarch64
-Installed-Size: 2071
+Installed-Size: 1571
 Breaks: aapt
 Conflicts: aapt
 Replaces: aapt
 Maintainer: Rendiix <vanzdobz@gmail.com>
-Version: 33.0.1-2
+Version: 33.0.1-3
 Homepage: https://github.com/rendiix/termux-zipalign
 Description: zip archive alignment tool
-Filename: dists/android-tools/termux/binary-aarch64/zipalign_33.0.1-2_aarch64.deb
-Size: 363880
-MD5Sum: 95b7270b4b2c02125cbf6cbe97e2f440
-SHA1: ae3c7748935d1f148470c1f7d2834702deb2aac7
-SHA256: 50be41836e1a0cee59935a63e94cc1cdbab361fe4e22f3c9d91c64492db13d0d
-SHA512: c39ccb97269dce3843660e2d638b1ae524e1e2b207f25424a5802d89521a955a0d44093d0cc37b68743d81ee54084addca0772d9a1329b6f148035e12eeb936b
+Filename: dists/android-tools/termux/binary-aarch64/zipalign_33.0.1-3_aarch64.deb
+Size: 198992
+MD5Sum: 66a462714447183affa4fd192f830cb5
+SHA1: fbc948818a818131089aef61b441f7e77aca0a30
+SHA256: 8a34b262f57acd5623f1051dcdee3b1adcf13d99324af6210f62d6bd4d82ce83
+SHA512: 3c8b33dab30838fd6282cab2ac412fde21b1dc6306aab546e1ce98f7028908c54e03d33b889187580f1043515172f0aaa9bb42df1a772298f8567c58d600da64
 
