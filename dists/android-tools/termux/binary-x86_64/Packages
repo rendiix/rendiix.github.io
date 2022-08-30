@@ -14,35 +14,35 @@ SHA512: ad41334e0ed7c50a70353bb233c07aa551c6f000eabaf0f3ddfa7baeb076cea4767c9db4
 
 Package: android-sdk-build-tools
 Architecture: x86_64
-Installed-Size: 7827
+Installed-Size: 7839
 Depends: apksigner, d8
 Breaks: aapt, aapt2
 Conflicts: aapt, aapt2
 Replaces: aapt, aapt2
 Maintainer: Rendiix <vanzdobz@gmail.com>
-Version: 33.0.1-3
+Version: 33.0.1-4
 Homepage: https://github.com/rendiix/termux-aapt
 Description: aapt aapt2 aidl tools
-Filename: dists/android-tools/termux/binary-x86_64/android-sdk-build-tools_33.0.1-3_x86_64.deb
-Size: 1809656
-MD5Sum: b6441669b81b19bc043eac0dfbe88a1e
-SHA1: 2f7ba90cd70fe7f8bdd960daac7f35a4ba553918
-SHA256: c30c830ed031b4a6b6a312a792b499d08b293fbcc540788f2eea48557aea21f6
-SHA512: 7a60729a27523d89bb6ee837be66a3b2aacbc6d74ebbdfd4cd0c03f7ad76a8663cedf0c51b9474ead277589169484d142bb4e064b4270ef0b01faf03c21ca396
+Filename: dists/android-tools/termux/binary-x86_64/android-sdk-build-tools_33.0.1-4_x86_64.deb
+Size: 1809664
+MD5Sum: c52c624315d3fc99f88d6b83c78cb287
+SHA1: 377aee13b70313570bde3ca23117ab3e4b40e40b
+SHA256: 5036404569fc954a4d8c816b48b1f111e5e447fea820b906702e08e0bd99770b
+SHA512: 5b7f09381abe7132f86a0a04f3bf3a7f1d91f7e6a860ed9a920a4dad0e5d438de0468173b28d56fbc84a757f3ad64014ac61b02e1dc962cea678a20bcc369ae2
 
 Package: android-sysprop
 Architecture: x86_64
-Installed-Size: 7895
+Installed-Size: 7915
 Maintainer: Rendiix <vanzdobz@gmail.com>
-Version: 33.0.1-3
+Version: 33.0.1-4
 Homepage: https://android.googlesource.com/platform/system/tools/sysprop
 Description: android sysprop
-Filename: dists/android-tools/termux/binary-x86_64/android-sysprop_33.0.1-3_x86_64.deb
-Size: 836444
-MD5Sum: e4603ad87fab7c20974a6628ee208da9
-SHA1: 9e6b05f93d2abc7dd390e422ad252cf7052f7196
-SHA256: 77eb18f6c403a2f2e33e3e0514cc12e17e26c84c37fa4416664b64fbd6ea7157
-SHA512: 3de1646f7f042216f1418981580241b64581775784b04cb600cee8e5a76f1c735a9bb263d412902328e5e478026ad924a2c4fda0a9d4cb9957ee4dce7c65cca3
+Filename: dists/android-tools/termux/binary-x86_64/android-sysprop_33.0.1-4_x86_64.deb
+Size: 831344
+MD5Sum: 496d872725d1e94bba16f9579860172c
+SHA1: d0f71b8ea564ae6f4416c475eb85817d5e468168
+SHA256: 0591bc5422d57ef18dc990e247250856f25c38256396b08de8a5fcb8c9931cc9
+SHA512: 3725c6b1311f9bd773560e04d2b043605126b67992238e7aaddfdf878762b7879f79557ca1df7aca0e9148813d850d0b1ca26f33f04c8f0ab7810bb6d6a8b7a4
 
 Package: apktool
 Architecture: x86_64
@@ -52,15 +52,15 @@ Breaks: apktool
 Conflicts: apktool
 Replaces: apktool
 Maintainer: Rendiix <vanzdobz@gmail.com>
-Version: 2.6.2-3-SNAPSHOT-057b35f
+Version: 2.6.2-SNAPSHOT-057b35f-1
 Homepage: https://ibotpeaches.github.io/Apktool/
 Description: A tool for reverse engineering 3rd party, closed, binary Android apps. It can decode resources to nearly original form and rebuild them after making some modifications. It also makes working with an app easier because of the project like file structure and automation of some repetitive tasks like building apk, etc.
-Filename: dists/android-tools/termux/binary-x86_64/apktool_2.6.2-3-SNAPSHOT-057b35f_x86_64.deb
-Size: 10213456
-MD5Sum: 7a621f6c00e3643c56d492062da6cf99
-SHA1: e7b395e98ea1b6146364fb1a6431982063e34f02
-SHA256: cfff2be22b67a54a99b074d392d33919c592b2678245b6a864bcd0593bea2be2
-SHA512: f2d053e313436435248b279b8beaddcecd016c7856f06020606e94571f680f3d22888c65d9c7b76f699aeac24f18ec28ef00b2f9c565d8b941c8e83a74165de7
+Filename: dists/android-tools/termux/binary-x86_64/apktool_2.6.2-SNAPSHOT-057b35f-1_x86_64.deb
+Size: 10215092
+MD5Sum: 0529e49ab32e1a440605ec62624d7241
+SHA1: b738969355be2b5f5bf022beacd2d0aed40c9dbb
+SHA256: 33831493bf87d7042ece2df34c06a7bb9c345d4887a2d33b03f79fc4eaf953be
+SHA512: 034cbc2e621e8a1645e05dc4d1ffdcf7216ac177044cb18dc88b03e272ee47efe9fa30f324d90befcaa20371fedf63bd22d6d4c522b4276eb12ab0194452c39d
 
 Package: ext4fs-tools
 Architecture: x86_64
@@ -106,21 +106,21 @@ SHA512: b826bc33b4945a57c0fbc3bcc6392e42e760912efde93dff8e7029a9156677915cc7d379
 
 Package: platform-tools
 Architecture: x86_64
-Installed-Size: 9195
+Installed-Size: 10939
 Depends: e2fsprogs
 Breaks: android-tools
 Conflicts: android-tools
 Replaces: android-tools
 Maintainer: Rendiix <vanzdobz@gmail.com>
-Version: 33.0.1-3
+Version: 33.0.1-4
 Homepage: https://github.com/rendiix/termux-adb-fastboot
-Description: adb etc1tool fastboot dmtracedump e2fsdroid sload_f2fs
-Filename: dists/android-tools/termux/binary-x86_64/platform-tools_33.0.1-3_x86_64.deb
-Size: 2491708
-MD5Sum: 80a45cded5d0e0c7efc9bfc46c9f0844
-SHA1: 946c418709905cdf977375a48990ea8506d952f3
-SHA256: b80ed3d8f1e61afd69bc5be5e619424939bb615b5c06e6c7219bc6ea405414dc
-SHA512: ebfa210fcb114acdbd43ef55bb3bf2d99ab362f60a259b73b01ca96ba5eda5b41a2ed8762f1b1ffcfda34f97dab4ccc2e74a70dfcaf7d92589077d51ec09f439
+Description: adb dmtracedump e2fsdroid etc1tool fastboot hprof-conv make_f2fs make_f2fs_casefold sload_f2fs
+Filename: dists/android-tools/termux/binary-x86_64/platform-tools_33.0.1-4_x86_64.deb
+Size: 2648496
+MD5Sum: 7642c25f53394a172fc524dab4d7a8c0
+SHA1: cb6a92e00a0f10c6e95ac62fb8d6282c7be3ab19
+SHA256: 6d0c035921c3b685f9a7445b33d44afd12b15e1c389c0da3b94107c211652bd6
+SHA512: a86abe34d9aa1e9163596c066879b426275c22b77fd5958755fe1556f48226808703451521281aad0e52308c0c8f7f2a9279f7bd603d9f23222ec330f32222bb
 
 Package: shc
 Architecture: x86_64
@@ -167,18 +167,18 @@ SHA512: 834d3e9512ff55d70add86f7b86ee8decdccab9f18f2a5e799b49ae114064d071b8684d6
 
 Package: zipalign
 Architecture: x86_64
-Installed-Size: 1587
+Installed-Size: 1595
 Breaks: aapt
 Conflicts: aapt
 Replaces: aapt
 Maintainer: Rendiix <vanzdobz@gmail.com>
-Version: 33.0.1-3
+Version: 33.0.1-4
 Homepage: https://github.com/rendiix/termux-zipalign
 Description: zip archive alignment tool
-Filename: dists/android-tools/termux/binary-x86_64/zipalign_33.0.1-3_x86_64.deb
-Size: 218004
-MD5Sum: ee2698318bca2db3b2ee51e92e7a7a9f
-SHA1: 5c55719c20df1d64d6a7117251fbd164a8eff491
-SHA256: 21cc32a7e72a92e3b2fe56003fd70f3a731cf059e28549d4d4d387fe6c69d822
-SHA512: 57f76c335deb08812d55c1d119700dcbafaf3ace7ba51048259f77452b36bf09df7f4e011f3979542df9e79ea89a3d2dd178de32c3228986d1ecd2078a5d9556
+Filename: dists/android-tools/termux/binary-x86_64/zipalign_33.0.1-4_x86_64.deb
+Size: 219644
+MD5Sum: 2f29f6638cccc7e81f620b1246cbe2d7
+SHA1: e1ba8dd1a5fe696d56037dafce8d3f7bda0cc748
+SHA256: fdaad5e01b0008bce8e871af42d01539bae798bf69f0b07e21aa8febd217bb0d
+SHA512: 54a3f92becbc2e341944ccbc6831eb8ba76e3045fc7e7f1d96ba3e2a061562b7d3d789891f1d9e200a84be0c4f1dc6df818b3f4a0b99a8a0b670d94e51daf283
 

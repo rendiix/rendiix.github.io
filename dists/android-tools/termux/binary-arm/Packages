@@ -14,35 +14,35 @@ SHA512: cc4be89105a5563ac9f1f3634394a56b43bdeae325d946158248ea4abb11389b5b5702de
 
 Package: android-sdk-build-tools
 Architecture: arm
-Installed-Size: 5287
+Installed-Size: 5291
 Depends: apksigner, d8
 Breaks: aapt, aapt2
 Conflicts: aapt, aapt2
 Replaces: aapt, aapt2
 Maintainer: Rendiix <vanzdobz@gmail.com>
-Version: 33.0.1-3
+Version: 33.0.1-4
 Homepage: https://github.com/rendiix/termux-aapt
 Description: aapt aapt2 aidl tools
-Filename: dists/android-tools/termux/binary-arm/android-sdk-build-tools_33.0.1-3_arm.deb
-Size: 1537960
-MD5Sum: 6cfdffb1ac285b48626132440f2bf3ab
-SHA1: 62d9ce4d146b24a113a61b7cddcb512fa142c1d5
-SHA256: aea9b0d35347ded0f15a972a2f2471cb7682233c4db9f467bb4c7063ae43ae70
-SHA512: ddc00646243cd3a6c3ffb21869462b75284c6d6651d6976811004928203e5d3976ca312a799d160f10fe931d01c5ed85f7a12cbc339fd0257d3417b2f6a9dd9c
+Filename: dists/android-tools/termux/binary-arm/android-sdk-build-tools_33.0.1-4_arm.deb
+Size: 1538768
+MD5Sum: 11da96a79888d9ba7a2fce20523a2193
+SHA1: 18db95893b912ffe09effd40bd4a951dbc8958b2
+SHA256: c226167f7162e96adea71ee7c1f226ddfb4748467c7a54b2c07b0acfb7ce55e6
+SHA512: d5e7f455a72fb003149fee9ac456cb7a31efe3b3a62c4bd2d750b19c102913db0370055eaabdc200fba5e6a9e3a019d2b253974b5f47ebb81cd3857b37a5eb43
 
 Package: android-sysprop
 Architecture: arm
-Installed-Size: 5159
+Installed-Size: 5163
 Maintainer: Rendiix <vanzdobz@gmail.com>
-Version: 33.0.1-3
+Version: 33.0.1-4
 Homepage: https://android.googlesource.com/platform/system/tools/sysprop
 Description: android sysprop
-Filename: dists/android-tools/termux/binary-arm/android-sysprop_33.0.1-3_arm.deb
-Size: 629132
-MD5Sum: 3d7b638b7aa73b4e910cdaeb02e998b2
-SHA1: ad89a10d3760ecb20039a40d80a8a4de8e80face
-SHA256: a218484ff22fa8ab49adbbb6711d61c7064750cd55e72a39ef25ff85c8169a13
-SHA512: f2b6e7de846c5af55eaa919ed8d9cd36cd282ec03ea43b64a7ef98e485cbb46064dae8e16d9e7a9cb01b19224f84349215dd57838830dd0b57ee39aa845b3dd3
+Filename: dists/android-tools/termux/binary-arm/android-sysprop_33.0.1-4_arm.deb
+Size: 631148
+MD5Sum: ef79aef629b6ab61c88bbd2e10c7bbe9
+SHA1: 1a8c8cefaeb7f545e4edb562112fdb47b04fc7ee
+SHA256: 78217ec9b6fb064db2d624b3cc3128803efc93c70ee3c02af6be736009b639c8
+SHA512: 4a2f2beb9543f64b062a96e39d6e7620773ba532ee6df76af9336610dc9f9386a31a5ff0ca9be9280595125c47e980d8ade425509ba712a7a30c3c999a8522b3
 
 Package: apktool
 Architecture: arm
@@ -52,15 +52,15 @@ Breaks: apktool
 Conflicts: apktool
 Replaces: apktool
 Maintainer: Rendiix <vanzdobz@gmail.com>
-Version: 2.6.2-3-SNAPSHOT-057b35f
+Version: 2.6.2-SNAPSHOT-057b35f-1
 Homepage: https://ibotpeaches.github.io/Apktool/
 Description: A tool for reverse engineering 3rd party, closed, binary Android apps. It can decode resources to nearly original form and rebuild them after making some modifications. It also makes working with an app easier because of the project like file structure and automation of some repetitive tasks like building apk, etc.
-Filename: dists/android-tools/termux/binary-arm/apktool_2.6.2-3-SNAPSHOT-057b35f_arm.deb
-Size: 9615892
-MD5Sum: e4ed6ac6dde66beaed89e467d2374712
-SHA1: 36026b58226b706bc431484776d5cf45b741db01
-SHA256: 331e2ab5efe2f9458f3a3a1191dfc898322af0bade3a54289f220853ca4af5bc
-SHA512: b7df814258b578691e0789a3212e9fde560e4cb80c78920423b34798c109a7b680e8ccbb87e8b7b3e2481d8b6c3a73072fddf9c48beb520c3117e1d36d56f769
+Filename: dists/android-tools/termux/binary-arm/apktool_2.6.2-SNAPSHOT-057b35f-1_arm.deb
+Size: 9617000
+MD5Sum: 653751b02e31ceaff96c66278b9cba72
+SHA1: f806c880c3f59145590f19e618c85a4695d274b4
+SHA256: 0e832eee18349e0fdfd937a2e679c52be3033149eb25465c4f58299c30dcecca
+SHA512: f246d4e43eb833f9048c1ba26e80d9bf159184a3f51056262a434dafee4a31af7bb87c31758fe97318a228d68cc0f84a510aab353584c9bf624d57e2be9d33e9
 
 Package: ext4fs-tools
 Architecture: arm
@@ -106,21 +106,21 @@ SHA512: d7cad05801d682d1d7015c2355e4adfaf826c54b65fef045f8a94b6ac20b93a599c19be0
 
 Package: platform-tools
 Architecture: arm
-Installed-Size: 7335
+Installed-Size: 7631
 Depends: e2fsprogs
 Breaks: android-tools
 Conflicts: android-tools
 Replaces: android-tools
 Maintainer: Rendiix <vanzdobz@gmail.com>
-Version: 33.0.1-3
+Version: 33.0.1-4
 Homepage: https://github.com/rendiix/termux-adb-fastboot
-Description: adb etc1tool fastboot dmtracedump e2fsdroid sload_f2fs
-Filename: dists/android-tools/termux/binary-arm/platform-tools_33.0.1-3_arm.deb
-Size: 2402296
-MD5Sum: d3e2157ab5865865382e5500ed6337cf
-SHA1: b4f1200f4d422b95b57d0108da283870db6b9463
-SHA256: ec3d98db3a6509de88d5cc13e86311c4ff6666917e943eafd91373551d3c1c8b
-SHA512: 86b14e30d513e4a60d82fae9e9ddafbf157bdc4016126b1830bcdccc9f5d007b720ef5efe47cd2b8ea674f243649b69892db880e991d5b1c917596c114768266
+Description: adb dmtracedump e2fsdroid etc1tool fastboot hprof-conv make_f2fs make_f2fs_casefold sload_f2fs
+Filename: dists/android-tools/termux/binary-arm/platform-tools_33.0.1-4_arm.deb
+Size: 2348556
+MD5Sum: 3ecc0f813f0562a9ab5ee1e261502ad6
+SHA1: 721356fea8354f3b836e82662b0570768c331061
+SHA256: 91ade832b8b689c00d3c95b726bd0df8e9d5ef171afe55b43c502c9a03428b32
+SHA512: 61696d0cf62bc555e7607946a73a3db04a7deaf5f139535d3e6193c425a3fccb2dd083a83f2950e964441aa10b4eb1990f519c6f16c811e071f68f001cf65ffa
 
 Package: shc
 Architecture: arm
@@ -167,18 +167,18 @@ SHA512: 48397f2b051902ef7253c1963973f6efb8ea4d20c1356a3b8ef6ddbdd8aad2021361ea84
 
 Package: zipalign
 Architecture: arm
-Installed-Size: 1343
+Installed-Size: 1347
 Breaks: aapt
 Conflicts: aapt
 Replaces: aapt
 Maintainer: Rendiix <vanzdobz@gmail.com>
-Version: 33.0.1-3
+Version: 33.0.1-4
 Homepage: https://github.com/rendiix/termux-zipalign
 Description: zip archive alignment tool
-Filename: dists/android-tools/termux/binary-arm/zipalign_33.0.1-3_arm.deb
-Size: 173128
-MD5Sum: 486ced9dd2d3d86d14f6daf3ab49f205
-SHA1: a8721840cb880bd024f6813ba6a16449c0056251
-SHA256: fef264d8f312c3611fe269c07e2ec14b6002e9efc3444b517839ecf6fe0d5c1f
-SHA512: 7e3edb78a4553f493c843e7cc0fdfe87766e02b8ef94e190524ffce053061a5ad4e53394d14f0d897c776e91f62345d2dfd7de1ae95c900dbd7e37cf55ae78e3
+Filename: dists/android-tools/termux/binary-arm/zipalign_33.0.1-4_arm.deb
+Size: 174468
+MD5Sum: 168ecd5c74d1db9751d748f5cabe26a4
+SHA1: a52fd1d5bd6eb77b62b2ca4dbb0d4bea172394b3
+SHA256: 7b0e548f8d8fa6dfdb16dfa86fa33c5d0f865256ac92936d5469eaee9c70af72
+SHA512: 053f08cd588a44d5b72865f35ee1efebeffd2bd2dc7bb8008b9fbb070320fdc335ca5fd713d6635490cd8ce8d2074b9d1c3df534cda14741143b61f6632c7f8d
 
