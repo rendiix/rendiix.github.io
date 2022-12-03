@@ -46,21 +46,21 @@ SHA512: 89d27d19af8fa2eae55defcf5f252175d608d2846a69f1dfbf672412b29578e625d2e5be
 
 Package: apktool
 Architecture: i686
-Installed-Size: 10315
+Installed-Size: 10363
 Depends: openjdk-17, apksigner, zipalign
 Breaks: apktool
 Conflicts: apktool
 Replaces: apktool
 Maintainer: Rendiix <vanzdobz@gmail.com>
-Version: 2.6.2-SNAPSHOT-057b35f-1
+Version: 2.7.1-SNAPSHOT
 Homepage: https://ibotpeaches.github.io/Apktool/
 Description: A tool for reverse engineering 3rd party, closed, binary Android apps. It can decode resources to nearly original form and rebuild them after making some modifications. It also makes working with an app easier because of the project like file structure and automation of some repetitive tasks like building apk, etc.
-Filename: dists/android-tools/termux/binary-i686/apktool_2.6.2-SNAPSHOT-057b35f-1_i686.deb
-Size: 10215092
-MD5Sum: 3aa021a6288e1377295a756355532b77
-SHA1: 51c23e8d15c0d227535b25a5eb23a19a57ca5012
-SHA256: 10ed69a4c9fbc45bb1cec06f3bee50fe35f0f7b9c13fdcf9b0e73677f18402e6
-SHA512: b8a798277292388d4bdf1b9f3a342d8bcb089711e6c4e0e080dde911eb3e58837e379e776e6183af319c01a7a103fc15c530affa3c0b5e67f87ae14545d35c6c
+Filename: dists/android-tools/termux/binary-i686/apktool_2.7.1-SNAPSHOT_i686.deb
+Size: 10262848
+MD5Sum: 8c6a5ff13d451bc61f21328fd8cd80a3
+SHA1: a59bdb048c790b2acf8278b6b15cbe9e51929c41
+SHA256: 94ad555ccabe6499c3d8463ef41b266c0f7bfbd17ffdd51aa4ad6dc468370042
+SHA512: 6784df51d044c3276656ae41543cdbe5b3490b0516c242a46b26a63ba6a2fa3f3120dbd31b35360555526169d84e0279993eda6fd30565c60f4ef2702a433c87
 
 Package: ext4fs-tools
 Architecture: i686
@@ -94,15 +94,15 @@ Package: mkbootimg
 Architecture: i686
 Installed-Size: 61
 Maintainer: Rendiix <vanzdobz@gmail.com>
-Version: 2019.04.13
+Version: 2022.11.09
 Homepage: https://github.com/osm0sis/mkbootimg
 Description: mkbootimg + unpackbootimg, forked and updated
-Filename: dists/android-tools/termux/binary-i686/mkbootimg_2019.04.13_i686.deb
-Size: 10828
-MD5Sum: 282bdebf71cfd67dda3fb0f54a3aced8
-SHA1: 984f5ef0d4265949f2d615d2939209650917fa8a
-SHA256: f712f0ae8011611fb41c0139d1c05af92f6c2bbe55016afb303652b22fe2a80e
-SHA512: a2634d8bf5400aaf89e991a119c376b7342d9269ef2eb2aca69f6ac379dbad1118578a3b38195759580456850ec40653fb8302984e9cb1a60f3986b2569d323b
+Filename: dists/android-tools/termux/binary-i686/mkbootimg_2022.11.09_i686.deb
+Size: 11908
+MD5Sum: 94c4dbed91253dc953296d3021d8adb9
+SHA1: e00ddd0284ea9d974c75c89ec1909d73905f7a31
+SHA256: f47e765f0430f8033301e0731e96d521f3586b25db8caa53da32198e065d8803
+SHA512: d0f91ed74b6c85bc763b4f50943b196a9095daa50ed4b437a5f7cbf16d5ae383bf6f3886e48d0f961a179b24a218973a09de486d9dd605994273cc0d49d29136
 
 Package: platform-tools
 Architecture: i686

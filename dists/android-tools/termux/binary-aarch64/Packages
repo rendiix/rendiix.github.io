@@ -46,21 +46,21 @@ SHA512: 043322d4a1cc7158bc07ffa91646d8534ec02f9011a9d099dc1924edeb592f29d3fac6f4
 
 Package: apktool
 Architecture: aarch64
-Installed-Size: 9731
+Installed-Size: 9799
 Depends: openjdk-17, apksigner, zipalign
 Breaks: apktool
 Conflicts: apktool
 Replaces: apktool
 Maintainer: Rendiix <vanzdobz@gmail.com>
-Version: 2.6.2-SNAPSHOT-057b35f-1
+Version: 2.7.1-SNAPSHOT
 Homepage: https://ibotpeaches.github.io/Apktool/
 Description: A tool for reverse engineering 3rd party, closed, binary Android apps. It can decode resources to nearly original form and rebuild them after making some modifications. It also makes working with an app easier because of the project like file structure and automation of some repetitive tasks like building apk, etc.
-Filename: dists/android-tools/termux/binary-aarch64/apktool_2.6.2-SNAPSHOT-057b35f-1_aarch64.deb
-Size: 9617024
-MD5Sum: 0f4415626a2c4490d048a26f26477621
-SHA1: 5d421e068a54581257e635babe26a5ddbf413e2b
-SHA256: ecb8eceded3c3384df79287f7a8ada0ad8ae7e281e95fc0f75e47d891c4bc6d0
-SHA512: 0e8ada821fbffac8d6d02c4f2463e30036f2d5d50846844e935ddccc4ad04b15c82305083508a4632cc6da7557272a35145bd838d4dfe19db0ee8b7232962cce
+Filename: dists/android-tools/termux/binary-aarch64/apktool_2.7.1-SNAPSHOT_aarch64.deb
+Size: 9685904
+MD5Sum: a7b281d30bead3a12ccef453ae1638b5
+SHA1: 6719ddf77ab63400ea3a35ed9310a57f109350cb
+SHA256: 678514bd8b9de135c637208d66651da2162a5516d19b8b78a87e7cbb481217a1
+SHA512: 7d3fe2bacb60f1f651ff841618fa822acc8e333ec96ef46ad2c65dd7631f228f7e4cf28880d34b69d1b949cf4c4592e7acc71e0bce634bbbbe3bfc325641321c
 
 Package: ext4fs-tools
 Architecture: aarch64
@@ -92,17 +92,17 @@ SHA512: 38c120bc9a182867e7546b7d97f6f7f9e46134a7026d447f39bab4a92972e641a9445a50
 
 Package: mkbootimg
 Architecture: aarch64
-Installed-Size: 57
+Installed-Size: 61
 Maintainer: Rendiix <vanzdobz@gmail.com>
-Version: 2019.04.13
+Version: 2022.11.09
 Homepage: https://github.com/osm0sis/mkbootimg
 Description: mkbootimg + unpackbootimg, forked and updated
-Filename: dists/android-tools/termux/binary-aarch64/mkbootimg_2019.04.13_aarch64.deb
-Size: 10064
-MD5Sum: 965c7ec6e5b31393eb46ebe12433d8df
-SHA1: b1e5613bb9ff1889e4216f4891b5634c515e4343
-SHA256: dcf5e0d09be2977d8d09307cc50d71ed109d0e037c4b8e408c7792bf98ff41a0
-SHA512: b0a6ae4d8beaa229123750c9de46af6f42ee14e73663e066a0bd27188809402f70cc1db4aba26f73c5bca73edf16025dc5fea059153e3a48c2003f8e1dc981dc
+Filename: dists/android-tools/termux/binary-aarch64/mkbootimg_2022.11.09_aarch64.deb
+Size: 10980
+MD5Sum: 24bd22e9dcfe6e345c1f4fcb2eccde7d
+SHA1: c29d3fd6b1b7bd41a2ea2ea2b021be0a155bf40e
+SHA256: e2901e44ac7aa8d402ca21191817be9f7f13ad3316c10ae8dfa9db40300da91f
+SHA512: 83d0e7465119fbf6433564100cfe2e722bc8d04db868ffda7732c5fdf971ac8b986bb54b38fd8c24df099d268da932539c0646643920bc4b6cf8e7f46faec86c
 
 Package: platform-tools
 Architecture: aarch64
