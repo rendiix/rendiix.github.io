@@ -13,6 +13,9 @@ data/data/com.termux/files/usr/bin/sysprop_api_dump                             
 data/data/com.termux/files/usr/bin/sysprop_api_checker                           android-sysprop
 data/data/com.termux/files/usr/bin/sysprop_type_checker                          android-sysprop
 data/data/com.termux/files/usr/share/doc/android-sysprop/LICENSE                 android-sysprop
+data/data/com.termux/files/usr/bin/apktool.jar                                   apktool-stable
+data/data/com.termux/files/usr/bin/apktool                                       apktool-stable
+data/data/com.termux/files/usr/share/doc/apktool-stable/LICENSE                  apktool-stable
 data/data/com.termux/files/usr/bin/apktool.jar                                   apktool
 data/data/com.termux/files/usr/bin/apktool                                       apktool
 data/data/com.termux/files/usr/share/doc/apktool/LICENSE                         apktool
