@@ -16,8 +16,8 @@ data/data/com.termux/files/usr/share/doc/android-sysprop/LICENSE                
 data/data/com.termux/files/usr/bin/apktool.jar                                   apktool-stable
 data/data/com.termux/files/usr/bin/apktool                                       apktool-stable
 data/data/com.termux/files/usr/share/doc/apktool-stable/LICENSE                  apktool-stable
-data/data/com.termux/files/usr/bin/apktool.jar                                   apktool
 data/data/com.termux/files/usr/bin/apktool                                       apktool
+data/data/com.termux/files/usr/lib/apktool.jar                                   apktool
 data/data/com.termux/files/usr/share/doc/apktool/LICENSE                         apktool
 data/data/com.termux/files/usr/bin/img2simg                                      ext4fs-tools
 data/data/com.termux/files/usr/bin/make_ext4fs                                   ext4fs-tools
